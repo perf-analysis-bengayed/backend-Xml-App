@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Match>
+  <MatchDate>0001-01-01</MatchDate>
+  <ParsedContents>
+    <Contents>
+      <Content>file /WYSCOUT 20231 vs 1 Defense1VS1 and dribblingAccelerationsAggressivenessAerial duelsAttacking duelsAssistClearancesCorner kickCounterattackCovering depthCrossDefending duelsDefensive positioningDistributionsFoulsFree kickFree kick crossFree kick shotGoal - Left FootGoal - Right FootGoal - HeadGoalkeeper leaving lineHead ShotInterceptionsKey involvementLink up playLong-range passesLoose ball duelOff the ball movementsOffsidesOpportunityPassesPenaltyRecoveryReflexesSavesShot off targetSmart passesTacklesThrough passesThrow-insUnder pressureWinning foulsAttacking cornersAttacking direct free kicksAttacking free kicksAttacking style of playAttacking throws inCounter-attacksCrossesDefending style of playDirect free kicks concededFree kicks concededGoal scoring opportunitiesGoalkeeper's distributionGoals scoredOther free kicksPenalties gainedShots
+VERSION /WYSCOUT 2023
+dataroot /1 vs 1 Defense1VS1 and dribblingAccelerationsAggressivenessAerial duelsAttacking duelsAssistClearancesCorner kickCounterattackCovering depthCrossDefending duelsDefensive positioningDistributionsFoulsFree kickFree kick crossFree kick shotGoal - Left FootGoal - Right FootGoal - HeadGoalkeeper leaving lineHead ShotInterceptionsKey involvementLink up playLong-range passesLoose ball duelOff the ball movementsOffsidesOpportunityPassesPenaltyRecoveryReflexesSavesShot off targetSmart passesTacklesThrough passesThrow-insUnder pressureWinning foulsAttacking cornersAttacking direct free kicksAttacking free kicksAttacking style of playAttacking throws inCounter-attacksCrossesDefending style of playDirect free kicks concededFree kicks concededGoal scoring opportunitiesGoalkeeper's distributionGoals scoredOther free kicksPenalties gainedShots
+CodeWyscout /1 vs 1 Defense
+CodeWyscout /1VS1 and dribbling
+CodeWyscout /Accelerations
+Aerial Aggressiveness1 /Aggressiveness
+Aerial Aggressiveness2 /Aggressiveness
+CodeWyscout/Aerial duels 
+CodeWyscout/Duel 
+CodeWyscout/Aérien 
+CodeWyscout /Attacking duels
+CodeWyscout /Assist
+CodeWyscout /Clearances
+CodeWyscout /Corner kick
+CodeWyscout /Counterattack
+CodeWyscout /Covering depth
+CodeWyscout /Cross
+CodeWyscout /Defending duels
+CodeWyscout /Defensive positioning
+CodeWyscout /Distributions
+CodeWyscout /Fouls
+CodeWyscout /Free kick
+CodeWyscout /Free kick cross
+CodeWyscout /Free kick shot
+CodeWyscout /Goal - Left Foot
+CodeWyscout /Goal - Right Foot
+CodeWyscout /Goal - Head
+CodeWyscout /Goalkeeper leaving line
+CodeWyscout /Head Shot
+CodeWyscout /Interceptions
+CodeWyscout /Key involvement
+CodeWyscout /Link up play
+CodeWyscout /Long-range passes
+CodeWyscout /Loose ball duel
+CodeWyscout /Off the ball movements
+CodeWyscout /Offsides
+CodeWyscout /Opportunity
+CodeWyscout /Passes
+CodeWyscout /Penalty
+CodeWyscout /Recovery
+CodeWyscout /Reflexes
+CodeWyscout /Saves
+CodeWyscout /Shot off target
+CodeWyscout /Smart passes
+CodeWyscout /Tackles
+CodeWyscout /Through passes
+CodeWyscout /Throw-ins
+CodeWyscout /Under pressure
+CodeWyscout /Winning fouls
+CodeWyscout /Attacking corners
+CodeWyscout /Attacking direct free kicks
+CodeWyscout /Attacking free kicks
+CodeWyscout /Attacking style of play
+CodeWyscout /Attacking throws in
+CodeWyscout /Counter-attacks
+CodeWyscout /Crosses
+CodeWyscout /Defending style of play
+CodeWyscout /Direct free kicks conceded
+CodeWyscout /Free kicks conceded
+CodeWyscout /Goal scoring opportunities
+CodeWyscout /Goalkeeper's distribution
+CodeWyscout /Goals scored
+CodeWyscout /Other free kicks
+CodeWyscout /Penalties gained
+CodeWyscout /Shots
+</Content>
+      <Content>file /WYSCOUT 20231 vs 1 Defense1VS1 and dribblingAccelerationsAggressivenessAerial duelsAttacking duelsAssistClearancesCorner kickCounterattackCovering depthCrossDefending duelsDefensive positioningDistributionsFoulsFree kickFree kick crossFree kick shotGoal - Left FootGoal - Right FootGoal - HeadGoalkeeper leaving lineHead ShotInterceptionsKey involvementLink up playLong-range passesLoose ball duelOff the ball movementsOffsidesOpportunityPassesPenaltyRecoveryReflexesSavesShot off targetSmart passesTacklesThrough passesThrow-insUnder pressureWinning foulsAttacking cornersAttacking direct free kicksAttacking free kicksAttacking style of playAttacking throws inCounter-attacksCrossesDefending style of playDirect free kicks concededFree kicks concededGoal scoring opportunitiesGoalkeeper's distributionGoals scoredOther free kicksPenalties gainedShots
+VERSION /WYSCOUT 2023
+dataroot /1 vs 1 Defense1VS1 and dribblingAccelerationsAggressivenessAerial duelsAttacking duelsAssistClearancesCorner kickCounterattackCovering depthCrossDefending duelsDefensive positioningDistributionsFoulsFree kickFree kick crossFree kick shotGoal - Left FootGoal - Right FootGoal - HeadGoalkeeper leaving lineHead ShotInterceptionsKey involvementLink up playLong-range passesLoose ball duelOff the ball movementsOffsidesOpportunityPassesPenaltyRecoveryReflexesSavesShot off targetSmart passesTacklesThrough passesThrow-insUnder pressureWinning foulsAttacking cornersAttacking direct free kicksAttacking free kicksAttacking style of playAttacking throws inCounter-attacksCrossesDefending style of playDirect free kicks concededFree kicks concededGoal scoring opportunitiesGoalkeeper's distributionGoals scoredOther free kicksPenalties gainedShots
+CodeWyscout /1 vs 1 Defense
+CodeWyscout /1VS1 and dribbling
+CodeWyscout /Accelerations
+Aerial Aggressiveness1 /Aggressiveness
+Aerial Aggressiveness2 /Aggressiveness
+CodeWyscout/Aerial duels 
+CodeWyscout/Duel 
+CodeWyscout/Aérien 
+CodeWyscout /Attacking duels
+CodeWyscout /Assist
+CodeWyscout /Clearances
+CodeWyscout /Corner kick
+CodeWyscout /Counterattack
+CodeWyscout /Covering depth
+CodeWyscout /Cross
+CodeWyscout /Defending duels
+CodeWyscout /Defensive positioning
+CodeWyscout /Distributions
+CodeWyscout /Fouls
+CodeWyscout /Free kick
+CodeWyscout /Free kick cross
+CodeWyscout /Free kick shot
+CodeWyscout /Goal - Left Foot
+CodeWyscout /Goal - Right Foot
+CodeWyscout /Goal - Head
+CodeWyscout /Goalkeeper leaving line
+CodeWyscout /Head Shot
+CodeWyscout /Interceptions
+CodeWyscout /Key involvement
+CodeWyscout /Link up play
+CodeWyscout /Long-range passes
+CodeWyscout /Loose ball duel
+CodeWyscout /Off the ball movements
+CodeWyscout /Offsides
+CodeWyscout /Opportunity
+CodeWyscout /Passes
+CodeWyscout /Penalty
+CodeWyscout /Recovery
+CodeWyscout /Reflexes
+CodeWyscout /Saves
+CodeWyscout /Shot off target
+CodeWyscout /Smart passes
+CodeWyscout /Tackles
+CodeWyscout /Through passes
+CodeWyscout /Throw-ins
+CodeWyscout /Under pressure
+CodeWyscout /Winning fouls
+CodeWyscout /Attacking corners
+CodeWyscout /Attacking direct free kicks
+CodeWyscout /Attacking free kicks
+CodeWyscout /Attacking style of play
+CodeWyscout /Attacking throws in
+CodeWyscout /Counter-attacks
+CodeWyscout /Crosses
+CodeWyscout /Defending style of play
+CodeWyscout /Direct free kicks conceded
+CodeWyscout /Free kicks conceded
+CodeWyscout /Goal scoring opportunities
+CodeWyscout /Goalkeeper's distribution
+CodeWyscout /Goals scored
+CodeWyscout /Other free kicks
+CodeWyscout /Penalties gained
+CodeWyscout /Shots
+</Content>
+      <Content>file /WYSCOUT 20231 vs 1 Defense1VS1 and dribblingAccelerationsAggressivenessAerial duelsAttacking duelsAssistClearancesCorner kickCounterattackCovering depthCrossDefending duelsDefensive positioningDistributionsFoulsFree kickFree kick crossFree kick shotGoal - Left FootGoal - Right FootGoal - HeadGoalkeeper leaving lineHead ShotInterceptionsKey involvementLink up playLong-range passesLoose ball duelOff the ball movementsOffsidesOpportunityPassesPenaltyRecoveryReflexesSavesShot off targetSmart passesTacklesThrough passesThrow-insUnder pressureWinning foulsAttacking cornersAttacking direct free kicksAttacking free kicksAttacking style of playAttacking throws inCounter-attacksCrossesDefending style of playDirect free kicks concededFree kicks concededGoal scoring opportunitiesGoalkeeper's distributionGoals scoredOther free kicksPenalties gainedShots
+VERSION /WYSCOUT 2023
+dataroot /1 vs 1 Defense1VS1 and dribblingAccelerationsAggressivenessAerial duelsAttacking duelsAssistClearancesCorner kickCounterattackCovering depthCrossDefending duelsDefensive positioningDistributionsFoulsFree kickFree kick crossFree kick shotGoal - Left FootGoal - Right FootGoal - HeadGoalkeeper leaving lineHead ShotInterceptionsKey involvementLink up playLong-range passesLoose ball duelOff the ball movementsOffsidesOpportunityPassesPenaltyRecoveryReflexesSavesShot off targetSmart passesTacklesThrough passesThrow-insUnder pressureWinning foulsAttacking cornersAttacking direct free kicksAttacking free kicksAttacking style of playAttacking throws inCounter-attacksCrossesDefending style of playDirect free kicks concededFree kicks concededGoal scoring opportunitiesGoalkeeper's distributionGoals scoredOther free kicksPenalties gainedShots
+CodeWyscout /1 vs 1 Defense
+CodeWyscout /1VS1 and dribbling
+CodeWyscout /Accelerations
+Aerial Aggressiveness1 /Aggressiveness
+Aerial Aggressiveness2 /Aggressiveness
+CodeWyscout/Aerial duels 
+CodeWyscout/Duel 
+CodeWyscout/Aérien 
+CodeWyscout /Attacking duels
+CodeWyscout /Assist
+CodeWyscout /Clearances
+CodeWyscout /Corner kick
+CodeWyscout /Counterattack
+CodeWyscout /Covering depth
+CodeWyscout /Cross
+CodeWyscout /Defending duels
+CodeWyscout /Defensive positioning
+CodeWyscout /Distributions
+CodeWyscout /Fouls
+CodeWyscout /Free kick
+CodeWyscout /Free kick cross
+CodeWyscout /Free kick shot
+CodeWyscout /Goal - Left Foot
+CodeWyscout /Goal - Right Foot
+CodeWyscout /Goal - Head
+CodeWyscout /Goalkeeper leaving line
+CodeWyscout /Head Shot
+CodeWyscout /Interceptions
+CodeWyscout /Key involvement
+CodeWyscout /Link up play
+CodeWyscout /Long-range passes
+CodeWyscout /Loose ball duel
+CodeWyscout /Off the ball movements
+CodeWyscout /Offsides
+CodeWyscout /Opportunity
+CodeWyscout /Passes
+CodeWyscout /Penalty
+CodeWyscout /Recovery
+CodeWyscout /Reflexes
+CodeWyscout /Saves
+CodeWyscout /Shot off target
+CodeWyscout /Smart passes
+CodeWyscout /Tackles
+CodeWyscout /Through passes
+CodeWyscout /Throw-ins
+CodeWyscout /Under pressure
+CodeWyscout /Winning fouls
+CodeWyscout /Attacking corners
+CodeWyscout /Attacking direct free kicks
+CodeWyscout /Attacking free kicks
+CodeWyscout /Attacking style of play
+CodeWyscout /Attacking throws in
+CodeWyscout /Counter-attacks
+CodeWyscout /Crosses
+CodeWyscout /Defending style of play
+CodeWyscout /Direct free kicks conceded
+CodeWyscout /Free kicks conceded
+CodeWyscout /Goal scoring opportunities
+CodeWyscout /Goalkeeper's distribution
+CodeWyscout /Goals scored
+CodeWyscout /Other free kicks
+CodeWyscout /Penalties gained
+CodeWyscout /Shots
+</Content>
+      <Content>file /WYSCOUT 20231 vs 1 Defense1VS1 and dribblingAccelerationsAggressivenessAerial duelsAttacking duelsAssistClearancesCorner kickCounterattackCovering depthCrossDefending duelsDefensive positioningDistributionsFoulsFree kickFree kick crossFree kick shotGoal - Left FootGoal - Right FootGoal - HeadGoalkeeper leaving lineHead ShotInterceptionsKey involvementLink up playLong-range passesLoose ball duelOff the ball movementsOffsidesOpportunityPassesPenaltyRecoveryReflexesSavesShot off targetSmart passesTacklesThrough passesThrow-insUnder pressureWinning foulsAttacking cornersAttacking direct free kicksAttacking free kicksAttacking style of playAttacking throws inCounter-attacksCrossesDefending style of playDirect free kicks concededFree kicks concededGoal scoring opportunitiesGoalkeeper's distributionGoals scoredOther free kicksPenalties gainedShots
+VERSION /WYSCOUT 2023
+dataroot /1 vs 1 Defense1VS1 and dribblingAccelerationsAggressivenessAerial duelsAttacking duelsAssistClearancesCorner kickCounterattackCovering depthCrossDefending duelsDefensive positioningDistributionsFoulsFree kickFree kick crossFree kick shotGoal - Left FootGoal - Right FootGoal - HeadGoalkeeper leaving lineHead ShotInterceptionsKey involvementLink up playLong-range passesLoose ball duelOff the ball movementsOffsidesOpportunityPassesPenaltyRecoveryReflexesSavesShot off targetSmart passesTacklesThrough passesThrow-insUnder pressureWinning foulsAttacking cornersAttacking direct free kicksAttacking free kicksAttacking style of playAttacking throws inCounter-attacksCrossesDefending style of playDirect free kicks concededFree kicks concededGoal scoring opportunitiesGoalkeeper's distributionGoals scoredOther free kicksPenalties gainedShots
+CodeWyscout /1 vs 1 Defense
+CodeWyscout /1VS1 and dribbling
+CodeWyscout /Accelerations
+Aerial Aggressiveness1 /Aggressiveness
+Aerial Aggressiveness2 /Aggressiveness
+CodeWyscout/Aerial duels 
+CodeWyscout/Duel 
+CodeWyscout/Aérien 
+CodeWyscout /Attacking duels
+CodeWyscout /Assist
+CodeWyscout /Clearances
+CodeWyscout /Corner kick
+CodeWyscout /Counterattack
+CodeWyscout /Covering depth
+CodeWyscout /Cross
+CodeWyscout /Defending duels
+CodeWyscout /Defensive positioning
+CodeWyscout /Distributions
+CodeWyscout /Fouls
+CodeWyscout /Free kick
+CodeWyscout /Free kick cross
+CodeWyscout /Free kick shot
+CodeWyscout /Goal - Left Foot
+CodeWyscout /Goal - Right Foot
+CodeWyscout /Goal - Head
+CodeWyscout /Goalkeeper leaving line
+CodeWyscout /Head Shot
+CodeWyscout /Interceptions
+CodeWyscout /Key involvement
+CodeWyscout /Link up play
+CodeWyscout /Long-range passes
+CodeWyscout /Loose ball duel
+CodeWyscout /Off the ball movements
+CodeWyscout /Offsides
+CodeWyscout /Opportunity
+CodeWyscout /Passes
+CodeWyscout /Penalty
+CodeWyscout /Recovery
+CodeWyscout /Reflexes
+CodeWyscout /Saves
+CodeWyscout /Shot off target
+CodeWyscout /Smart passes
+CodeWyscout /Tackles
+CodeWyscout /Through passes
+CodeWyscout /Throw-ins
+CodeWyscout /Under pressure
+CodeWyscout /Winning fouls
+CodeWyscout /Attacking corners
+CodeWyscout /Attacking direct free kicks
+CodeWyscout /Attacking free kicks
+CodeWyscout /Attacking style of play
+CodeWyscout /Attacking throws in
+CodeWyscout /Counter-attacks
+CodeWyscout /Crosses
+CodeWyscout /Defending style of play
+CodeWyscout /Direct free kicks conceded
+CodeWyscout /Free kicks conceded
+CodeWyscout /Goal scoring opportunities
+CodeWyscout /Goalkeeper's distribution
+CodeWyscout /Goals scored
+CodeWyscout /Other free kicks
+CodeWyscout /Penalties gained
+CodeWyscout /Shots
+</Content>
+      <Content>file /WYSCOUT 20231 vs 1 Defense1VS1 and dribblingAccelerationsAggressivenessAerial duelsAttacking duelsAssistClearancesCorner kickCounterattackCovering depthCrossDefending duelsDefensive positioningDistributionsFoulsFree kickFree kick crossFree kick shotGoal - Left FootGoal - Right FootGoal - HeadGoalkeeper leaving lineHead ShotInterceptionsKey involvementLink up playLong-range passesLoose ball duelOff the ball movementsOffsidesOpportunityPassesPenaltyRecoveryReflexesSavesShot off targetSmart passesTacklesThrough passesThrow-insUnder pressureWinning foulsAttacking cornersAttacking direct free kicksAttacking free kicksAttacking style of playAttacking throws inCounter-attacksCrossesDefending style of playDirect free kicks concededFree kicks concededGoal scoring opportunitiesGoalkeeper's distributionGoals scoredOther free kicksPenalties gainedShots
+VERSION /WYSCOUT 2023
+dataroot /1 vs 1 Defense1VS1 and dribblingAccelerationsAggressivenessAerial duelsAttacking duelsAssistClearancesCorner kickCounterattackCovering depthCrossDefending duelsDefensive positioningDistributionsFoulsFree kickFree kick crossFree kick shotGoal - Left FootGoal - Right FootGoal - HeadGoalkeeper leaving lineHead ShotInterceptionsKey involvementLink up playLong-range passesLoose ball duelOff the ball movementsOffsidesOpportunityPassesPenaltyRecoveryReflexesSavesShot off targetSmart passesTacklesThrough passesThrow-insUnder pressureWinning foulsAttacking cornersAttacking direct free kicksAttacking free kicksAttacking style of playAttacking throws inCounter-attacksCrossesDefending style of playDirect free kicks concededFree kicks concededGoal scoring opportunitiesGoalkeeper's distributionGoals scoredOther free kicksPenalties gainedShots
+CodeWyscout /1 vs 1 Defense
+CodeWyscout /1VS1 and dribbling
+CodeWyscout /Accelerations
+Aerial Aggressiveness1 /Aggressiveness
+Aerial Aggressiveness2 /Aggressiveness
+CodeWyscout/Aerial duels 
+CodeWyscout/Duel 
+CodeWyscout/Aérien 
+CodeWyscout /Attacking duels
+CodeWyscout /Assist
+CodeWyscout /Clearances
+CodeWyscout /Corner kick
+CodeWyscout /Counterattack
+CodeWyscout /Covering depth
+CodeWyscout /Cross
+CodeWyscout /Defending duels
+CodeWyscout /Defensive positioning
+CodeWyscout /Distributions
+CodeWyscout /Fouls
+CodeWyscout /Free kick
+CodeWyscout /Free kick cross
+CodeWyscout /Free kick shot
+CodeWyscout /Goal - Left Foot
+CodeWyscout /Goal - Right Foot
+CodeWyscout /Goal - Head
+CodeWyscout /Goalkeeper leaving line
+CodeWyscout /Head Shot
+CodeWyscout /Interceptions
+CodeWyscout /Key involvement
+CodeWyscout /Link up play
+CodeWyscout /Long-range passes
+CodeWyscout /Loose ball duel
+CodeWyscout /Off the ball movements
+CodeWyscout /Offsides
+CodeWyscout /Opportunity
+CodeWyscout /Passes
+CodeWyscout /Penalty
+CodeWyscout /Recovery
+CodeWyscout /Reflexes
+CodeWyscout /Saves
+CodeWyscout /Shot off target
+CodeWyscout /Smart passes
+CodeWyscout /Tackles
+CodeWyscout /Through passes
+CodeWyscout /Throw-ins
+CodeWyscout /Under pressure
+CodeWyscout /Winning fouls
+CodeWyscout /Attacking corners
+CodeWyscout /Attacking direct free kicks
+CodeWyscout /Attacking free kicks
+CodeWyscout /Attacking style of play
+CodeWyscout /Attacking throws in
+CodeWyscout /Counter-attacks
+CodeWyscout /Crosses
+CodeWyscout /Defending style of play
+CodeWyscout /Direct free kicks conceded
+CodeWyscout /Free kicks conceded
+CodeWyscout /Goal scoring opportunities
+CodeWyscout /Goalkeeper's distribution
+CodeWyscout /Goals scored
+CodeWyscout /Other free kicks
+CodeWyscout /Penalties gained
+CodeWyscout /Shots
+</Content>
+    </Contents>
+  </ParsedContents>
+</Match>

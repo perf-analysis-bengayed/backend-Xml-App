@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+<VERSION>WYSCOUT 2023</VERSION> 
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Wyscout.xsd" generated="2023-08-18T17:25:54">
+<CodeWyscout>1 vs 1 Defense</CodeWyscout>
+<CodeWyscout>1VS1 and dribbling</CodeWyscout>
+<CodeWyscout>Accelerations</CodeWyscout>
+<CodeWyscout>Aggressiveness</CodeWyscout>
+<CodeWyscout>Aerial duels</CodeWyscout>
+<CodeWyscout>Attacking duels</CodeWyscout>
+<CodeWyscout>Assist</CodeWyscout>
+<CodeWyscout>Clearances</CodeWyscout>
+<CodeWyscout>Corner kick</CodeWyscout>
+<CodeWyscout>Counterattack</CodeWyscout>
+<CodeWyscout>Covering depth</CodeWyscout>
+<CodeWyscout>Cross</CodeWyscout>
+<CodeWyscout>Defending duels</CodeWyscout>
+<CodeWyscout>Defensive positioning</CodeWyscout>
+<CodeWyscout>Distributions</CodeWyscout>
+<CodeWyscout>Fouls</CodeWyscout>
+<CodeWyscout>Free kick</CodeWyscout>
+<CodeWyscout>Free kick cross</CodeWyscout>
+<CodeWyscout>Free kick shot</CodeWyscout>
+<CodeWyscout>Goal - Left Foot</CodeWyscout>
+<CodeWyscout>Goal - Right Foot</CodeWyscout>
+<CodeWyscout>Goal - Head</CodeWyscout>
+<CodeWyscout>Goalkeeper leaving line</CodeWyscout>
+<CodeWyscout>Head Shot</CodeWyscout>
+<CodeWyscout>Interceptions</CodeWyscout>
+<CodeWyscout>Key involvement</CodeWyscout>
+<CodeWyscout>Link up play</CodeWyscout>
+<CodeWyscout>Long-range passes</CodeWyscout>
+<CodeWyscout>Loose ball duel</CodeWyscout>
+<CodeWyscout>Off the ball movements</CodeWyscout>
+<CodeWyscout>Offsides</CodeWyscout>
+<CodeWyscout>Opportunity</CodeWyscout>
+<CodeWyscout>Passes</CodeWyscout>
+<CodeWyscout>Penalty</CodeWyscout>
+<CodeWyscout>Recovery</CodeWyscout>
+<CodeWyscout>Reflexes</CodeWyscout>
+<CodeWyscout>Saves</CodeWyscout>
+<CodeWyscout>Shot off target</CodeWyscout>
+<CodeWyscout>Smart passes</CodeWyscout>
+<CodeWyscout>Tackles</CodeWyscout>
+<CodeWyscout>Through passes</CodeWyscout>
+<CodeWyscout>Throw-ins</CodeWyscout>
+<CodeWyscout>Under pressure</CodeWyscout>
+<CodeWyscout>Winning fouls</CodeWyscout>
+<CodeWyscout>Attacking corners</CodeWyscout>
+<CodeWyscout>Attacking direct free kicks</CodeWyscout>
+<CodeWyscout>Attacking free kicks</CodeWyscout>
+<CodeWyscout>Attacking style of play</CodeWyscout>
+<CodeWyscout>Attacking throws in</CodeWyscout>
+<CodeWyscout>Counter-attacks</CodeWyscout>
+<CodeWyscout>Crosses</CodeWyscout>
+<CodeWyscout>Defending style of play</CodeWyscout>
+<CodeWyscout>Direct free kicks conceded</CodeWyscout>
+<CodeWyscout>Free kicks conceded</CodeWyscout>
+<CodeWyscout>Goal scoring opportunities</CodeWyscout>
+<CodeWyscout>Goalkeeper's distribution</CodeWyscout>
+<CodeWyscout>Goals scored</CodeWyscout>
+<CodeWyscout>Other free kicks</CodeWyscout>
+<CodeWyscout>Penalties gained</CodeWyscout>
+<CodeWyscout>Shots</CodeWyscout>
+</dataroot>
+</file>
