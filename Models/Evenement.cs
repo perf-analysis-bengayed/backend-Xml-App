@@ -1,10 +1,12 @@
-public class Evenement
-    {
-        public string Type { get; set; }
-        public List<Critere> Criteres { get; set; } = new List<Critere>();
-    }
+public class Event
+{
+    public int Id { get; set; }
+    public string EventType { get; set; }
+    public string Description { get; set; }
+    public List<Criterion> Criterian { get; set; }
 
    
+}
 
  
 

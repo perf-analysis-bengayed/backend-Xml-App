@@ -18,50 +18,40 @@ using WebXmlApplication.Models;
     {
 
     
-        private readonly string _uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "uploads");
 
-        public XmlImportController()
+private readonly IXmlFileService _xmlFileService;
+
+    public XmlImportController(IXmlFileService xmlFileService)
+    {
+        _xmlFileService = xmlFileService;
+    }
+
+  [HttpPost("upload")]
+    public async Task<IActionResult> UploadFiles([FromForm] List<IFormFile> files, [FromForm] DateTime matchDate)
+    {
+        try
         {
-            if (!Directory.Exists(_uploadPath))
+            var matchInfo = new MatchInfo { MatchDate = matchDate };
+            var parsedContents = await _xmlFileService.UploadXmlFilesAsync(files, matchInfo);
+            
+            return Ok(new
             {
-                Directory.CreateDirectory(_uploadPath);
-            }
+                Message = "Fichiers XML traités avec succès",
+                ParsedContents = parsedContents
+            });
         }
-
-[HttpPost("upload")]
-public async Task<IActionResult> UploadXmlFiles([FromForm] List<IFormFile> files, [FromForm] MatchInfo matchInfo)
-{
-    if (files == null || files.Count == 0)
-    {
-        return BadRequest("Aucun fichier n'a été téléchargé.");
+        catch (ArgumentException ex)
+        {
+            return BadRequest(new { Message = ex.Message });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { Message = "Erreur serveur lors du traitement des fichiers", Detail = ex.Message });
+        }
     }
 
-    List<string> parsedContents = new List<string>();
 
-    foreach (var file in files)
-    {
-        if (Path.GetExtension(file.FileName).ToLower() != ".xml")
-        {
-            return BadRequest($"Le fichier {file.FileName} doit être de type .xml.");
-        }
 
-        var uploadedFilePath = Path.Combine("uploads", file.FileName);
-        Directory.CreateDirectory(Path.GetDirectoryName(uploadedFilePath));
-
-        using (var stream = new FileStream(uploadedFilePath, FileMode.Create))
-        {
-            await file.CopyToAsync(stream);
-        }
-
-        string parsedContent = ParseXmlFile(uploadedFilePath);
-        parsedContents.Add(parsedContent);
-    }
-
-    var matchFilePath = Path.Combine("uploads", "ficheMatch.xml");
-    CreateMatchFile(matchFilePath, parsedContents, matchInfo);
-
-    return Ok(new { ParsedContents = parsedContents });
-}
 
 //       [HttpPost("upload")]
 // public async Task<IActionResult> UploadXmlFile([FromForm] IFormFile file, [FromForm] MatchInfo matchInfo)
@@ -116,64 +106,6 @@ public async Task<IActionResult> UploadXmlFiles([FromForm] List<IFormFile> files
     //     document.Save(filePath);
     // }
 
-private void CreateMatchFile(string filePath, List<string> parsedContents, MatchInfo matchInfo)
-
-{
-    var matchElement = new XElement("Match",
-        new XElement("MatchDate", matchInfo.MatchDate.ToString("yyyy-MM-dd")),
-        // Ajoutez ici d'autres éléments de `matchInfo` si nécessaire
-        new XElement("ParsedContents", new XElement("Contents", parsedContents.Select(pc => new XElement("Content", pc))))
-    );
-
-    var document = new XDocument(new XDeclaration("1.0", "utf-8", "yes"), matchElement);
-    document.Save(filePath);
-}
-
-
-
-
-private string ParseXmlFile(string filePath)
-{
-    StringBuilder xmlContentBuilder = new StringBuilder();
-    try
-    {
-        XDocument xmlDocument = XDocument.Load(filePath);
-
-        foreach (var element in xmlDocument.Descendants())
-        {
-            if (!string.IsNullOrWhiteSpace(element.Value))
-            {
-
-switch (element.Value)
-                {
-                    case "Aerial duels":
-                        xmlContentBuilder.AppendLine($"{element.Name}/Aerial duels " );
-                        xmlContentBuilder.AppendLine($"{element.Name}/Duel " );
-                        xmlContentBuilder.AppendLine($"{element.Name}/Aérien " );
-                        break;
-                    case "Aggressiveness":
-                        xmlContentBuilder.AppendLine("Aerial Aggressiveness1 /" + element.Value);
-                        xmlContentBuilder.AppendLine("Aerial Aggressiveness2 /" + element.Value);
-                        break;
-                    default:
-                        xmlContentBuilder.AppendLine($"{element.Name} /{element.Value}");
-                        break;
-                }  
-            }
-        }
-
-        if (xmlContentBuilder.Length == 0)
-        {
-            xmlContentBuilder.AppendLine("Aucun élément avec contenu trouvé dans le fichier XML.");
-        }
-    }
-    catch (Exception ex)
-    {
-        return $"Erreur lors du traitement du fichier XML: {ex.Message}";
-    }
-
-    return xmlContentBuilder.ToString();
-}
 
     }
     

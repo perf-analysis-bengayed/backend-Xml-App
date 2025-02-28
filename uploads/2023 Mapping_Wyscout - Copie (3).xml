@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <file>
-<VERSION>WYSCOUT 2023</VERSION> 
+<VERSION>WYSCOUT Instead of using IndexOf, I used Contains() which is more straightforward for checking presence of a substring
+Both methods work, but Contains() is cleaner and directly returns a boolean</VERSION> 
 <dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Wyscout.xsd" generated="2023-08-18T17:25:54">
 <CodeWyscout>1 vs 1 Defense</CodeWyscout>
 <CodeWyscout>1VS1 and dribbling</CodeWyscout>

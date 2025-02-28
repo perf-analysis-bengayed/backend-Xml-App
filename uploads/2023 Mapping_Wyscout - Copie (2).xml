@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <file>
-<VERSION>WYSCOUT 2023</VERSION> 
+<VERSION> dataroot /1 vs 1 Defense1VS1 and dribblingAccelerationsAggressivenessAerial duelsAttacking duelsAssistClearancesCorner kickCounterattackCovering depthCrossDefending duelsDefensive positioningDistributionsFoulsFree kickFree kick crossFree kick shotGoal - Left FootGoal - Right FootGoal - HeadGoalkeeper leaving lineHead ShotInterceptionsKey involvementLink up playLong-range passesLoose ball duelOff the ball movementsOffsidesOpportunityPassesPenaltyRecoveryReflexesSavesShot off targetSmart passesTacklesThrough passesThrow-insUnder pressureWinning foulsAttacking cornersAttacking direct free kicksAttacking free kicksAttacking style of playAttacking throws inCounter-attacksCrossesDefending style of playDirect free kicks concededFree kicks concededGoal scoring opportunitiesGoalkeeper's distributionGoals scoredOther free kicksPenalties gainedShots
+CodeWyscout /1 vs 1 Defense
+CodeWyscout /1VS1 and dribbling
+CodeWyscout /Accelerations
+Aerial Aggressiveness1 /Aggressiveness
+Aerial Aggressiveness2 /Aggressiveness
+CodeWyscout/Aerial duels
+CodeWyscout/Duel
+CodeWyscout/Aérien
+CodeWyscout /Attacking duels</VERSION> 
 <dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Wyscout.xsd" generated="2023-08-18T17:25:54">
 <CodeWyscout>1 vs 1 Defense</CodeWyscout>
 <CodeWyscout>1VS1 and dribbling</CodeWyscout>
