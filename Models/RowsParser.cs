@@ -3,6 +3,9 @@ using System.Xml.Linq;
 
 public class RowsParser : IElementParser
 {
+
+
+    
     public void Parse(XElement element, StringBuilder xmlContentBuilder, InStatParsingStrategy context)
     {
         foreach (var row in element.Elements("row"))
@@ -15,6 +18,4 @@ public class RowsParser : IElementParser
             xmlContentBuilder.AppendLine($"{code} R {r}, G {g}, B {b}");
         }
     }
-
- 
 }
