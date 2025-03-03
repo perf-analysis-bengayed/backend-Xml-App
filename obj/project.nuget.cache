@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x4a/zx3Q+cE=",
+  "dgSpecHash": "p1LwcqTLXQ8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\webXmlApplication\\WebXmlApplication.csproj",
+  "projectFilePath": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\WebXmlApplication\\WebXmlApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Poste 1\\.nuget\\packages\\epplus\\7.6.0\\epplus.7.6.0.nupkg.sha512",
     "C:\\Users\\Poste 1\\.nuget\\packages\\epplus.interfaces\\7.5.0\\epplus.interfaces.7.5.0.nupkg.sha512",
@@ -38,5 +38,12 @@
     "C:\\Users\\Poste 1\\.nuget\\packages\\system.text.encodings.web\\9.0.1\\system.text.encodings.web.9.0.1.nupkg.sha512",
     "C:\\Users\\Poste 1\\.nuget\\packages\\system.text.json\\9.0.1\\system.text.json.9.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

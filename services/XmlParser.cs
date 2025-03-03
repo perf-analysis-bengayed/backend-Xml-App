@@ -1,6 +1,5 @@
 using System.Text;
 using System.Xml.Linq;
-using Microsoft.AspNetCore.Hosting;
 
 public class XmlParser : XmlFileService
 {

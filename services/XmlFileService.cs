@@ -138,81 +138,117 @@ public class InStatParsingStrategy : IXmlParsingStrategy
     private readonly List<string> outputLines = new List<string>();
     private readonly HashSet<string> teamNames = new HashSet<string>();
 
+
     public void ParseElement(XElement element, StringBuilder xmlContentBuilder)
     {
-        string valueToDisplay = element.Value.Trim();
-
-        if (element.Name.LocalName.Equals("instance", StringComparison.OrdinalIgnoreCase))
+        switch (element.Name.LocalName.ToUpper())
         {
-            var codeElement = element.Element("code");
-            if (codeElement != null)
+            case "ALL_INSTANCES":
+                ParseAllInstances(element, xmlContentBuilder);
+                break;
+            case "ROWS":
+                ParseRows(element, xmlContentBuilder);
+                break;
+            case "SORT_INFO":
+                ParseSortInfo(element, xmlContentBuilder);
+                break;
+            // default:
+            //     ParseInstanceElement(element, xmlContentBuilder);
+            //     break;
+        }
+    }
+
+private void ParseAllInstances(XElement element, StringBuilder xmlContentBuilder)
+{
+    foreach (var instance in element.Elements("instance"))
+    {
+        string start = instance.Element("start")?.Value.Trim() ?? "N/A";
+        string end = instance.Element("end")?.Value.Trim() ?? "N/A";
+        string code = instance.Element("code")?.Value.Trim() ?? "Unknown";
+        string posX = instance.Element("pos_x")?.Value.Trim() ?? "N/A";
+        string posY = instance.Element("pos_y")?.Value.Trim() ?? "N/A";
+
+    
+        if (IsPlayerCode(code))
+        {
+            string[] codeParts = code.Split(new[] { '.' }, 2);
+            string playerNumber = codeParts[0].Trim();
+            string playerName = codeParts[1].Trim();
+
+            if (!playerNames.Contains(playerName))
             {
-                string codeValue = codeElement.Value.Trim();
-
-                string start = element.Element("start")?.Value.Trim() ?? "N/A";
-                string end = element.Element("end")?.Value.Trim() ?? "N/A";
-
-                if (IsPlayerCode(codeValue))
+                playerNames.Add(playerName);
+            }
+       
+          
+            string team = "";
+            string action = "N/A";
+            string half = "N/A";
+            foreach (var label in instance.Elements("label"))
+            {
+                var group = label.Element("group")?.Value.Trim();
+                var text = label.Element("text")?.Value.Trim();
+                if (group == "Team")
                 {
-                    string[] codeParts = codeValue.Split(new[] { '.' }, 2);
-                    string playerNumber = codeParts[0].Trim();
-                    string playerName = codeParts[1].Trim();
-
-                    if (!playerNames.Contains(playerName))
-                    {
-                        playerNames.Add(playerName);
-                    }
-
-                    string team = "";
-                    string action = "";
-                    string half = "";
-                    foreach (var label in element.Elements("label"))
-                    {
-                        var group = label.Element("group")?.Value.Trim();
-                        var text = label.Element("text")?.Value.Trim();
-                        if (group == "Team")
-                        {
-                            team = text;
-                            if (!string.IsNullOrWhiteSpace(team))
-                            {
-                                teamNames.Add(team);
-                            }
-                        }
-                        else if (group == "Action")
-                        {
-                            action = text;
-                        }
-                        else if (group == "Half")
-                        {
-                            half = text;
-                        }
-                    }
-
-                    string posX = element.Element("pos_x")?.Value.Trim() ?? "N/A";
-                    string posY = element.Element("pos_y")?.Value.Trim() ?? "N/A";
-
-                    string outputLine = $"joueur {playerName} numero {playerNumber} Team {team} Action {action} start {start} end {end} et pos_x {posX} pos_y {posY} Half {half}";
-                    outputLines.Add(outputLine);
-                }
-                else if (IsTeamActionCode(codeValue))
-                {
-                    string[] codeParts = codeValue.Split(new[] { ' ' }, 2);
-                    string team = codeParts[0].Trim();
-                    string action = codeParts.Length > 1 ? codeParts[1].Trim() : "Unknown Action";
-
+                    team = text;
                     if (!string.IsNullOrWhiteSpace(team))
                     {
                         teamNames.Add(team);
                     }
-
-                    string outputLine = $"{team} {action} start {start} end {end}";
-                    outputLines.Add(outputLine);
+                }
+                else if (group == "Action")
+                {
+                    action = text;
+                }
+                else if (group == "Half")
+                {
+                    half = text;
                 }
             }
+
+            string outputLine = $"joueur {playerName} numero {playerNumber} Team {team} Action {action} start {start} end {end} et pos_x {posX} pos_y {posY} Half {half}";
+            xmlContentBuilder.AppendLine(outputLine);
         }
-     
+        else
+        {
+            string team = "";
+            string action = code;
+
+            if (IsTeamActionCode(code))
+            {
+                string[] codeParts = code.Split(new[] { ' ' }, 2);
+                team = codeParts[0].Trim();
+                action = codeParts.Length > 1 ? codeParts[1].Trim() : "Unknown Action";
+              
+            }
+
+       
+            xmlContentBuilder.AppendLine($"{team} {action} start {start} end {end}");
+        }
+    }
+}
+       private void ParseRows(XElement element, StringBuilder xmlContentBuilder)
+    {
+        foreach (var row in element.Elements("row"))
+        {
+            string code = row.Element("code")?.Value.Trim() ?? "Unknown";
+            string r = row.Element("R")?.Value.Trim() ?? "0";
+            string g = row.Element("G")?.Value.Trim() ?? "0";
+            string b = row.Element("B")?.Value.Trim() ?? "0";
+
+          
+
+            xmlContentBuilder.AppendLine($"{code} R {r}, G {g}, B {b}");
+        }
     }
 
+    private void ParseSortInfo(XElement element, StringBuilder xmlContentBuilder)
+    {
+        string sortType = element.Element("sort_type")?.Value.Trim() ?? "N/A";
+        xmlContentBuilder.AppendLine($"{sortType}");
+    }
+
+    
     private bool IsPlayerCode(string code)
     {
         if (string.IsNullOrEmpty(code))
@@ -235,21 +271,23 @@ public class InStatParsingStrategy : IXmlParsingStrategy
     }
 
     public void AppendFinalPlayerNames(StringBuilder xmlContentBuilder)
+{
+    foreach (var line in outputLines)
     {
-        foreach (var line in outputLines)
-        {
-            xmlContentBuilder.AppendLine(line);
-        }
+        xmlContentBuilder.AppendLine(line);
+    }
 
-        if (playerNames.Any())
-        {
-            xmlContentBuilder.AppendLine($"PlayerNames /{string.Join(", ", playerNames)}");
-        }
+    if (playerNames.Any())
+    {
+        var playerCodes = playerNames.Select((name, index) => $"{name}").ToList();
+        xmlContentBuilder.AppendLine($"Liste des Joueurs: {string.Join(", ", playerCodes)}");
+    }
 
-        if (teamNames.Any())
-        {
-            xmlContentBuilder.AppendLine($"Équipe de match /{string.Join(" et ", teamNames)}");
-        }
+    if (teamNames.Any())
+    {
+        xmlContentBuilder.AppendLine($"Équipe de match :{string.Join(" et ", teamNames)}");
+    }
+    
     }
 
     public List<string> GetPlayerNames()
@@ -263,5 +301,5 @@ public class InStatParsingStrategy : IXmlParsingStrategy
     }
 }
 
-}
 
+}
