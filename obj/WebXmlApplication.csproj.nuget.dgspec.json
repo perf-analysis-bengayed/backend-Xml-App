@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\WebXmlApplication\\WebXmlApplication.csproj": {}
+    "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\webXmlapplication\\WebXmlApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\WebXmlApplication\\WebXmlApplication.csproj": {
+    "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\webXmlapplication\\WebXmlApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\WebXmlApplication\\WebXmlApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\webXmlapplication\\WebXmlApplication.csproj",
         "projectName": "WebXmlApplication",
-        "projectPath": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\WebXmlApplication\\WebXmlApplication.csproj",
+        "projectPath": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\webXmlapplication\\WebXmlApplication.csproj",
         "packagesPath": "C:\\Users\\Poste 1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\WebXmlApplication\\obj\\",
+        "outputPath": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\webXmlapplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Poste 1\\AppData\\Roaming\\NuGet\\NuGet.Config"

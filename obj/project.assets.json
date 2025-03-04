@@ -1700,11 +1700,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\WebXmlApplication\\WebXmlApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\webXmlApplication\\WebXmlApplication.csproj",
       "projectName": "WebXmlApplication",
-      "projectPath": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\WebXmlApplication\\WebXmlApplication.csproj",
+      "projectPath": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\webXmlApplication\\WebXmlApplication.csproj",
       "packagesPath": "C:\\Users\\Poste 1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\WebXmlApplication\\obj\\",
+      "outputPath": "C:\\Users\\Poste 1\\Desktop\\Nouveau dossier\\webXmlApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Poste 1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1767,13 +1767,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<file>
+  <ALL_INSTANCES>
+    <instance>
+      <ID>1</ID>
+      <start>12.96</start>
+      <end>13.96</end>
+      <code>Start</code>
+    </instance>
+    <instance>
+      <ID>2</ID>
+      <start>141</start>
+      <end>155</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>3</ID>
+      <start>167</start>
+      <end>185</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>4</ID>
+      <start>180</start>
+      <end>197</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>5</ID>
+      <start>180</start>
+      <end>187</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>6</ID>
+      <start>221</start>
+      <end>238</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>7</ID>
+      <start>223</start>
+      <end>240</end>
+      <code>CS Sfaxien Yellow cards</code>
+    </instance>
+    <instance>
+      <ID>8</ID>
+      <start>399</start>
+      <end>409</end>
+      <code>ES Tunis Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>9</ID>
+      <start>523</start>
+      <end>540</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>10</ID>
+      <start>651</start>
+      <end>668</end>
+      <code>ES Tunis Fouls</code>
+    </instance>
+    <instance>
+      <ID>11</ID>
+      <start>834</start>
+      <end>847</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>12</ID>
+      <start>850</start>
+      <end>867</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>13</ID>
+      <start>919</start>
+      <end>936</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>14</ID>
+      <start>920</start>
+      <end>930</end>
+      <code>ES Tunis Corner attacks</code>
+    </instance>
+    <instance>
+      <ID>15</ID>
+      <start>1011</start>
+      <end>1020</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>16</ID>
+      <start>1054</start>
+      <end>1071</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>17</ID>
+      <start>1058</start>
+      <end>1075</end>
+      <code>CS Sfaxien Yellow cards</code>
+    </instance>
+    <instance>
+      <ID>18</ID>
+      <start>1141</start>
+      <end>1158</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>19</ID>
+      <start>1144</start>
+      <end>1152</end>
+      <code>ES Tunis Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>20</ID>
+      <start>1235</start>
+      <end>1254</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>21</ID>
+      <start>1246</start>
+      <end>1263</end>
+      <code>ES Tunis Fouls</code>
+    </instance>
+    <instance>
+      <ID>22</ID>
+      <start>1274</start>
+      <end>1284</end>
+      <code>CS Sfaxien Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>23</ID>
+      <start>1274</start>
+      <end>1291</end>
+      <code>CS Sfaxien Shots</code>
+    </instance>
+    <instance>
+      <ID>24</ID>
+      <start>1347</start>
+      <end>1364</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>25</ID>
+      <start>1360</start>
+      <end>1377</end>
+      <code>CS Sfaxien Yellow cards</code>
+    </instance>
+    <instance>
+      <ID>26</ID>
+      <start>1462</start>
+      <end>1479</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>27</ID>
+      <start>1465</start>
+      <end>1473</end>
+      <code>ES Tunis Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>28</ID>
+      <start>1480</start>
+      <end>1497</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>29</ID>
+      <start>1574</start>
+      <end>1591</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>30</ID>
+      <start>1587</start>
+      <end>1601</end>
+      <code>ES Tunis Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>31</ID>
+      <start>1590</start>
+      <end>1607</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>32</ID>
+      <start>1735</start>
+      <end>1743</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>33</ID>
+      <start>1736</start>
+      <end>1753</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>34</ID>
+      <start>1803</start>
+      <end>1812</end>
+      <code>ES Tunis Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>35</ID>
+      <start>1836</start>
+      <end>1853</end>
+      <code>ES Tunis Fouls</code>
+    </instance>
+    <instance>
+      <ID>36</ID>
+      <start>1903</start>
+      <end>1913</end>
+      <code>CS Sfaxien Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>37</ID>
+      <start>1928</start>
+      <end>1941</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>38</ID>
+      <start>1943</start>
+      <end>1949</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>39</ID>
+      <start>2002</start>
+      <end>2022</end>
+      <code>ES Tunis Throw-in attacks</code>
+    </instance>
+    <instance>
+      <ID>40</ID>
+      <start>2088</start>
+      <end>2105</end>
+      <code>ES Tunis Fouls</code>
+    </instance>
+    <instance>
+      <ID>41</ID>
+      <start>2107</start>
+      <end>2126</end>
+      <code>CS Sfaxien Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>42</ID>
+      <start>2124</start>
+      <end>2142</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>43</ID>
+      <start>2138</start>
+      <end>2152</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>44</ID>
+      <start>2166</start>
+      <end>2183</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>45</ID>
+      <start>2218</start>
+      <end>2235</end>
+      <code>CS Sfaxien Yellow cards</code>
+    </instance>
+    <instance>
+      <ID>46</ID>
+      <start>2232</start>
+      <end>2254</end>
+      <code>ES Tunis Throw-in attacks</code>
+    </instance>
+    <instance>
+      <ID>47</ID>
+      <start>2245</start>
+      <end>2262</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>48</ID>
+      <start>2260</start>
+      <end>2284</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>49</ID>
+      <start>2278</start>
+      <end>2295</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>50</ID>
+      <start>2327</start>
+      <end>2344</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>51</ID>
+      <start>2401</start>
+      <end>2423</end>
+      <code>ES Tunis Throw-in attacks</code>
+    </instance>
+    <instance>
+      <ID>52</ID>
+      <start>2406</start>
+      <end>2423</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>53</ID>
+      <start>2566</start>
+      <end>2585</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>54</ID>
+      <start>2566</start>
+      <end>2583</end>
+      <code>ES Tunis Penalties</code>
+    </instance>
+    <instance>
+      <ID>55</ID>
+      <start>2566</start>
+      <end>2583</end>
+      <code>ES Tunis Penalty attacks</code>
+    </instance>
+    <instance>
+      <ID>56</ID>
+      <start>2569</start>
+      <end>2586</end>
+      <code>CS Sfaxien Penalty attacks</code>
+    </instance>
+    <instance>
+      <ID>57</ID>
+      <start>2577</start>
+      <end>2594</end>
+      <code>ES Tunis Fouls</code>
+    </instance>
+    <instance>
+      <ID>58</ID>
+      <start>2617</start>
+      <end>2630</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>59</ID>
+      <start>2639</start>
+      <end>2655</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>60</ID>
+      <start>2655</start>
+      <end>2664</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>61</ID>
+      <start>2674</start>
+      <end>2683</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>62</ID>
+      <start>2679</start>
+      <end>2713</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>63</ID>
+      <start>2704</start>
+      <end>2721</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>64</ID>
+      <start>2756</start>
+      <end>2773</end>
+      <code>ES Tunis Fouls</code>
+    </instance>
+    <instance>
+      <ID>65</ID>
+      <start>2796</start>
+      <end>2811</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>66</ID>
+      <start>2891</start>
+      <end>2903</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>67</ID>
+      <start>2943.82</start>
+      <end>2944.82</end>
+      <code>Start</code>
+    </instance>
+    <instance>
+      <ID>68</ID>
+      <start>2989.4</start>
+      <end>3006.4</end>
+      <code>ES Tunis Fouls</code>
+    </instance>
+    <instance>
+      <ID>69</ID>
+      <start>3021.4</start>
+      <end>3040.4</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>70</ID>
+      <start>3063.4</start>
+      <end>3080.4</end>
+      <code>ES Tunis Fouls</code>
+    </instance>
+    <instance>
+      <ID>71</ID>
+      <start>3066.4</start>
+      <end>3083.4</end>
+      <code>ES Tunis Yellow cards</code>
+    </instance>
+    <instance>
+      <ID>72</ID>
+      <start>3092.4</start>
+      <end>3133.4</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>73</ID>
+      <start>3124.4</start>
+      <end>3141.4</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>74</ID>
+      <start>3133.4</start>
+      <end>3152.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>75</ID>
+      <start>3179.4</start>
+      <end>3191.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>76</ID>
+      <start>3395.4</start>
+      <end>3408.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>77</ID>
+      <start>3497.4</start>
+      <end>3516.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>78</ID>
+      <start>3531.4</start>
+      <end>3549.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>79</ID>
+      <start>3598.4</start>
+      <end>3613.4</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>80</ID>
+      <start>3604.4</start>
+      <end>3621.4</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>81</ID>
+      <start>3666.4</start>
+      <end>3692.4</end>
+      <code>CS Sfaxien Throw-in attacks</code>
+    </instance>
+    <instance>
+      <ID>82</ID>
+      <start>3675.4</start>
+      <end>3708.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>83</ID>
+      <start>3853.4</start>
+      <end>3865.4</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>84</ID>
+      <start>3857.4</start>
+      <end>3874.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>85</ID>
+      <start>3905.4</start>
+      <end>3914.4</end>
+      <code>ES Tunis Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>86</ID>
+      <start>3996.4</start>
+      <end>4006.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>87</ID>
+      <start>4006.4</start>
+      <end>4023.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>88</ID>
+      <start>4099.4</start>
+      <end>4109.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>89</ID>
+      <start>4099.4</start>
+      <end>4116.4</end>
+      <code>CS Sfaxien Shots</code>
+    </instance>
+    <instance>
+      <ID>90</ID>
+      <start>4145.4</start>
+      <end>4164.4</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>91</ID>
+      <start>4148.4</start>
+      <end>4165.4</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>92</ID>
+      <start>4187.4</start>
+      <end>4200.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>93</ID>
+      <start>4212.4</start>
+      <end>4222.4</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>94</ID>
+      <start>4215.4</start>
+      <end>4232.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>95</ID>
+      <start>4234.4</start>
+      <end>4267.4</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>96</ID>
+      <start>4255.4</start>
+      <end>4274.4</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>97</ID>
+      <start>4348.4</start>
+      <end>4364.4</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>98</ID>
+      <start>4359.4</start>
+      <end>4375.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>99</ID>
+      <start>4373.4</start>
+      <end>4403.4</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>100</ID>
+      <start>4425.4</start>
+      <end>4444.4</end>
+      <code>ES Tunis Corner attacks</code>
+    </instance>
+    <instance>
+      <ID>101</ID>
+      <start>4432.4</start>
+      <end>4449.4</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>102</ID>
+      <start>4499.4</start>
+      <end>4518.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>103</ID>
+      <start>4503.4</start>
+      <end>4520.4</end>
+      <code>CS Sfaxien Shots</code>
+    </instance>
+    <instance>
+      <ID>104</ID>
+      <start>4552.4</start>
+      <end>4580.4</end>
+      <code>CS Sfaxien Throw-in attacks</code>
+    </instance>
+    <instance>
+      <ID>105</ID>
+      <start>4568.4</start>
+      <end>4585.4</end>
+      <code>ES Tunis Fouls</code>
+    </instance>
+    <instance>
+      <ID>106</ID>
+      <start>4574.4</start>
+      <end>4591.4</end>
+      <code>ES Tunis Yellow cards</code>
+    </instance>
+    <instance>
+      <ID>107</ID>
+      <start>4633.4</start>
+      <end>4650.4</end>
+      <code>CS Sfaxien Shots</code>
+    </instance>
+    <instance>
+      <ID>108</ID>
+      <start>4636.4</start>
+      <end>4645.4</end>
+      <code>CS Sfaxien Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>109</ID>
+      <start>4663.4</start>
+      <end>4715.4</end>
+      <code>CS Sfaxien Shots</code>
+    </instance>
+    <instance>
+      <ID>110</ID>
+      <start>4663.4</start>
+      <end>4715.4</end>
+      <code>CS Sfaxien Goals</code>
+    </instance>
+    <instance>
+      <ID>111</ID>
+      <start>4667.4</start>
+      <end>4688.4</end>
+      <code>CS Sfaxien Corner attacks</code>
+    </instance>
+    <instance>
+      <ID>112</ID>
+      <start>4902.4</start>
+      <end>4919.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>113</ID>
+      <start>4932.4</start>
+      <end>4949.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>114</ID>
+      <start>4975.4</start>
+      <end>4997.4</end>
+      <code>ES Tunis Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>115</ID>
+      <start>5039.4</start>
+      <end>5056.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>116</ID>
+      <start>5060.4</start>
+      <end>5077.4</end>
+      <code>ES Tunis Yellow cards</code>
+    </instance>
+    <instance>
+      <ID>117</ID>
+      <start>5142.4</start>
+      <end>5159.4</end>
+      <code>ES Tunis Fouls</code>
+    </instance>
+    <instance>
+      <ID>118</ID>
+      <start>5167.4</start>
+      <end>5219.4</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>119</ID>
+      <start>5167.4</start>
+      <end>5219.4</end>
+      <code>ES Tunis Goals</code>
+    </instance>
+    <instance>
+      <ID>120</ID>
+      <start>5171.4</start>
+      <end>5181.4</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>121</ID>
+      <start>5182.4</start>
+      <end>5190.4</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>122</ID>
+      <start>5256.4</start>
+      <end>5264.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>123</ID>
+      <start>5261.4</start>
+      <end>5272.4</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>124</ID>
+      <start>5320.4</start>
+      <end>5334.4</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>125</ID>
+      <start>5358.4</start>
+      <end>5381.4</end>
+      <code>ES Tunis Corner attacks</code>
+    </instance>
+    <instance>
+      <ID>126</ID>
+      <start>5367.4</start>
+      <end>5384.4</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>127</ID>
+      <start>5381.4</start>
+      <end>5398.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>128</ID>
+      <start>5408.4</start>
+      <end>5416.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>129</ID>
+      <start>5419.4</start>
+      <end>5425.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>130</ID>
+      <start>5431.4</start>
+      <end>5449.4</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>131</ID>
+      <start>5487.4</start>
+      <end>5497.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>132</ID>
+      <start>5499.4</start>
+      <end>5505.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>133</ID>
+      <start>5519.4</start>
+      <end>5536.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>134</ID>
+      <start>5535.4</start>
+      <end>5552.4</end>
+      <code>CS Sfaxien Yellow cards</code>
+    </instance>
+    <instance>
+      <ID>135</ID>
+      <start>5553.4</start>
+      <end>5566.4</end>
+      <code>ES Tunis Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>136</ID>
+      <start>5576.4</start>
+      <end>5591.4</end>
+      <code>ES Tunis Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>137</ID>
+      <start>5586.4</start>
+      <end>5604.4</end>
+      <code>CS Sfaxien Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>138</ID>
+      <start>5596.4</start>
+      <end>5613.4</end>
+      <code>ES Tunis Fouls</code>
+    </instance>
+    <instance>
+      <ID>139</ID>
+      <start>5693.4</start>
+      <end>5710.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>140</ID>
+      <start>5731.4</start>
+      <end>5748.4</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>141</ID>
+      <start>5732.4</start>
+      <end>5741.4</end>
+      <code>ES Tunis Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>142</ID>
+      <start>5821.4</start>
+      <end>5833.4</end>
+      <code>ES Tunis Corner attacks</code>
+    </instance>
+    <instance>
+      <ID>143</ID>
+      <start>5850.4</start>
+      <end>5867.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>144</ID>
+      <start>5857.4</start>
+      <end>5874.4</end>
+      <code>CS Sfaxien Yellow cards</code>
+    </instance>
+    <instance>
+      <ID>145</ID>
+      <start>5893.4</start>
+      <end>5922.4</end>
+      <code>ES Tunis Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>146</ID>
+      <start>5912.4</start>
+      <end>5929.4</end>
+      <code>CS Sfaxien Fouls</code>
+    </instance>
+    <instance>
+      <ID>147</ID>
+      <start>5950.4</start>
+      <end>5967.4</end>
+      <code>ES Tunis Shots</code>
+    </instance>
+    <instance>
+      <ID>148</ID>
+      <start>5952.4</start>
+      <end>5963.4</end>
+      <code>ES Tunis Free kicks attacks</code>
+    </instance>
+  </ALL_INSTANCES>
+  <ROWS>
+    <row>
+      <code>Start</code>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </row>
+    <row>
+      <code>ES Tunis Penalty attacks</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>ES Tunis Throw-in attacks</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>ES Tunis Positional attacks with chances</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>ES Tunis Counter-attacks</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>ES Tunis Shots</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>ES Tunis Corner attacks</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>ES Tunis Free kicks attacks</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>ES Tunis Penalties</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>ES Tunis Goals</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>ES Tunis Yellow cards</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>ES Tunis Fouls</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>CS Sfaxien Penalty attacks</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>CS Sfaxien Throw-in attacks</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>CS Sfaxien Positional attacks with chances</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>CS Sfaxien Counter-attacks</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>CS Sfaxien Shots</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>CS Sfaxien Corner attacks</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>CS Sfaxien Free kicks attacks</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>CS Sfaxien Goals</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>CS Sfaxien Yellow cards</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>CS Sfaxien Fouls</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+  </ROWS>
+</file>

@@ -1,6 +1,6 @@
 using System.Text;
 using System.Xml.Linq;
-using static XmlFileService;
+
 
 public class InStatParsingStrategy : IXmlParsingStrategy
 {
@@ -19,6 +19,7 @@ public class InStatParsingStrategy : IXmlParsingStrategy
             { "SORT_INFO", new SortInfoParser() }
         };
     }
+
 
     public void ParseElement(XElement element, StringBuilder xmlContentBuilder)
     {
@@ -78,4 +79,5 @@ public class InStatParsingStrategy : IXmlParsingStrategy
     {
         return new List<string>(teamNames);
     }
+    
 }
