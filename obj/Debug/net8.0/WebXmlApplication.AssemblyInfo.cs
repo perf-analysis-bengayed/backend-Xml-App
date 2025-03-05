@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebXmlApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d52252b7b95ef95ea3813bf931af52ed46226d84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45ecc8ad9bcf6ffd7ba9945d3df092e1ecc3e082")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebXmlApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebXmlApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

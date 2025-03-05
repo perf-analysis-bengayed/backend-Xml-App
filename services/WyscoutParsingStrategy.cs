@@ -5,6 +5,21 @@ using System.Xml.Linq;
 
 public class WyscoutParsingStrategy : IXmlParsingStrategy
 {
+    public void AppendFinalPlayerNames(StringBuilder xmlContentBuilder)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<string> GetPlayerNames()
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<string> GetTeamNames()
+    {
+        throw new NotImplementedException();
+    }
+
     public void ParseElement(XElement element, StringBuilder xmlContentBuilder)
     {
         switch (element.Value.Trim())

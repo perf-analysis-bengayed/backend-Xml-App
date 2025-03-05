@@ -1,0 +1,5276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+  <SORT_INFO>
+    <sort_type>sort order</sort_type>
+  </SORT_INFO>
+  <ALL_INSTANCES>
+    <instance>
+      <ID>1</ID>
+      <start>5.32</start>
+      <end>16.32</end>
+      <code>1. Jordan Pickford (1153165) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>27.57</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>2</ID>
+      <start>5.32</start>
+      <end>16.32</end>
+      <code>1. Jordan Pickford (1153165) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>27.57</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>3</ID>
+      <start>27.32</start>
+      <end>39.32</end>
+      <code>1. Yann Sommer (1382756) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>9.29</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>43.76</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>4</ID>
+      <start>27.32</start>
+      <end>39.32</end>
+      <code>1. Yann Sommer (1382756) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>9.29</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>43.76</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>5</ID>
+      <start>38.32</start>
+      <end>50.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.39</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.97</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>6</ID>
+      <start>48.32</start>
+      <end>60.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.28</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>7</ID>
+      <start>59.32</start>
+      <end>71.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.97</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>8</ID>
+      <start>102.32</start>
+      <end>114.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.06</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.12</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>9</ID>
+      <start>236.32</start>
+      <end>248.32</end>
+      <code>1. Yann Sommer (1382756) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.09</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.32</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>10</ID>
+      <start>236.32</start>
+      <end>248.32</end>
+      <code>1. Yann Sommer (1382756) - Goal kicks short (0-10 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks short (0-10 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.09</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.32</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>11</ID>
+      <start>236.32</start>
+      <end>248.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.09</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.32</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>12</ID>
+      <start>250.32</start>
+      <end>262.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.17</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>24.85</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>13</ID>
+      <start>253.32</start>
+      <end>265.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>9.85</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>22.65</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>14</ID>
+      <start>320.32</start>
+      <end>332.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.96</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.03</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>15</ID>
+      <start>412.32</start>
+      <end>424.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.89</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.91</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>16</ID>
+      <start>432.32</start>
+      <end>444.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.58</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.52</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>17</ID>
+      <start>626.32</start>
+      <end>638.32</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.85</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>18</ID>
+      <start>626.32</start>
+      <end>638.32</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.85</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>19</ID>
+      <start>626.32</start>
+      <end>638.32</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.85</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>20</ID>
+      <start>626.32</start>
+      <end>638.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.85</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>21</ID>
+      <start>722.32</start>
+      <end>734.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>17.97</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.92</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>22</ID>
+      <start>840.32</start>
+      <end>852.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>25.26</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.72</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>23</ID>
+      <start>896.32</start>
+      <end>908.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>18.5</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.01</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>24</ID>
+      <start>976.32</start>
+      <end>988.32</end>
+      <code>1. Jordan Pickford (1153165) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.38</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>25</ID>
+      <start>986.32</start>
+      <end>998.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.33</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.5</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>26</ID>
+      <start>993.32</start>
+      <end>1005.32</end>
+      <code>1. Jordan Pickford (1153165) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.68</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>49.88</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>27</ID>
+      <start>993.32</start>
+      <end>1005.32</end>
+      <code>1. Jordan Pickford (1153165) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.68</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>49.88</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>28</ID>
+      <start>1005.32</start>
+      <end>1017.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.02</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.1</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>29</ID>
+      <start>1019.32</start>
+      <end>1031.32</end>
+      <code>1. Yann Sommer (1382756) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.57</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>30</ID>
+      <start>1031.32</start>
+      <end>1043.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.69</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.28</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>31</ID>
+      <start>1264.32</start>
+      <end>1276.32</end>
+      <code>1. Yann Sommer (1382756) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>91.25</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>42.85</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>32</ID>
+      <start>1290.32</start>
+      <end>1302.32</end>
+      <code>1. Yann Sommer (1382756) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.59</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.97</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>33</ID>
+      <start>1396.32</start>
+      <end>1408.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.05</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.44</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>34</ID>
+      <start>1403.32</start>
+      <end>1415.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.21</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>35</ID>
+      <start>1424.32</start>
+      <end>1436.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.11</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.67</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>36</ID>
+      <start>1477.32</start>
+      <end>1489.32</end>
+      <code>1. Jordan Pickford (1153165) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>3.09</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.93</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>37</ID>
+      <start>1477.32</start>
+      <end>1489.32</end>
+      <code>1. Jordan Pickford (1153165) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>3.09</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.93</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>38</ID>
+      <start>1540.32</start>
+      <end>1552.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>17.87</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>48.28</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>39</ID>
+      <start>1548.32</start>
+      <end>1560.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.64</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>42.36</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>40</ID>
+      <start>1563.32</start>
+      <end>1575.32</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.26</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>55.68</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>41</ID>
+      <start>1563.32</start>
+      <end>1575.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.26</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>55.68</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>42</ID>
+      <start>1795.32</start>
+      <end>1807.32</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.78</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>24.84</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>43</ID>
+      <start>1795.32</start>
+      <end>1807.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.78</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>24.84</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>44</ID>
+      <start>1869.32</start>
+      <end>1881.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>38.46</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>25.27</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>45</ID>
+      <start>1955.32</start>
+      <end>1967.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.9</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.6</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>46</ID>
+      <start>2006.32</start>
+      <end>2018.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>18.71</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.52</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>47</ID>
+      <start>2024.32</start>
+      <end>2036.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>18.4</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.15</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>48</ID>
+      <start>2076.32</start>
+      <end>2088.32</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.25</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.12</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>49</ID>
+      <start>2076.32</start>
+      <end>2088.32</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.25</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.12</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>50</ID>
+      <start>2076.32</start>
+      <end>2088.32</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.25</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.12</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>51</ID>
+      <start>2076.32</start>
+      <end>2088.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.25</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.12</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>52</ID>
+      <start>2116.32</start>
+      <end>2128.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.75</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.09</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>53</ID>
+      <start>2155.32</start>
+      <end>2167.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.96</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.02</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>54</ID>
+      <start>2254.32</start>
+      <end>2266.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>19.24</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.21</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>55</ID>
+      <start>2335.32</start>
+      <end>2347.32</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.25</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.67</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>56</ID>
+      <start>2335.32</start>
+      <end>2347.32</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.25</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.67</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>57</ID>
+      <start>2335.32</start>
+      <end>2347.32</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.25</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.67</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>58</ID>
+      <start>2335.32</start>
+      <end>2347.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.25</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.67</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>59</ID>
+      <start>2344.32</start>
+      <end>2356.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.15</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.65</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>60</ID>
+      <start>2363.32</start>
+      <end>2375.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.85</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>61</ID>
+      <start>2396.32</start>
+      <end>2408.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.59</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>62</ID>
+      <start>2445.32</start>
+      <end>2457.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.7</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.41</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>63</ID>
+      <start>2451.32</start>
+      <end>2463.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.41</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.55</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>64</ID>
+      <start>2454.32</start>
+      <end>2466.32</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>3.3</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.59</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>65</ID>
+      <start>2647.32</start>
+      <end>2659.32</end>
+      <code>1. Yann Sommer (1382756) - Close range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Close range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>99.38</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.69</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>66</ID>
+      <start>2647.32</start>
+      <end>2659.32</end>
+      <code>1. Yann Sommer (1382756) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>99.38</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.69</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>67</ID>
+      <start>2692.32</start>
+      <end>2704.32</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.86</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.78</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>68</ID>
+      <start>2777.64</start>
+      <end>2789.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.2</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>42.17</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>69</ID>
+      <start>2790.64</start>
+      <end>2802.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.23</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.79</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>70</ID>
+      <start>2798.64</start>
+      <end>2810.64</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.77</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>16.89</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>71</ID>
+      <start>2960.64</start>
+      <end>2972.64</end>
+      <code>1. Yann Sommer (1382756) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>1.43</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>18.09</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>72</ID>
+      <start>2962.64</start>
+      <end>2974.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.89</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>24.14</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>73</ID>
+      <start>3038.64</start>
+      <end>3050.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>17.87</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>25.34</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>74</ID>
+      <start>3082.64</start>
+      <end>3094.64</end>
+      <code>1. Jordan Pickford (1153165) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>97.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>43.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>75</ID>
+      <start>3082.64</start>
+      <end>3094.64</end>
+      <code>1. Jordan Pickford (1153165) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>97.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>43.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>76</ID>
+      <start>3082.64</start>
+      <end>3094.64</end>
+      <code>1. Jordan Pickford (1153165) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>97.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>43.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>77</ID>
+      <start>3145.64</start>
+      <end>3157.64</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.68</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.42</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>78</ID>
+      <start>3145.64</start>
+      <end>3157.64</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.68</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.42</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>79</ID>
+      <start>3157.64</start>
+      <end>3169.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>10.04</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>42.94</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>80</ID>
+      <start>3199.64</start>
+      <end>3211.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.44</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.24</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>81</ID>
+      <start>3211.64</start>
+      <end>3223.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.4</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.04</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>82</ID>
+      <start>3671.64</start>
+      <end>3683.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.74</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.2</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>83</ID>
+      <start>3926.64</start>
+      <end>3938.64</end>
+      <code>1. Yann Sommer (1382756) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.71</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.36</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>84</ID>
+      <start>3926.64</start>
+      <end>3938.64</end>
+      <code>1. Yann Sommer (1382756) - Goal kicks short (0-10 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks short (0-10 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.71</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.36</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>85</ID>
+      <start>3926.64</start>
+      <end>3938.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.71</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.36</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>86</ID>
+      <start>3951.64</start>
+      <end>3963.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.34</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.18</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>87</ID>
+      <start>3986.64</start>
+      <end>3998.64</end>
+      <code>1. Jordan Pickford (1153165) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>89.3</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.94</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>88</ID>
+      <start>4010.64</start>
+      <end>4022.64</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.65</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>89</ID>
+      <start>4010.64</start>
+      <end>4022.64</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks short (0-10 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks short (0-10 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.65</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>90</ID>
+      <start>4010.64</start>
+      <end>4022.64</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.65</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>91</ID>
+      <start>4034.64</start>
+      <end>4046.64</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.92</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>92</ID>
+      <start>4034.64</start>
+      <end>4046.64</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.92</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>93</ID>
+      <start>4434.64</start>
+      <end>4446.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.83</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.34</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>94</ID>
+      <start>4494.64</start>
+      <end>4506.64</end>
+      <code>1. Jordan Pickford (1153165) - Close range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Close range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>100.53</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.87</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>95</ID>
+      <start>4494.64</start>
+      <end>4506.64</end>
+      <code>1. Jordan Pickford (1153165) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>100.53</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.87</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>96</ID>
+      <start>4494.64</start>
+      <end>4506.64</end>
+      <code>1. Jordan Pickford (1153165) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>100.53</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.87</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>97</ID>
+      <start>4582.64</start>
+      <end>4594.64</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>26.4</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.03</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>98</ID>
+      <start>4582.64</start>
+      <end>4594.64</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>26.4</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.03</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>99</ID>
+      <start>4646.64</start>
+      <end>4658.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.29</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.5</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>100</ID>
+      <start>4651.64</start>
+      <end>4663.64</end>
+      <code>1. Yann Sommer (1382756) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.86</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>25.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>101</ID>
+      <start>4651.64</start>
+      <end>4663.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.86</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>25.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>102</ID>
+      <start>4826.64</start>
+      <end>4838.64</end>
+      <code>1. Yann Sommer (1382756) - Goal mistakes</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal mistakes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>18.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>51.1</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>103</ID>
+      <start>4826.64</start>
+      <end>4838.64</end>
+      <code>1. Yann Sommer (1382756) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>87.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>16.9</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>104</ID>
+      <start>4826.64</start>
+      <end>4838.64</end>
+      <code>1. Yann Sommer (1382756) - Long range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>87.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>16.9</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>105</ID>
+      <start>4826.64</start>
+      <end>4838.64</end>
+      <code>1. Yann Sommer (1382756) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>87.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>16.9</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>106</ID>
+      <start>5313.64</start>
+      <end>5325.64</end>
+      <code>1. Yann Sommer (1382756) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.91</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>45.86</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>107</ID>
+      <start>5331.64</start>
+      <end>5343.64</end>
+      <code>1. Yann Sommer (1382756) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.85</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>108</ID>
+      <start>5331.64</start>
+      <end>5343.64</end>
+      <code>1. Yann Sommer (1382756) - Goal kicks short (0-10 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks short (0-10 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.85</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>109</ID>
+      <start>5331.64</start>
+      <end>5343.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.85</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>110</ID>
+      <start>5415.64</start>
+      <end>5427.64</end>
+      <code>1. Jordan Pickford (1153165) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>87.85</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>52.51</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>111</ID>
+      <start>5455.64</start>
+      <end>5467.64</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.33</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>112</ID>
+      <start>5455.64</start>
+      <end>5467.64</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.33</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>113</ID>
+      <start>5455.64</start>
+      <end>5467.64</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.33</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>114</ID>
+      <start>5455.64</start>
+      <end>5467.64</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.33</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>115</ID>
+      <start>5468.64</start>
+      <end>5480.64</end>
+      <code>1. Yann Sommer (1382756) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.47</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>46.19</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>116</ID>
+      <start>5468.64</start>
+      <end>5480.64</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.47</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>46.19</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>117</ID>
+      <start>5565.64</start>
+      <end>5577.64</end>
+      <code>1. Jordan Pickford (1153165) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>96.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>45.63</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>118</ID>
+      <start>5607.64</start>
+      <end>5619.64</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.79</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>119</ID>
+      <start>5607.64</start>
+      <end>5619.64</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.79</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>120</ID>
+      <start>5607.64</start>
+      <end>5619.64</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.79</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>121</ID>
+      <start>5607.64</start>
+      <end>5619.64</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.79</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>122</ID>
+      <start>5785.14</start>
+      <end>5797.14</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.43</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.67</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>123</ID>
+      <start>5785.14</start>
+      <end>5797.14</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.43</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.67</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>124</ID>
+      <start>5785.14</start>
+      <end>5797.14</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.43</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.67</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>125</ID>
+      <start>5785.14</start>
+      <end>5797.14</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.43</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.67</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>126</ID>
+      <start>5899.14</start>
+      <end>5911.14</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.47</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.75</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>127</ID>
+      <start>5929.14</start>
+      <end>5941.14</end>
+      <code>1. Yann Sommer (1382756) - Long range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>78.44</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.72</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>128</ID>
+      <start>5929.14</start>
+      <end>5941.14</end>
+      <code>1. Yann Sommer (1382756) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>78.44</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.72</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>129</ID>
+      <start>5929.14</start>
+      <end>5941.14</end>
+      <code>1. Yann Sommer (1382756) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>78.44</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.72</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>130</ID>
+      <start>5930.14</start>
+      <end>5942.14</end>
+      <code>1. Yann Sommer (1382756) - Supersaves</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Supersaves</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>1.38</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.44</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>131</ID>
+      <start>6058.14</start>
+      <end>6070.14</end>
+      <code>1. Jordan Pickford (1153165) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.42</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>24.73</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>132</ID>
+      <start>6058.14</start>
+      <end>6070.14</end>
+      <code>1. Jordan Pickford (1153165) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.42</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>24.73</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>133</ID>
+      <start>6263.14</start>
+      <end>6275.14</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>27.81</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>25.11</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>134</ID>
+      <start>6271.14</start>
+      <end>6283.14</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.42</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>21.67</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>135</ID>
+      <start>6282.14</start>
+      <end>6294.14</end>
+      <code>1. Jordan Pickford (1153165) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.86</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>24.99</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>136</ID>
+      <start>6282.14</start>
+      <end>6294.14</end>
+      <code>1. Jordan Pickford (1153165) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.86</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>24.99</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>137</ID>
+      <start>6327.14</start>
+      <end>6339.14</end>
+      <code>1. Yann Sommer (1382756) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>91.39</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.92</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>138</ID>
+      <start>6327.14</start>
+      <end>6339.14</end>
+      <code>1. Yann Sommer (1382756) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>91.39</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.92</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>139</ID>
+      <start>6327.14</start>
+      <end>6339.14</end>
+      <code>1. Yann Sommer (1382756) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>91.39</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.92</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>140</ID>
+      <start>6475.14</start>
+      <end>6487.14</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.48</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>42.73</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>141</ID>
+      <start>6483.14</start>
+      <end>6495.14</end>
+      <code>1. Jordan Pickford (1153165) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.62</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>56.52</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>142</ID>
+      <start>6483.14</start>
+      <end>6495.14</end>
+      <code>1. Jordan Pickford (1153165) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.62</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>56.52</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>143</ID>
+      <start>6510.14</start>
+      <end>6522.14</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.75</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.94</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>144</ID>
+      <start>6559.14</start>
+      <end>6571.14</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>3</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.97</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>45.31</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>145</ID>
+      <start>6594.83</start>
+      <end>6604.83</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>26.82</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>146</ID>
+      <start>6594.83</start>
+      <end>6604.83</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>26.82</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>147</ID>
+      <start>6645.83</start>
+      <end>6657.83</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.64</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>45.35</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>148</ID>
+      <start>6657.83</start>
+      <end>6669.83</end>
+      <code>1. Yann Sommer (1382756) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>18.36</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.1</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>149</ID>
+      <start>6889.83</start>
+      <end>6901.83</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>20.72</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.26</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>150</ID>
+      <start>7061.83</start>
+      <end>7073.83</end>
+      <code>1. Jordan Pickford (1153165) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>92.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>17.3</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>151</ID>
+      <start>7102.83</start>
+      <end>7114.83</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.37</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>152</ID>
+      <start>7102.83</start>
+      <end>7114.83</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.37</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>153</ID>
+      <start>7102.83</start>
+      <end>7114.83</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.37</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>154</ID>
+      <start>7102.83</start>
+      <end>7114.83</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.37</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>155</ID>
+      <start>7288.83</start>
+      <end>7300.83</end>
+      <code>1. Jordan Pickford (1153165) - Shots on post / bar</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on post / bar</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>105.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>0.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>156</ID>
+      <start>7407.83</start>
+      <end>7419.83</end>
+      <code>1. Jordan Pickford (1153165) - Long range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>89.05</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>51.17</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>157</ID>
+      <start>7407.83</start>
+      <end>7419.83</end>
+      <code>1. Jordan Pickford (1153165) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>89.05</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>51.17</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>158</ID>
+      <start>7407.83</start>
+      <end>7419.83</end>
+      <code>1. Jordan Pickford (1153165) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>89.05</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>51.17</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>159</ID>
+      <start>7418.83</start>
+      <end>7430.83</end>
+      <code>1. Jordan Pickford (1153165) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>96.49</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.66</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>160</ID>
+      <start>7454.83</start>
+      <end>7466.83</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.13</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>161</ID>
+      <start>7454.83</start>
+      <end>7466.83</end>
+      <code>1. Jordan Pickford (1153165) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.13</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>162</ID>
+      <start>7454.83</start>
+      <end>7466.83</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.13</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>163</ID>
+      <start>7454.83</start>
+      <end>7466.83</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.13</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>164</ID>
+      <start>7477.83</start>
+      <end>7489.83</end>
+      <code>1. Jordan Pickford (1153165) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>24.59</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.55</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>165</ID>
+      <start>7477.83</start>
+      <end>7489.83</end>
+      <code>1. Jordan Pickford (1153165) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>4</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>24.59</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.55</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>166</ID>
+      <start>7583.51</start>
+      <end>7589.51</end>
+      <code>1. Yann Sommer (1382756) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>167</ID>
+      <start>7583.51</start>
+      <end>7589.51</end>
+      <code>1. Yann Sommer (1382756) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>168</ID>
+      <start>7583.51</start>
+      <end>7589.51</end>
+      <code>1. Yann Sommer (1382756) - Penalties of opponent</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Penalties of opponent</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>169</ID>
+      <start>7583.51</start>
+      <end>7589.51</end>
+      <code>1. Yann Sommer (1382756) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>170</ID>
+      <start>7639.51</start>
+      <end>7651.51</end>
+      <code>1. Jordan Pickford (1153165) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>171</ID>
+      <start>7639.51</start>
+      <end>7651.51</end>
+      <code>1. Jordan Pickford (1153165) - Penalties of opponent</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Penalties of opponent</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>172</ID>
+      <start>7639.51</start>
+      <end>7651.51</end>
+      <code>1. Jordan Pickford (1153165) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>173</ID>
+      <start>7639.51</start>
+      <end>7651.51</end>
+      <code>1. Jordan Pickford (1153165) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>174</ID>
+      <start>7639.51</start>
+      <end>7651.51</end>
+      <code>1. Jordan Pickford (1153165) - Supersaves</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Supersaves</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>0.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.6</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>175</ID>
+      <start>7694.51</start>
+      <end>7706.51</end>
+      <code>1. Yann Sommer (1382756) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>176</ID>
+      <start>7694.51</start>
+      <end>7706.51</end>
+      <code>1. Yann Sommer (1382756) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>177</ID>
+      <start>7694.51</start>
+      <end>7706.51</end>
+      <code>1. Yann Sommer (1382756) - Penalties of opponent</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Penalties of opponent</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>178</ID>
+      <start>7694.51</start>
+      <end>7706.51</end>
+      <code>1. Yann Sommer (1382756) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>179</ID>
+      <start>7748.51</start>
+      <end>7760.51</end>
+      <code>1. Jordan Pickford (1153165) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>180</ID>
+      <start>7748.51</start>
+      <end>7760.51</end>
+      <code>1. Jordan Pickford (1153165) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>181</ID>
+      <start>7748.51</start>
+      <end>7760.51</end>
+      <code>1. Jordan Pickford (1153165) - Penalties of opponent</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Penalties of opponent</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>182</ID>
+      <start>7748.51</start>
+      <end>7760.51</end>
+      <code>1. Jordan Pickford (1153165) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>183</ID>
+      <start>7809.51</start>
+      <end>7821.51</end>
+      <code>1. Yann Sommer (1382756) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>184</ID>
+      <start>7809.51</start>
+      <end>7821.51</end>
+      <code>1. Yann Sommer (1382756) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>185</ID>
+      <start>7809.51</start>
+      <end>7821.51</end>
+      <code>1. Yann Sommer (1382756) - Penalties of opponent</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Penalties of opponent</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>186</ID>
+      <start>7809.51</start>
+      <end>7821.51</end>
+      <code>1. Yann Sommer (1382756) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>187</ID>
+      <start>7854.51</start>
+      <end>7866.51</end>
+      <code>1. Jordan Pickford (1153165) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>188</ID>
+      <start>7854.51</start>
+      <end>7866.51</end>
+      <code>1. Jordan Pickford (1153165) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>189</ID>
+      <start>7854.51</start>
+      <end>7866.51</end>
+      <code>1. Jordan Pickford (1153165) - Penalties of opponent</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Penalties of opponent</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>190</ID>
+      <start>7854.51</start>
+      <end>7866.51</end>
+      <code>1. Jordan Pickford (1153165) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>191</ID>
+      <start>7906.51</start>
+      <end>7918.51</end>
+      <code>1. Yann Sommer (1382756) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>192</ID>
+      <start>7906.51</start>
+      <end>7918.51</end>
+      <code>1. Yann Sommer (1382756) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>193</ID>
+      <start>7906.51</start>
+      <end>7918.51</end>
+      <code>1. Yann Sommer (1382756) - Penalties of opponent</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Penalties of opponent</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>194</ID>
+      <start>7906.51</start>
+      <end>7918.51</end>
+      <code>1. Yann Sommer (1382756) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>195</ID>
+      <start>7961.51</start>
+      <end>7973.51</end>
+      <code>1. Jordan Pickford (1153165) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>196</ID>
+      <start>7961.51</start>
+      <end>7973.51</end>
+      <code>1. Jordan Pickford (1153165) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>197</ID>
+      <start>7961.51</start>
+      <end>7973.51</end>
+      <code>1. Jordan Pickford (1153165) - Penalties of opponent</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Penalties of opponent</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>198</ID>
+      <start>7961.51</start>
+      <end>7973.51</end>
+      <code>1. Jordan Pickford (1153165) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>England (23800)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>199</ID>
+      <start>8016.51</start>
+      <end>8028.51</end>
+      <code>1. Yann Sommer (1382756) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>200</ID>
+      <start>8016.51</start>
+      <end>8028.51</end>
+      <code>1. Yann Sommer (1382756) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>201</ID>
+      <start>8016.51</start>
+      <end>8028.51</end>
+      <code>1. Yann Sommer (1382756) - Penalties of opponent</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Penalties of opponent</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>202</ID>
+      <start>8016.51</start>
+      <end>8028.51</end>
+      <code>1. Yann Sommer (1382756) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Switzerland (74029)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>5</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+  </ALL_INSTANCES>
+  <ROWS>
+    <row>
+      <code>1. Jordan Pickford (1153165)</code>
+      <sort_order>1</sort_order>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>1. Yann Sommer (1382756)</code>
+      <sort_order>101</sort_order>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+  </ROWS>
+</file>

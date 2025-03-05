@@ -33,7 +33,7 @@ private readonly IWebHostEnvironment _environment;
         }
         List<string> filePaths = new List<string>();
         List<string> parsedContents = new List<string>();
-        
+        var parsers = new List<IElementParser>();
         foreach (var file in files)
         {
             if (Path.GetExtension(file.FileName).ToLower() != ".xml")
@@ -52,8 +52,7 @@ private readonly IWebHostEnvironment _environment;
             XmlParser parser = new XmlParser(strategy, _environment);
             string parsedContent = parser.ParseXmlFile(filePath);
             parsedContents.Add(parsedContent);
-            
-
+         
         }
 
         var matchFilePath = Path.Combine(_uploadPath, "ficheMatch.xml");
