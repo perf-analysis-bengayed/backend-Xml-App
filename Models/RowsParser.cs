@@ -28,25 +28,7 @@ public class RowsParser : IElementParser
         }
     }
 
-     public override string ToString()
-    {
-        if (Rows.Count == 0)
-        {
-            return "No rows available";
-        }
 
-        StringBuilder sb = new StringBuilder();
-        sb.AppendLine("All Rows:");
-        foreach (var row in Rows)
-        {
-            sb.AppendLine($"Code: {row.Code}");
-            sb.AppendLine($"R: {row.R}");
-            sb.AppendLine($"G: {row.G}");
-            sb.AppendLine($"B: {row.B}");
-            sb.AppendLine("---");
-        }
-        return sb.ToString().TrimEnd(); 
-    }
     
     
 }

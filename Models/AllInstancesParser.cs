@@ -14,8 +14,6 @@ public class AllInstancesParser : IElementParser
         _isTeamActionCode = isTeamActionCode;
     }
 
-   
-
     public void Parse(XElement element, StringBuilder xmlContentBuilder, InStatParsingStrategy context)
     {
         Instances.Clear();
@@ -26,97 +24,89 @@ public class AllInstancesParser : IElementParser
             {
                 Start = instance.Element("start")?.Value.Trim() ?? "N/A",
                 End = instance.Element("end")?.Value.Trim() ?? "N/A",
-                Code = instance.Element("code")?.Value.Trim() ?? "Unknown",
-                PosX = instance.Element("pos_x")?.Value.Trim() ?? "N/A",
-                PosY = instance.Element("pos_y")?.Value.Trim() ?? "N/A"
+                Code = instance.Element("code")?.Value.Trim() ?? ""
             };
 
-            string team = "N/A";
-            string action = "N/A";
-            string half = "N/A";
-            var labelsOutput = new StringBuilder();
-
-            foreach (var label in instance.Elements("label"))
+            // Parse labels (from ParseInstance)
+            instanceData.Labels = instance.Elements("label").Select(l => new Label
             {
-                var labelData = new Label
-                {
-                    Group = label.Element("group")?.Value.Trim(),
-                    Text = label.Element("text")?.Value.Trim()
-                };
-                instanceData.Labels.Add(labelData);
+                Group = l.Element("group")?.Value.Trim(),
+                Text = l.Element("text")?.Value.Trim()
+            }).ToList();
 
-                if (!string.IsNullOrWhiteSpace(labelData.Group) && !string.IsNullOrWhiteSpace(labelData.Text))
+            // Process labels (from ParseInstance)
+            foreach (var label in instanceData.Labels)
+            {
+                switch (label.Group)
                 {
-                    labelsOutput.Append($"{labelData.Group} {labelData.Text} ");
+                    case "Team": instanceData.Team = label.Text ?? "N/A"; break;
+                    case "Action": instanceData.Action = label.Text ?? "N/A"; break;
+                    case "Half": instanceData.Half = label.Text ?? "N/A"; break;
+                    case "pos_x": instanceData.PosX = label.Text ?? "N/A"; break;
+                    case "pos_y": instanceData.PosY = label.Text ?? "N/A"; break;
                 }
+            }
 
-                if (labelData.Group == "Team")
+          
+            if (!string.IsNullOrEmpty(instanceData.Code))
+            {
+                string[] codeParts = instanceData.Code.Split(new[] { '.' }, 2);
+                if (codeParts.Length == 2)
                 {
-                    team = labelData.Text;
-                    instanceData.Team = team;
-                    if (!string.IsNullOrWhiteSpace(team))
+                    instanceData.PlayerNumber = codeParts[0].Trim();
+                    string namePart = codeParts[1].Trim();
+                    
+                    int actionIndex = namePart.IndexOf(" - ");
+                    int parenIndex = namePart.IndexOf("(");
+                    if (parenIndex > 0)
                     {
-                        context.GetTeamNames().Add(team);
+                        instanceData.PlayerName = namePart.Substring(0, parenIndex).Trim();
+                        if (actionIndex > parenIndex && instanceData.Action == "N/A")
+                        {
+                            instanceData.Action = namePart.Substring(actionIndex + 3).Trim();
+                        }
                     }
-                }
-                else if (labelData.Group == "Action")
-                {
-                    action = labelData.Text;
-                    instanceData.Action = action;
-                }
-                else if (labelData.Group == "Half")
-                {
-                    half = labelData.Text;
-                    instanceData.Half = half;
-                }
-                else if (labelData.Group == "pos_x")
-                {
-                    instanceData.PosX = labelData.Text;
-                }
-                else if (labelData.Group == "pos_y")
-                {
-                    instanceData.PosY = labelData.Text;
+                    else if (actionIndex > 0)
+                    {
+                        instanceData.PlayerName = namePart.Substring(0, actionIndex).Trim();
+                        if (instanceData.Action == "N/A")
+                        {
+                            instanceData.Action = namePart.Substring(actionIndex + 3).Trim();
+                        }
+                    }
+                    else
+                    {
+                        instanceData.PlayerName = namePart;
+                    }
                 }
             }
 
             Instances.Add(instanceData);
 
+          
             if (_isPlayerCode(instanceData.Code))
             {
-                string playerNumber = "N/A";
-                string playerName = "Unknown";
-
-                string[] codeParts = instanceData.Code.Split(new[] { '.' }, 2);
-                if (codeParts.Length == 2)
-                {
-                    playerNumber = codeParts[0].Trim();
-                    playerName = codeParts[1].Trim();
-
-                    if (playerName.Contains("("))
-                    {
-                        int idStartIndex = playerName.IndexOf("(");
-                        int actionStartIndex = playerName.IndexOf(" - ");
-                        if (actionStartIndex > idStartIndex)
-                        {
-                            playerName = playerName.Substring(0, idStartIndex).Trim();
-                            if (action == "N/A" && actionStartIndex != -1)
-                            {
-                                action = playerName.Substring(actionStartIndex + 3).Trim();
-                            }
-                        }
-                    }
-                }
+                string playerNumber = instanceData.PlayerNumber ?? "N/A";
+                string playerName = instanceData.PlayerName ?? "Unknown";
 
                 if (!context.GetPlayerNames().Contains(playerName))
                 {
                     context.GetPlayerNames().Add(playerName);
                 }
 
-                string outputLine = $"joueur {playerName} numero {playerNumber} Team {team} Action {action} start {instanceData.Start} end {instanceData.End} et pos_x {instanceData.PosX} pos_y {instanceData.PosY} Half {half}";
+                if (!string.IsNullOrWhiteSpace(instanceData.Team))
+                {
+                    context.GetTeamNames().Add(instanceData.Team);
+                }
+
+                string outputLine = $"joueur {playerName} numero {playerNumber} Team {instanceData.Team} Action {instanceData.Action} start {instanceData.Start} end {instanceData.End} et pos_x {instanceData.PosX} pos_y {instanceData.PosY} Half {instanceData.Half}";
                 xmlContentBuilder.AppendLine(outputLine);
             }
             else
             {
+                string team = instanceData.Team;
+                string action = instanceData.Action;
+
                 if (_isTeamActionCode(instanceData.Code))
                 {
                     string[] codeParts = instanceData.Code.Split(new[] { " - " }, 2, StringSplitOptions.None);
@@ -133,64 +123,8 @@ public class AllInstancesParser : IElementParser
                     action = instanceData.Code;
                 }
 
-                string outputLine = $"{team} {action} start {instanceData.Start} end {instanceData.End} {labelsOutput.ToString().Trim()}";
-                xmlContentBuilder.AppendLine(outputLine);
-            }
-        }
-    }
-
-    public override string ToString()
-    {
-        var sb = new StringBuilder();
-        sb.AppendLine("AllInstancesParser:");
-        sb.AppendLine($"Total Instances: {Instances.Count}");
-
-        if (Instances.Count == 0)
-        {
-            sb.AppendLine("No instances available.");
-            return sb.ToString();
-        }
-
-        foreach (var instance in Instances)
-        {
-            sb.AppendLine("---");
-
-            if (_isPlayerCode(instance.Code))
-            {
-                string playerNumber = "N/A";
-                string playerName = "Unknown";
-                string action = instance.Action;
-
-                string[] codeParts = instance.Code.Split(new[] { '.' }, 2);
-                if (codeParts.Length == 2)
-                {
-                    playerNumber = codeParts[0].Trim();
-                    playerName = codeParts[1].Trim();
-
-                    if (playerName.Contains("("))
-                    {
-                        int idStartIndex = playerName.IndexOf("(");
-                        int actionStartIndex = playerName.IndexOf(" - ");
-                        if (actionStartIndex > idStartIndex)
-                        {
-                            playerName = playerName.Substring(0, idStartIndex).Trim();
-                            if (action == "N/A" && actionStartIndex != -1)
-                            {
-                                action = playerName.Substring(actionStartIndex + 3).Trim();
-                            }
-                        }
-                    }
-                }
-
-                sb.AppendLine($"joueur {playerName} numero {playerNumber} Team {instance.Team} Action {action} start {instance.Start} end {instance.End} et pos_x {instance.PosX} pos_y {instance.PosY} Half {instance.Half}");
-            }
-            else
-            {
-                string team = "";
-                string action = instance.Code;
                 var labelsOutput = new StringBuilder();
-
-                foreach (var label in instance.Labels)
+                foreach (var label in instanceData.Labels)
                 {
                     if (!string.IsNullOrWhiteSpace(label.Group) && !string.IsNullOrWhiteSpace(label.Text))
                     {
@@ -198,17 +132,9 @@ public class AllInstancesParser : IElementParser
                     }
                 }
 
-                if (_isTeamActionCode(instance.Code))
-                {
-                    string[] codeParts = instance.Code.Split(new[] { " - " }, 2, StringSplitOptions.None);
-                    team = codeParts[0].Trim();
-                    action = codeParts.Length > 1 ? codeParts[1].Trim() : "Unknown Action";
-                }
-
-                sb.AppendLine($"{team} {action} start {instance.Start} end {instance.End} {labelsOutput.ToString().Trim()}");
+                string outputLine = $"{team} {action} start {instanceData.Start} end {instanceData.End} {labelsOutput.ToString().Trim()}";
+                xmlContentBuilder.AppendLine(outputLine);
             }
         }
-
-        return sb.ToString();
     }
 }

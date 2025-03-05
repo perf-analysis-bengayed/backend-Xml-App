@@ -4,4 +4,4 @@
         public string? R { get; set; }
         public string? G { get; set; }
         public string? B { get; set; }
-    }
+public string? SortOrder { get; set; }    }
