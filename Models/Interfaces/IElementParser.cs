@@ -3,5 +3,5 @@ using System.Xml.Linq;
 
 public interface IElementParser
 {
-    void Parse(XElement element, StringBuilder xmlContentBuilder, InStatParsingStrategy context);
+    void ParseRow(XElement element, StringBuilder xmlContentBuilder);
 }

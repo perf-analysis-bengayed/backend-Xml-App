@@ -9,6 +9,6 @@ public class InstanceData
         public string? Team { get; set; }
         public string? Action { get; set; }
         public string? Half { get; set; }
-        public string PlayerNumber { get; set; } = "N/A";
-        public string PlayerName { get; set; } = "Unknown";
+        public string PlayerNumber { get; set; } = "";
+        public string PlayerName { get; set; } = "";
     }

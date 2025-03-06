@@ -1,0 +1,4236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+  <SORT_INFO>
+    <sort_type>sort order</sort_type>
+  </SORT_INFO>
+  <ALL_INSTANCES>
+    <instance>
+      <ID>1</ID>
+      <start>111.94</start>
+      <end>123.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.28</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.74</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>2</ID>
+      <start>123.94</start>
+      <end>135.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>9.57</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.22</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>3</ID>
+      <start>133.94</start>
+      <end>145.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.86</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.91</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>4</ID>
+      <start>155.94</start>
+      <end>167.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.24</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.33</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>5</ID>
+      <start>297.94</start>
+      <end>309.94</end>
+      <code>23. Zion Suzuki (1422998) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.05</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>6</ID>
+      <start>297.94</start>
+      <end>309.94</end>
+      <code>23. Zion Suzuki (1422998) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.05</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>7</ID>
+      <start>401.94</start>
+      <end>413.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>71.45</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>18.63</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>8</ID>
+      <start>415.94</start>
+      <end>427.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>9</ID>
+      <start>415.94</start>
+      <end>427.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks medium (15-40 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks medium (15-40 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>10</ID>
+      <start>415.94</start>
+      <end>427.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>11</ID>
+      <start>495.94</start>
+      <end>507.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>1.7</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>50.44</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>12</ID>
+      <start>729.94</start>
+      <end>741.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.77</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>13</ID>
+      <start>729.94</start>
+      <end>741.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks medium (15-40 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks medium (15-40 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.77</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>14</ID>
+      <start>729.94</start>
+      <end>741.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.77</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>15</ID>
+      <start>750.94</start>
+      <end>762.94</end>
+      <code>23. Zion Suzuki (1422998) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>92.57</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>53.52</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>16</ID>
+      <start>778.94</start>
+      <end>790.94</end>
+      <code>23. Zion Suzuki (1422998) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.32</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.83</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>17</ID>
+      <start>778.94</start>
+      <end>790.94</end>
+      <code>23. Zion Suzuki (1422998) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.32</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.83</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>18</ID>
+      <start>942.94</start>
+      <end>954.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.42</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.6</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>19</ID>
+      <start>992.94</start>
+      <end>1004.94</end>
+      <code>23. Zion Suzuki (1422998) - Long range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>80.58</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>25.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>20</ID>
+      <start>992.94</start>
+      <end>1004.94</end>
+      <code>23. Zion Suzuki (1422998) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>80.58</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>25.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>21</ID>
+      <start>992.94</start>
+      <end>1004.94</end>
+      <code>23. Zion Suzuki (1422998) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>80.58</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>25.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>22</ID>
+      <start>1006.94</start>
+      <end>1018.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.46</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.76</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>23</ID>
+      <start>1181.94</start>
+      <end>1193.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>30.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.06</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>24</ID>
+      <start>1281.94</start>
+      <end>1293.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.84</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.43</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>25</ID>
+      <start>1281.94</start>
+      <end>1293.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.84</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.43</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>26</ID>
+      <start>1581.94</start>
+      <end>1593.94</end>
+      <code>23. Zion Suzuki (1422998) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.84</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>27</ID>
+      <start>1581.94</start>
+      <end>1593.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.84</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>28</ID>
+      <start>1626.94</start>
+      <end>1638.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>91.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.84</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>29</ID>
+      <start>1626.94</start>
+      <end>1638.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>91.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.84</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>30</ID>
+      <start>1626.94</start>
+      <end>1638.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>91.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.84</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>31</ID>
+      <start>1626.94</start>
+      <end>1638.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Unsuccessful exits at crosses</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Unsuccessful exits at crosses</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.92</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.76</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>32</ID>
+      <start>1763.94</start>
+      <end>1775.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.83</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.03</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>33</ID>
+      <start>1811.94</start>
+      <end>1823.94</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>2.04</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.04</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>34</ID>
+      <start>1811.94</start>
+      <end>1823.94</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks medium (15-40 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks medium (15-40 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>2.04</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.04</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>35</ID>
+      <start>1811.94</start>
+      <end>1823.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>2.04</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.04</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>36</ID>
+      <start>1971.94</start>
+      <end>1983.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.63</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>37</ID>
+      <start>1987.94</start>
+      <end>1999.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.68</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.22</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>38</ID>
+      <start>1998.94</start>
+      <end>2010.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>10.26</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>24.46</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>39</ID>
+      <start>2073.94</start>
+      <end>2085.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.34</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>40</ID>
+      <start>2151.94</start>
+      <end>2163.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.63</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>51.25</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>41</ID>
+      <start>2303.94</start>
+      <end>2315.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.5</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.09</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>42</ID>
+      <start>2303.94</start>
+      <end>2315.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.5</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.09</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>43</ID>
+      <start>2316.94</start>
+      <end>2328.94</end>
+      <code>23. Zion Suzuki (1422998) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>88.46</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>44.01</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>44</ID>
+      <start>2382.94</start>
+      <end>2394.94</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.58</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>45</ID>
+      <start>2382.94</start>
+      <end>2394.94</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.58</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>46</ID>
+      <start>2382.94</start>
+      <end>2394.94</end>
+      <code>23. Zion Suzuki (1422998) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.58</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>47</ID>
+      <start>2382.94</start>
+      <end>2394.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.58</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>48</ID>
+      <start>2410.94</start>
+      <end>2422.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.16</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>49</ID>
+      <start>2410.94</start>
+      <end>2422.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks medium (15-40 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks medium (15-40 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.16</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>50</ID>
+      <start>2410.94</start>
+      <end>2422.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.16</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>51</ID>
+      <start>2436.94</start>
+      <end>2448.94</end>
+      <code>23. Zion Suzuki (1422998) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>19.16</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.97</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>52</ID>
+      <start>2436.94</start>
+      <end>2448.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>19.16</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.97</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>53</ID>
+      <start>2462.94</start>
+      <end>2474.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.6</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.43</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>54</ID>
+      <start>2570.94</start>
+      <end>2582.94</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.05</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>55</ID>
+      <start>2570.94</start>
+      <end>2582.94</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.05</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>56</ID>
+      <start>2570.94</start>
+      <end>2582.94</end>
+      <code>23. Zion Suzuki (1422998) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.05</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>57</ID>
+      <start>2570.94</start>
+      <end>2582.94</end>
+      <code>23. Zion Suzuki (1422998) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.05</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>58</ID>
+      <start>2588.94</start>
+      <end>2600.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>10.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.43</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>59</ID>
+      <start>2694.94</start>
+      <end>2706.94</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.5</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>60</ID>
+      <start>2694.94</start>
+      <end>2706.94</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.5</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>61</ID>
+      <start>2694.94</start>
+      <end>2706.94</end>
+      <code>23. Zion Suzuki (1422998) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.5</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>62</ID>
+      <start>2694.94</start>
+      <end>2706.94</end>
+      <code>23. Zion Suzuki (1422998) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.5</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>63</ID>
+      <start>2748.94</start>
+      <end>2760.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>9.69</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>64</ID>
+      <start>2761.94</start>
+      <end>2773.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.41</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>65</ID>
+      <start>2761.94</start>
+      <end>2773.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.41</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>66</ID>
+      <start>2826.94</start>
+      <end>2838.94</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>19.96</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.54</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>67</ID>
+      <start>2841.94</start>
+      <end>2853.94</end>
+      <code>23. Zion Suzuki (1422998) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.16</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>68</ID>
+      <start>2842.94</start>
+      <end>2854.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.83</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.63</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>69</ID>
+      <start>2871.94</start>
+      <end>2883.94</end>
+      <code>23. Zion Suzuki (1422998) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.29</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.59</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>70</ID>
+      <start>2871.94</start>
+      <end>2883.94</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.29</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.59</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>71</ID>
+      <start>3036.99</start>
+      <end>3048.99</end>
+      <code>23. Zion Suzuki (1422998) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.15</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>72</ID>
+      <start>3036.99</start>
+      <end>3048.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.15</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>73</ID>
+      <start>3144.99</start>
+      <end>3156.99</end>
+      <code>23. Zion Suzuki (1422998) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>74.31</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>46.49</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>74</ID>
+      <start>3167.99</start>
+      <end>3179.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>3.52</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.1</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>75</ID>
+      <start>3227.99</start>
+      <end>3239.99</end>
+      <code>23. Zion Suzuki (1422998) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.91</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>24.19</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>76</ID>
+      <start>3227.99</start>
+      <end>3239.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.91</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>24.19</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>77</ID>
+      <start>3250.99</start>
+      <end>3262.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.49</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.42</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>78</ID>
+      <start>3314.99</start>
+      <end>3326.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.24</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.8</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>79</ID>
+      <start>3314.99</start>
+      <end>3326.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks medium (15-40 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks medium (15-40 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.24</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.8</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>80</ID>
+      <start>3314.99</start>
+      <end>3326.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.24</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.8</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>81</ID>
+      <start>3336.99</start>
+      <end>3348.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>1.01</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.28</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>82</ID>
+      <start>3351.99</start>
+      <end>3363.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.04</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>83</ID>
+      <start>3353.99</start>
+      <end>3365.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.17</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.64</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>84</ID>
+      <start>3363.99</start>
+      <end>3375.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>92.46</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>42.81</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>85</ID>
+      <start>3407.99</start>
+      <end>3419.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>10.26</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.67</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>86</ID>
+      <start>3434.99</start>
+      <end>3446.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.97</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.17</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>87</ID>
+      <start>3453.99</start>
+      <end>3465.99</end>
+      <code>23. Zion Suzuki (1422998) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.41</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.71</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>88</ID>
+      <start>3453.99</start>
+      <end>3465.99</end>
+      <code>23. Zion Suzuki (1422998) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.41</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.71</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>89</ID>
+      <start>3462.99</start>
+      <end>3474.99</end>
+      <code>23. Zion Suzuki (1422998) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>90</ID>
+      <start>3462.99</start>
+      <end>3474.99</end>
+      <code>23. Zion Suzuki (1422998) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>91</ID>
+      <start>3462.99</start>
+      <end>3474.99</end>
+      <code>23. Zion Suzuki (1422998) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>92</ID>
+      <start>3462.99</start>
+      <end>3474.99</end>
+      <code>23. Zion Suzuki (1422998) - Unsuccessful exits at crosses</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Unsuccessful exits at crosses</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.95</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.31</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>93</ID>
+      <start>3641.99</start>
+      <end>3653.99</end>
+      <code>23. Zion Suzuki (1422998) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.15</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>21.92</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>94</ID>
+      <start>3641.99</start>
+      <end>3653.99</end>
+      <code>23. Zion Suzuki (1422998) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.15</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>21.92</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>95</ID>
+      <start>3930.99</start>
+      <end>3942.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>36.29</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.11</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>96</ID>
+      <start>3938.99</start>
+      <end>3950.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>18.82</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.31</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>97</ID>
+      <start>3973.99</start>
+      <end>3985.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>3.07</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>22.51</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>98</ID>
+      <start>3973.99</start>
+      <end>3985.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>3.07</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>22.51</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>99</ID>
+      <start>4126.99</start>
+      <end>4138.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.17</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>41.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>100</ID>
+      <start>4126.99</start>
+      <end>4138.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.17</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>41.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>101</ID>
+      <start>4126.99</start>
+      <end>4138.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.17</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>41.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>102</ID>
+      <start>4143.99</start>
+      <end>4155.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.74</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.42</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>103</ID>
+      <start>4143.99</start>
+      <end>4155.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.74</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.42</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>104</ID>
+      <start>4194.99</start>
+      <end>4206.99</end>
+      <code>23. Zion Suzuki (1422998) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>100.22</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>43.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>105</ID>
+      <start>4218.99</start>
+      <end>4230.99</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.23</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>106</ID>
+      <start>4218.99</start>
+      <end>4230.99</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.23</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>107</ID>
+      <start>4218.99</start>
+      <end>4230.99</end>
+      <code>23. Zion Suzuki (1422998) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.23</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>108</ID>
+      <start>4218.99</start>
+      <end>4230.99</end>
+      <code>23. Zion Suzuki (1422998) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.23</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>109</ID>
+      <start>4278.99</start>
+      <end>4290.99</end>
+      <code>23. Zion Suzuki (1422998) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.89</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.65</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>110</ID>
+      <start>4278.99</start>
+      <end>4290.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.89</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.65</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>111</ID>
+      <start>4408.99</start>
+      <end>4420.99</end>
+      <code>23. Zion Suzuki (1422998) - Fouls suffered</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Fouls suffered</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>104.22</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>41.8</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>112</ID>
+      <start>4436.99</start>
+      <end>4448.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.78</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.3</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>113</ID>
+      <start>4449.99</start>
+      <end>4461.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.77</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.28</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>114</ID>
+      <start>4465.99</start>
+      <end>4477.99</end>
+      <code>23. Zion Suzuki (1422998) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>9.23</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>115</ID>
+      <start>4465.99</start>
+      <end>4477.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>9.23</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>116</ID>
+      <start>4528.99</start>
+      <end>4540.99</end>
+      <code>23. Zion Suzuki (1422998) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.51</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>117</ID>
+      <start>4551.99</start>
+      <end>4563.99</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>2.04</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>118</ID>
+      <start>4551.99</start>
+      <end>4563.99</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks short (0-10 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks short (0-10 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>2.04</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>119</ID>
+      <start>4551.99</start>
+      <end>4563.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>2.04</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>120</ID>
+      <start>4555.99</start>
+      <end>4567.99</end>
+      <code>23. Zion Suzuki (1422998) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>2.04</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.95</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>121</ID>
+      <start>4555.99</start>
+      <end>4567.99</end>
+      <code>23. Zion Suzuki (1422998) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>2.04</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.95</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>122</ID>
+      <start>4696.99</start>
+      <end>4708.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>95.65</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.41</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>123</ID>
+      <start>4732.99</start>
+      <end>4744.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.47</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>124</ID>
+      <start>4732.99</start>
+      <end>4744.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.47</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>125</ID>
+      <start>4732.99</start>
+      <end>4744.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.47</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>126</ID>
+      <start>4732.99</start>
+      <end>4744.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.47</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>127</ID>
+      <start>4812.99</start>
+      <end>4824.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.67</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.93</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>128</ID>
+      <start>5016.99</start>
+      <end>5028.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.2</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.9</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>129</ID>
+      <start>5028.99</start>
+      <end>5040.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.62</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>130</ID>
+      <start>5177.99</start>
+      <end>5189.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.08</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.42</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>131</ID>
+      <start>5177.99</start>
+      <end>5189.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.08</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.42</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>132</ID>
+      <start>5191.99</start>
+      <end>5203.99</end>
+      <code>23. Zion Suzuki (1422998) - Long range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>80.47</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.36</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>133</ID>
+      <start>5191.99</start>
+      <end>5203.99</end>
+      <code>23. Zion Suzuki (1422998) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>80.47</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.36</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>134</ID>
+      <start>5191.99</start>
+      <end>5203.99</end>
+      <code>23. Zion Suzuki (1422998) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>80.47</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.36</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>135</ID>
+      <start>5206.99</start>
+      <end>5218.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>2.5</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>136</ID>
+      <start>5267.99</start>
+      <end>5279.99</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.09</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>137</ID>
+      <start>5267.99</start>
+      <end>5279.99</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks medium (15-40 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks medium (15-40 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.09</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>138</ID>
+      <start>5267.99</start>
+      <end>5279.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.09</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>139</ID>
+      <start>5278.99</start>
+      <end>5290.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.89</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.1</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>140</ID>
+      <start>5285.99</start>
+      <end>5297.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>2.95</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.3</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>141</ID>
+      <start>5290.99</start>
+      <end>5302.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>3.64</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.16</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>142</ID>
+      <start>5298.99</start>
+      <end>5310.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.38</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>143</ID>
+      <start>5304.99</start>
+      <end>5316.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>3.98</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.83</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>144</ID>
+      <start>5320.99</start>
+      <end>5332.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.32</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>145</ID>
+      <start>5367.99</start>
+      <end>5379.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>10.72</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.79</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>146</ID>
+      <start>5385.99</start>
+      <end>5397.99</end>
+      <code>23. Zion Suzuki (1422998) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>3.18</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>46.43</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>147</ID>
+      <start>5537.99</start>
+      <end>5549.99</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.32</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>148</ID>
+      <start>5537.99</start>
+      <end>5549.99</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.32</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>149</ID>
+      <start>5537.99</start>
+      <end>5549.99</end>
+      <code>23. Zion Suzuki (1422998) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.32</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>150</ID>
+      <start>5537.99</start>
+      <end>5549.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.12</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.32</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>151</ID>
+      <start>5614.99</start>
+      <end>5626.99</end>
+      <code>23. Zion Suzuki (1422998) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>78.99</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>47.69</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>152</ID>
+      <start>5646.99</start>
+      <end>5658.99</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.06</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>153</ID>
+      <start>5646.99</start>
+      <end>5658.99</end>
+      <code>23. Zion Suzuki (1422998) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.06</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>154</ID>
+      <start>5646.99</start>
+      <end>5658.99</end>
+      <code>23. Zion Suzuki (1422998) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.06</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>155</ID>
+      <start>5646.99</start>
+      <end>5658.99</end>
+      <code>23. Zion Suzuki (1422998) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.55</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.06</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>156</ID>
+      <start>5691.99</start>
+      <end>5703.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.77</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.81</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>157</ID>
+      <start>5691.99</start>
+      <end>5703.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.77</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.81</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>158</ID>
+      <start>5931.99</start>
+      <end>5943.99</end>
+      <code>23. Zion Suzuki (1422998) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>159</ID>
+      <start>5931.99</start>
+      <end>5943.99</end>
+      <code>23. Zion Suzuki (1422998) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>160</ID>
+      <start>5931.99</start>
+      <end>5943.99</end>
+      <code>23. Zion Suzuki (1422998) - Penalties of opponent</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Penalties of opponent</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>161</ID>
+      <start>5931.99</start>
+      <end>5943.99</end>
+      <code>23. Zion Suzuki (1422998) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Japan (38094)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>162</ID>
+      <start>6160.99</start>
+      <end>6172.99</end>
+      <code>1. Alireza Beiranvand (1273875) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>2.43</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>22.65</text>
+      </label>
+    </instance>
+  </ALL_INSTANCES>
+  <ROWS>
+    <row>
+      <code>1. Alireza Beiranvand (1273875)</code>
+      <sort_order>1</sort_order>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>23. Zion Suzuki (1422998)</code>
+      <sort_order>101</sort_order>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+  </ROWS>
+</file>

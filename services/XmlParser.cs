@@ -26,10 +26,10 @@ public class XmlParser : XmlFileService
                 }
             }
 
-            if (_parsingStrategy is InStatParsingStrategy inStatStrategy)
-            {
-                inStatStrategy.AppendFinalPlayerNames(xmlContentBuilder);
-            }
+            // if (_parsingStrategy is InStatParsingStrategy inStatStrategy)
+            // {
+            //     inStatStrategy.AppendFinalPlayerNames(xmlContentBuilder);
+            // }
 
             if (xmlContentBuilder.Length == 0)
             {
@@ -71,6 +71,7 @@ public class XmlParser : XmlFileService
             {
                 return new SportDataParsingStrategy();
             }
+            
         }
         return new InStatParsingStrategy();
     }
@@ -78,33 +79,4 @@ public class XmlParser : XmlFileService
     throw new InvalidOperationException("Type non valide");
 }
 
-    // public static IXmlParsingStrategy DetermineParsingStrategy(string filePath)
-    // {
-    //     XDocument xmlDocument = XDocument.Load(filePath);
-    //     var versionElement = xmlDocument.Descendants("VERSION").FirstOrDefault();
-    //     var allInstancesElement = xmlDocument.Descendants("ALL_INSTANCES").FirstOrDefault();
-    //     var instances = allInstancesElement.Elements("instance");
-    //     if (versionElement != null && versionElement.Value.Contains("WYSCOUT", StringComparison.OrdinalIgnoreCase))
-    //     {
-    //         return new WyscoutParsingStrategy();
-    //     }
-
-    //     if (xmlDocument.Descendants("ALL_INSTANCES").Any() ||
-    //         xmlDocument.Descendants("ROWS").Any() || 
-    //         xmlDocument.Descendants("SORT_INFO").Any())
-    //     {
-    //          return new InStatParsingStrategy();
-          
-
-    //     }
-
-    //     bool hasLabelPos = instances.Any(i => i.Elements("label").Any(l => l.Element("group")?.Value == "pos_x" || l.Element("group")?.Value == "pos_y"));
-    //             if (hasLabelPos && xmlDocument.Descendants("ALL_INSTANCES").Any() ||  xmlDocument.Descendants("ROWS").Any() || xmlDocument.Descendants("SORT_INFO").Any())
-    //             {
-    //                 return new SportDataParsingStrategy();
-    //             }
-
-    //     // Instead of default fallback, throw an exception
-    //     throw new InvalidOperationException("type ne pas valide");
-    // }
 }

@@ -1,0 +1,4522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+  <SORT_INFO>
+    <sort_type>sort order</sort_type>
+  </SORT_INFO>
+  <ALL_INSTANCES>
+    <instance>
+      <ID>1</ID>
+      <start>73.93</start>
+      <end>85.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.03</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.66</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>2</ID>
+      <start>73.93</start>
+      <end>85.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks medium (15-40 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks medium (15-40 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.03</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.66</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>3</ID>
+      <start>73.93</start>
+      <end>85.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.03</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.66</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>4</ID>
+      <start>113.93</start>
+      <end>125.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.2</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.35</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>5</ID>
+      <start>118.93</start>
+      <end>130.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>9.33</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>26.59</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>6</ID>
+      <start>129.93</start>
+      <end>141.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.69</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.21</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>7</ID>
+      <start>129.93</start>
+      <end>141.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.69</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.21</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>8</ID>
+      <start>188.93</start>
+      <end>200.93</end>
+      <code>22. Meshaal Barsham (875742) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>97.46</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>41.17</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>9</ID>
+      <start>188.93</start>
+      <end>200.93</end>
+      <code>22. Meshaal Barsham (875742) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>97.46</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>41.17</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>10</ID>
+      <start>188.93</start>
+      <end>200.93</end>
+      <code>22. Meshaal Barsham (875742) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>97.46</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>41.17</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>11</ID>
+      <start>271.93</start>
+      <end>283.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Long range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.97</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>53.8</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>12</ID>
+      <start>271.93</start>
+      <end>283.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.97</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>53.8</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>13</ID>
+      <start>271.93</start>
+      <end>283.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.97</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>53.8</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>14</ID>
+      <start>291.93</start>
+      <end>303.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.27</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.19</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>15</ID>
+      <start>291.93</start>
+      <end>303.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.27</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.19</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>16</ID>
+      <start>390.93</start>
+      <end>402.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.95</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.4</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>17</ID>
+      <start>390.93</start>
+      <end>402.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.95</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.4</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>18</ID>
+      <start>450.93</start>
+      <end>462.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.09</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>59.26</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>19</ID>
+      <start>450.93</start>
+      <end>462.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.09</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>59.26</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>20</ID>
+      <start>474.93</start>
+      <end>486.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.59</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.88</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>21</ID>
+      <start>474.93</start>
+      <end>486.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.59</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.88</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>22</ID>
+      <start>494.93</start>
+      <end>506.93</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.31</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>23</ID>
+      <start>598.93</start>
+      <end>610.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.35</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.26</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>24</ID>
+      <start>746.93</start>
+      <end>758.93</end>
+      <code>22. Meshaal Barsham (875742) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>20.74</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>17.62</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>25</ID>
+      <start>746.93</start>
+      <end>758.93</end>
+      <code>22. Meshaal Barsham (875742) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>20.74</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>17.62</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>26</ID>
+      <start>780.93</start>
+      <end>792.93</end>
+      <code>22. Meshaal Barsham (875742) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.79</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.3</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>27</ID>
+      <start>780.93</start>
+      <end>792.93</end>
+      <code>22. Meshaal Barsham (875742) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>6.79</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.3</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>28</ID>
+      <start>806.93</start>
+      <end>818.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.89</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.63</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>29</ID>
+      <start>806.93</start>
+      <end>818.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.89</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.63</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>30</ID>
+      <start>850.93</start>
+      <end>862.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.87</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>31</ID>
+      <start>850.93</start>
+      <end>862.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.87</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>32</ID>
+      <start>850.93</start>
+      <end>862.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.87</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>33</ID>
+      <start>850.93</start>
+      <end>862.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.87</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>34</ID>
+      <start>953.93</start>
+      <end>965.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>26.96</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.26</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>35</ID>
+      <start>953.93</start>
+      <end>965.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>26.96</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.26</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>36</ID>
+      <start>964.93</start>
+      <end>976.93</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>10.37</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>23.54</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>37</ID>
+      <start>1002.93</start>
+      <end>1014.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>84.45</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>25.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>38</ID>
+      <start>1002.93</start>
+      <end>1014.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Long range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>84.45</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>25.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>39</ID>
+      <start>1002.93</start>
+      <end>1014.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>84.45</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>25.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>40</ID>
+      <start>1269.93</start>
+      <end>1281.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.39</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.93</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>41</ID>
+      <start>1319.93</start>
+      <end>1331.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>17.53</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.4</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>42</ID>
+      <start>1326.93</start>
+      <end>1338.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>9.62</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.6</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>43</ID>
+      <start>1333.93</start>
+      <end>1345.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.56</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.9</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>44</ID>
+      <start>1333.93</start>
+      <end>1345.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.56</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.9</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>45</ID>
+      <start>1389.93</start>
+      <end>1401.93</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.86</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.33</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>46</ID>
+      <start>1421.93</start>
+      <end>1433.93</end>
+      <code>22. Meshaal Barsham (875742) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.5</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.05</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>47</ID>
+      <start>1421.93</start>
+      <end>1433.93</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>11.5</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.05</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>48</ID>
+      <start>1537.93</start>
+      <end>1549.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.66</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>49</ID>
+      <start>1537.93</start>
+      <end>1549.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.66</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>50</ID>
+      <start>1537.93</start>
+      <end>1549.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.66</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>51</ID>
+      <start>1537.93</start>
+      <end>1549.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.66</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>52</ID>
+      <start>1627.93</start>
+      <end>1639.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.86</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>53</ID>
+      <start>1627.93</start>
+      <end>1639.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.86</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>54</ID>
+      <start>1703.93</start>
+      <end>1715.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.65</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>41.28</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>55</ID>
+      <start>1893.93</start>
+      <end>1905.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>91.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.34</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>56</ID>
+      <start>1893.93</start>
+      <end>1905.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>91.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.34</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>57</ID>
+      <start>1893.93</start>
+      <end>1905.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>91.14</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.34</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>58</ID>
+      <start>1894.93</start>
+      <end>1906.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>95.2</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.46</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>59</ID>
+      <start>1938.93</start>
+      <end>1950.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>74.27</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>12.8</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>60</ID>
+      <start>1981.93</start>
+      <end>1993.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.62</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.2</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>61</ID>
+      <start>1981.93</start>
+      <end>1993.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.62</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.2</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>62</ID>
+      <start>1981.93</start>
+      <end>1993.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.62</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.2</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>63</ID>
+      <start>1981.93</start>
+      <end>1993.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.62</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.2</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>64</ID>
+      <start>2149.93</start>
+      <end>2161.93</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>13.95</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>23.21</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>65</ID>
+      <start>2165.93</start>
+      <end>2177.93</end>
+      <code>22. Meshaal Barsham (875742) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>24.41</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.41</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>66</ID>
+      <start>2165.93</start>
+      <end>2177.93</end>
+      <code>22. Meshaal Barsham (875742) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>24.41</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.41</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>67</ID>
+      <start>2165.93</start>
+      <end>2177.93</end>
+      <code>22. Meshaal Barsham (875742) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>24.41</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.41</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>68</ID>
+      <start>2198.93</start>
+      <end>2210.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.93</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.41</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>69</ID>
+      <start>2198.93</start>
+      <end>2210.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>15.93</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.41</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>70</ID>
+      <start>2225.93</start>
+      <end>2237.93</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>18.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>44.92</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>71</ID>
+      <start>2225.93</start>
+      <end>2237.93</end>
+      <code>22. Meshaal Barsham (875742) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>18.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>44.92</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>72</ID>
+      <start>2323.93</start>
+      <end>2335.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>86.62</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>18.5</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>73</ID>
+      <start>2358.93</start>
+      <end>2370.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.56</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.65</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>74</ID>
+      <start>2358.93</start>
+      <end>2370.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.56</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.65</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>75</ID>
+      <start>2358.93</start>
+      <end>2370.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.56</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.65</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>76</ID>
+      <start>2358.93</start>
+      <end>2370.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.56</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.65</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>77</ID>
+      <start>2538.93</start>
+      <end>2550.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>30.26</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.49</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>78</ID>
+      <start>2538.93</start>
+      <end>2550.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>30.26</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.49</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>79</ID>
+      <start>2547.93</start>
+      <end>2559.93</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.54</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.9</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>80</ID>
+      <start>2572.93</start>
+      <end>2584.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>90.86</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>46.46</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>81</ID>
+      <start>2572.93</start>
+      <end>2584.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Long range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>90.86</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>46.46</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>82</ID>
+      <start>2572.93</start>
+      <end>2584.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>90.86</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>46.46</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>83</ID>
+      <start>2761.93</start>
+      <end>2773.93</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.54</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>84</ID>
+      <start>2761.93</start>
+      <end>2773.93</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.54</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>85</ID>
+      <start>2761.93</start>
+      <end>2773.93</end>
+      <code>22. Meshaal Barsham (875742) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.54</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>86</ID>
+      <start>2761.93</start>
+      <end>2773.93</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.54</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>87</ID>
+      <start>2832.93</start>
+      <end>2844.93</end>
+      <code>22. Meshaal Barsham (875742) - Close range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Close range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>102.74</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.18</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>88</ID>
+      <start>2832.93</start>
+      <end>2844.93</end>
+      <code>22. Meshaal Barsham (875742) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>102.74</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.18</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>89</ID>
+      <start>2893.93</start>
+      <end>2905.93</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.47</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.88</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>90</ID>
+      <start>2893.93</start>
+      <end>2905.93</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.47</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.88</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>91</ID>
+      <start>2893.93</start>
+      <end>2905.93</end>
+      <code>22. Meshaal Barsham (875742) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.47</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.88</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>92</ID>
+      <start>2893.93</start>
+      <end>2905.93</end>
+      <code>22. Meshaal Barsham (875742) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.47</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.88</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>93</ID>
+      <start>2925.93</start>
+      <end>2937.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.63</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.04</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>94</ID>
+      <start>2925.93</start>
+      <end>2937.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.63</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.04</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>95</ID>
+      <start>3034.93</start>
+      <end>3046.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>35.06</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>61.12</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>96</ID>
+      <start>3038.93</start>
+      <end>3050.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>53.54</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>56.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>97</ID>
+      <start>3038.93</start>
+      <end>3050.93</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>1</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>53.54</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>56.08</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>98</ID>
+      <start>3420.59</start>
+      <end>3432.59</end>
+      <code>22. Meshaal Barsham (875742) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>99</ID>
+      <start>3420.59</start>
+      <end>3432.59</end>
+      <code>22. Meshaal Barsham (875742) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>100</ID>
+      <start>3420.59</start>
+      <end>3432.59</end>
+      <code>22. Meshaal Barsham (875742) - Penalties of opponent</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Penalties of opponent</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>101</ID>
+      <start>3420.59</start>
+      <end>3432.59</end>
+      <code>22. Meshaal Barsham (875742) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.0</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.0</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>102</ID>
+      <start>3472.59</start>
+      <end>3484.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.54</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>42.7</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>103</ID>
+      <start>3472.59</start>
+      <end>3484.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.54</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>42.7</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>104</ID>
+      <start>3472.59</start>
+      <end>3484.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>94.54</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>42.7</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>105</ID>
+      <start>3473.59</start>
+      <end>3485.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Supersaves</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Supersaves</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>0.85</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>106</ID>
+      <start>3508.59</start>
+      <end>3520.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Fouls suffered</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Fouls suffered</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>102.17</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.64</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>107</ID>
+      <start>3646.59</start>
+      <end>3658.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.56</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.23</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>108</ID>
+      <start>3646.59</start>
+      <end>3658.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.56</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.23</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>109</ID>
+      <start>4219.59</start>
+      <end>4231.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.81</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.7</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>110</ID>
+      <start>4219.59</start>
+      <end>4231.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.81</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.7</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>111</ID>
+      <start>4219.59</start>
+      <end>4231.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.81</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.7</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>112</ID>
+      <start>4219.59</start>
+      <end>4231.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.81</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.7</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>113</ID>
+      <start>4252.59</start>
+      <end>4264.59</end>
+      <code>22. Meshaal Barsham (875742) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>99.44</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>114</ID>
+      <start>4314.59</start>
+      <end>4326.59</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.74</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>115</ID>
+      <start>4314.59</start>
+      <end>4326.59</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.74</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>116</ID>
+      <start>4314.59</start>
+      <end>4326.59</end>
+      <code>22. Meshaal Barsham (875742) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.74</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>117</ID>
+      <start>4314.59</start>
+      <end>4326.59</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>39.74</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>118</ID>
+      <start>4456.59</start>
+      <end>4468.59</end>
+      <code>22. Meshaal Barsham (875742) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.75</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.41</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>119</ID>
+      <start>4456.59</start>
+      <end>4468.59</end>
+      <code>22. Meshaal Barsham (875742) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.75</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>31.41</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>120</ID>
+      <start>4479.59</start>
+      <end>4491.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>8.67</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.56</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>121</ID>
+      <start>4661.59</start>
+      <end>4673.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>12.82</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>122</ID>
+      <start>4709.59</start>
+      <end>4721.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>95.86</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.84</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>123</ID>
+      <start>4730.59</start>
+      <end>4742.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.89</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.71</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>124</ID>
+      <start>4730.59</start>
+      <end>4742.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.89</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>35.71</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>125</ID>
+      <start>4785.59</start>
+      <end>4797.59</end>
+      <code>22. Meshaal Barsham (875742) - Close range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Close range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>98.59</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.96</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>126</ID>
+      <start>4785.59</start>
+      <end>4797.59</end>
+      <code>22. Meshaal Barsham (875742) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>98.59</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.96</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>127</ID>
+      <start>4785.59</start>
+      <end>4797.59</end>
+      <code>22. Meshaal Barsham (875742) - Shots saved</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots saved</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>98.59</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.96</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>128</ID>
+      <start>4786.59</start>
+      <end>4798.59</end>
+      <code>22. Meshaal Barsham (875742) - Supersaves</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Supersaves</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>0.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.26</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>129</ID>
+      <start>4877.59</start>
+      <end>4889.59</end>
+      <code>22. Meshaal Barsham (875742) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.37</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.51</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>130</ID>
+      <start>4886.59</start>
+      <end>4898.59</end>
+      <code>22. Meshaal Barsham (875742) - Close range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Close range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>100.38</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.74</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>131</ID>
+      <start>4886.59</start>
+      <end>4898.59</end>
+      <code>22. Meshaal Barsham (875742) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>100.38</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.74</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>132</ID>
+      <start>4887.59</start>
+      <end>4899.59</end>
+      <code>22. Meshaal Barsham (875742) - Close range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Close range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>99.15</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.15</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>133</ID>
+      <start>4887.59</start>
+      <end>4899.59</end>
+      <code>22. Meshaal Barsham (875742) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>99.15</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>36.15</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>134</ID>
+      <start>5088.59</start>
+      <end>5100.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.99</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.89</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>135</ID>
+      <start>5088.59</start>
+      <end>5100.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>14.99</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.89</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>136</ID>
+      <start>5238.59</start>
+      <end>5250.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.68</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.49</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>137</ID>
+      <start>5238.59</start>
+      <end>5250.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.68</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>27.49</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>138</ID>
+      <start>5289.59</start>
+      <end>5301.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Goals conceded</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goals conceded</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.5</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.06</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>139</ID>
+      <start>5289.59</start>
+      <end>5301.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Mid range shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Mid range shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.5</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.06</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>140</ID>
+      <start>5289.59</start>
+      <end>5301.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots on target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.5</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.06</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>141</ID>
+      <start>5427.59</start>
+      <end>5439.59</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.78</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>142</ID>
+      <start>5427.59</start>
+      <end>5439.59</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.78</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>143</ID>
+      <start>5427.59</start>
+      <end>5439.59</end>
+      <code>22. Meshaal Barsham (875742) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.78</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>144</ID>
+      <start>5427.59</start>
+      <end>5439.59</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>28.78</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>145</ID>
+      <start>5616.59</start>
+      <end>5628.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.75</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.12</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>146</ID>
+      <start>5616.59</start>
+      <end>5628.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>23.75</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>38.12</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>147</ID>
+      <start>5723.59</start>
+      <end>5735.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.69</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>51.15</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>148</ID>
+      <start>5789.59</start>
+      <end>5801.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>24.79</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>149</ID>
+      <start>5789.59</start>
+      <end>5801.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>24.79</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>34.07</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>150</ID>
+      <start>6029.59</start>
+      <end>6041.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.82</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>49.53</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>151</ID>
+      <start>6029.59</start>
+      <end>6041.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.82</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>49.53</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>152</ID>
+      <start>6046.59</start>
+      <end>6058.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.87</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>21.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>153</ID>
+      <start>6046.59</start>
+      <end>6058.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>16.87</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>21.57</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>154</ID>
+      <start>6088.59</start>
+      <end>6100.59</end>
+      <code>22. Meshaal Barsham (875742) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>78.98</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>29.13</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>155</ID>
+      <start>6122.59</start>
+      <end>6134.59</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.73</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>156</ID>
+      <start>6122.59</start>
+      <end>6134.59</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.73</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>157</ID>
+      <start>6122.59</start>
+      <end>6134.59</end>
+      <code>22. Meshaal Barsham (875742) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.73</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>158</ID>
+      <start>6122.59</start>
+      <end>6134.59</end>
+      <code>22. Meshaal Barsham (875742) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.19</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.73</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>159</ID>
+      <start>6169.59</start>
+      <end>6181.59</end>
+      <code>22. Meshaal Barsham (875742) - Shots off target</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots off target</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>97.74</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>32.42</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>160</ID>
+      <start>6268.59</start>
+      <end>6280.59</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.53</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.22</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>161</ID>
+      <start>6268.59</start>
+      <end>6280.59</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks long (40+ m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks long (40+ m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.53</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.22</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>162</ID>
+      <start>6268.59</start>
+      <end>6280.59</end>
+      <code>22. Meshaal Barsham (875742) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.53</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.22</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>163</ID>
+      <start>6268.59</start>
+      <end>6280.59</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>4.53</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>37.22</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>164</ID>
+      <start>6298.59</start>
+      <end>6310.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>24.22</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>21.24</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>165</ID>
+      <start>6298.59</start>
+      <end>6310.59</end>
+      <code>1. Alireza Beiranvand (1273875) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Iran (37205)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>24.22</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>21.24</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>166</ID>
+      <start>6307.59</start>
+      <end>6319.59</end>
+      <code>22. Meshaal Barsham (875742) - Successful cross and pass interception attempts</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Successful cross and pass interception attempts</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>7.54</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>19.79</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>167</ID>
+      <start>6328.59</start>
+      <end>6340.59</end>
+      <code>22. Meshaal Barsham (875742) - Inaccurate passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Inaccurate passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>17.06</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.32</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>168</ID>
+      <start>6328.59</start>
+      <end>6340.59</end>
+      <code>22. Meshaal Barsham (875742) - Incomplete long passes</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Incomplete long passes</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>17.06</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>30.32</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>169</ID>
+      <start>6585.59</start>
+      <end>6597.59</end>
+      <code>22. Meshaal Barsham (875742) - Shots on post / bar</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Shots on post / bar</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>93.22</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>19.05</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>170</ID>
+      <start>6611.59</start>
+      <end>6623.59</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.75</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.18</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>171</ID>
+      <start>6611.59</start>
+      <end>6623.59</end>
+      <code>22. Meshaal Barsham (875742) - Goal kicks medium (15-40 m.)</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Goal kicks medium (15-40 m.)</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.75</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.18</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>172</ID>
+      <start>6611.59</start>
+      <end>6623.59</end>
+      <code>22. Meshaal Barsham (875742) - Passes accurate</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Passes accurate</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>5.75</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>40.18</text>
+      </label>
+    </instance>
+    <instance>
+      <ID>173</ID>
+      <start>6679.59</start>
+      <end>6691.59</end>
+      <code>22. Meshaal Barsham (875742) - Supersaves</code>
+      <label>
+        <group>Team</group>
+        <text>Qatar (60106)</text>
+      </label>
+      <label>
+        <group>Action</group>
+        <text>Supersaves</text>
+      </label>
+      <label>
+        <group>Half</group>
+        <text>2</text>
+      </label>
+      <label>
+        <group>pos_x</group>
+        <text>0.66</text>
+      </label>
+      <label>
+        <group>pos_y</group>
+        <text>33.71</text>
+      </label>
+    </instance>
+  </ALL_INSTANCES>
+  <ROWS>
+    <row>
+      <code>1. Alireza Beiranvand (1273875)</code>
+      <sort_order>1</sort_order>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>22. Meshaal Barsham (875742)</code>
+      <sort_order>101</sort_order>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+  </ROWS>
+</file>

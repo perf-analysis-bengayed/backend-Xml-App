@@ -1,83 +1,66 @@
 using System.Text;
 using System.Xml.Linq;
 
-
 public class InStatParsingStrategy : IXmlParsingStrategy
 {
-    private readonly List<string> playerNames = new List<string>();
-    private readonly List<string> outputLines = new List<string>();
-    private readonly HashSet<string> teamNames = new HashSet<string>();
+    private readonly List<InstanceData> instances = new List<InstanceData>();
+    private readonly RowsParser rowsParser = new RowsParser();
+    private readonly ParseInstanceInStat  parseInstance = new ParseInstanceInStat();
 
-    private readonly Dictionary<string, IElementParser> parsers;
-
-    public InStatParsingStrategy()
-    {
-        parsers = new Dictionary<string, IElementParser>(StringComparer.OrdinalIgnoreCase)
-        {
-            { "ALL_INSTANCES", new AllInstancesParser(IsPlayerCode, IsTeamActionCode) },
-            { "ROWS", new RowsParser() },
-            { "SORT_INFO", new SortInfoParser() }
-        };
-    }
-
+    public List<InstanceData> Instances => instances;
+    public List<RowData> Rows => rowsParser.Rows;
 
     public void ParseElement(XElement element, StringBuilder xmlContentBuilder)
     {
-        string elementName = element.Name.LocalName.ToUpper();
-        if (parsers.TryGetValue(elementName, out var parser))
+        switch (element.Name.LocalName.ToUpper())
         {
-            parser.Parse(element, xmlContentBuilder, this);
+            case "INSTANCE":
+                InstanceData instance = parseInstance.ParseInstanceInStat1(element);
+                instances.Add(instance);
+                AppendInstanceToBuilder(instance, xmlContentBuilder);
+                break;
+
+            case "ROW":
+                RowData row = rowsParser.ParseRow(element);
+                rowsParser.Rows.Add(row);
+                AppendRowToBuilder(row, xmlContentBuilder);
+                break;
+
+           
+
+           
+               
         }
     }
 
-    private bool IsPlayerCode(string code)
+   
+
+    private void AppendInstanceToBuilder(InstanceData instance, StringBuilder xmlContentBuilder)
     {
-        if (string.IsNullOrEmpty(code))
-            return false;
-
-        string[] parts = code.Split(new[] { '.' }, 2);
-        if (parts.Length != 2)
-            return false;
-
-        return int.TryParse(parts[0].Trim(), out _) && !string.IsNullOrWhiteSpace(parts[1].Trim());
-    }
-
-    private bool IsTeamActionCode(string code)
-    {
-        if (string.IsNullOrEmpty(code))
-            return false;
-
-        string[] parts = code.Split(new[] { ' ' }, 2);
-        return parts.Length >= 2 && !string.IsNullOrWhiteSpace(parts[0]) && !string.IsNullOrWhiteSpace(parts[1]);
-    }
-
-    public void AppendFinalPlayerNames(StringBuilder xmlContentBuilder)
-    {
-        foreach (var line in outputLines)
+        if (string.IsNullOrEmpty(instance.PlayerName) && instance.Team == null)
         {
-            xmlContentBuilder.AppendLine(line);
+            string outputLine = $"{instance.Code} start {instance.Start} end {instance.End}";
+            xmlContentBuilder.AppendLine(outputLine);
         }
-
-        if (playerNames.Any())
+        else if (instance.Team != "N/A" && instance.Action != "N/A")
         {
-            var playerCodes = playerNames.Select((name, index) => $"{name}").ToList();
-            xmlContentBuilder.AppendLine($"Liste des Joueurs: {string.Join(", ", playerCodes)}");
-        }
-
-        if (teamNames.Any())
-        {
-            xmlContentBuilder.AppendLine($"Équipe de match :{string.Join(" et ", teamNames)}");
+            string outputLine = $"joueur {instance.PlayerNumber}. {instance.PlayerName} " +
+                              $"start {instance.Start} end {instance.End} " +
+                              $"team {instance.Team} Action {instance.Action} " +
+                              $"Half {instance.Half} pos_x {instance.PosX} pos_y {instance.PosY}";
+            xmlContentBuilder.AppendLine(outputLine);
         }
     }
 
-    public List<string> GetPlayerNames()
-    {
-        return playerNames;
-    }
+   
 
-    public List<string> GetTeamNames()
+
+    private void AppendRowToBuilder(RowData row, StringBuilder xmlContentBuilder)
     {
-        return new List<string>(teamNames);
+        if (row.Code != "Unknown")
+        {
+            string outputLine = $"{row.Code} R {row.R}, G {row.G}, B {row.B}, SortOrder {row.SortOrder}";
+            xmlContentBuilder.AppendLine(outputLine);
+        }
     }
-    
 }
