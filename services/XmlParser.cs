@@ -26,10 +26,6 @@ public class XmlParser : XmlFileService
                 }
             }
 
-            // if (_parsingStrategy is InStatParsingStrategy inStatStrategy)
-            // {
-            //     inStatStrategy.AppendFinalPlayerNames(xmlContentBuilder);
-            // }
 
             if (xmlContentBuilder.Length == 0)
             {
