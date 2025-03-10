@@ -1,0 +1,30 @@
+public class ActionRow {
+    public int ID { get; set; }
+    public string FXID { get; set; }
+    public int PLID { get; set; }
+    public int TeamId { get; set; }
+    public double PsTimestamp { get; set; }
+    public double PsEndstamp { get; set; }
+    public int MatchTime { get; set; }
+    public int PsID { get; set; }
+    public int Period { get; set; }
+    public int XCoord { get; set; }
+    public int YCoord { get; set; }
+    public int XCoordEnd { get; set; }
+    public int YCoordEnd { get; set; }
+    public int Action { get; set; }
+    public int ActionType { get; set; }
+    public int ActionResult { get; set; }
+    public int Qualifier3 { get; set; }
+    public int Qualifier4 { get; set; }
+    public int Qualifier5 { get; set; }
+    public int Metres { get; set; }
+    public int PlayNum { get; set; }
+    public int SetNum { get; set; }
+    public int SequenceId { get; set; }
+    public int PlayerAdvantage { get; set; }
+    public int ScoreAdvantage { get; set; }
+    public bool Flag { get; set; }
+    public int Advantage { get; set; }
+    public int AssocPlayer { get; set; }
+}

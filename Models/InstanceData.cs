@@ -11,4 +11,5 @@ public class InstanceData
         public string? Half { get; set; }
         public string PlayerNumber { get; set; } = "";
         public string PlayerName { get; set; } = "";
+        
     }

@@ -1,9 +1,4 @@
 using System.Text;
-using System.Xml.Linq;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using System.Globalization;
-using System.IO; // Ensure this is included for StreamWriter
 
 public class XmlFileService : IXmlFileService
 {
@@ -30,6 +25,7 @@ public class XmlFileService : IXmlFileService
 
         List<string> filePaths = new List<string>();
         List<string> parsedContents = new List<string>();
+        IXmlParsingStrategy xmlStrategy = null;
 
         MatchNameInfo extractedMatchNameInfo = null;
 
@@ -47,7 +43,7 @@ public class XmlFileService : IXmlFileService
                 await file.CopyToAsync(stream);
             }
 
-            IXmlParsingStrategy xmlStrategy = XmlParser.DetermineParsingStrategy(filePath);
+            xmlStrategy = XmlParser.DetermineParsingStrategy(filePath);
             IFileNameParsingStrategy nameStrategy = DetermineFileNameParsingStrategy(xmlStrategy);
             extractedMatchNameInfo = nameStrategy.ParseFileName(file.FileName);
 
@@ -58,7 +54,7 @@ public class XmlFileService : IXmlFileService
             filePaths.Add(filePath);
         }
 
-        var matchFilePath = Path.Combine(_uploadPath, "ficheMatch.txt"); // Changed to .txt
+        var matchFilePath = Path.Combine(_uploadPath, "ficheMatch.txt");
         filePaths.Add(matchFilePath);
 
         var finalMatchInfo = new MatchInfo
@@ -69,7 +65,7 @@ public class XmlFileService : IXmlFileService
             ParsedContents = parsedContents
         };
 
-        CreateMatchFile(matchFilePath, finalMatchInfo);
+        CreateMatchFile(matchFilePath, finalMatchInfo, xmlStrategy);
 
         _ = Task.Run(async () =>
         {
@@ -105,15 +101,27 @@ public class XmlFileService : IXmlFileService
         };
     }
 
-    private void CreateMatchFile(string filePath, MatchInfo matchInfo)
+    private void CreateMatchFile(string filePath, MatchInfo matchInfo, IXmlParsingStrategy xmlStrategy)
     {
-        // Writing to a .txt file instead of XML
         using (var writer = new StreamWriter(filePath, false, Encoding.UTF8))
         {
             writer.WriteLine("Match Information:");
             writer.WriteLine($"Match Date: {matchInfo.MatchDate.ToString("dd.MM.yyyy")}");
             writer.WriteLine($"Home Team: {matchInfo.HomeTeam}");
             writer.WriteLine($"Away Team: {matchInfo.AwayTeam}");
+
+         switch (xmlStrategy)
+            {
+                case SportDataParsingStrategy sportDataStrategy:
+                    writer.WriteLine(sportDataStrategy.GetTeamPlayersList());
+                    break;
+                case InStatParsingStrategy inStatStrategy:
+                    writer.WriteLine(inStatStrategy.GetTeamPlayersList());
+                    break;
+                case RugbyParsingStrategy rugbyStrategy:
+                    writer.WriteLine($"Total Action Rows: {rugbyStrategy.ActionRows.Count}");
+                    break;
+            }
             writer.WriteLine("Parsed Contents:");
             foreach (var content in matchInfo.ParsedContents)
             {

@@ -4,9 +4,7 @@ public class MatchInfo
     public string HomeTeam { get; set; }
     public string AwayTeam { get; set; }
    public List<string> ParsedContents { get; set; } = new List<string>();
-    // public List<string> ListeJoueursEquipeLocale { get; set; }
-    // public List<string> ListeJoueursEquipeVisiteuse { get; set; }
-    // public List<string> FichiersVideo { get; set; }
-    // public string CoteTerrainPremierePeriode { get; set; }
-    // public List<string> TimecodesDebutPeriodes { get; set; }
+   public List<string> HomeTeamPlayers { get; set; } = new List<string>();
+    public List<string> AwayTeamPlayers { get; set; } = new List<string>();
+    
     }

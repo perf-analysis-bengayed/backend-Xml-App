@@ -6,34 +6,40 @@ public class InStatParsingStrategy : IXmlParsingStrategy
     private readonly List<InstanceData> instances = new List<InstanceData>();
     private readonly RowsParser rowsParser = new RowsParser();
     private readonly ParseInstanceInStat  parseInstance = new ParseInstanceInStat();
-
+private readonly Dictionary<string, HashSet<string>> teamPlayers = new Dictionary<string, HashSet<string>>();
     public List<InstanceData> Instances => instances;
     public List<RowData> Rows => rowsParser.Rows;
 
-    public void ParseElement(XElement element, StringBuilder xmlContentBuilder)
+ public void ParseElement(XElement element, StringBuilder xmlContentBuilder)
+{
+    switch (element.Name.LocalName.ToUpper())
     {
-        switch (element.Name.LocalName.ToUpper())
-        {
-            case "INSTANCE":
-                InstanceData instance = parseInstance.ParseInstanceInStat1(element);
-                instances.Add(instance);
-                AppendInstanceToBuilder(instance, xmlContentBuilder);
-                break;
-
-            case "ROW":
-                RowData row = rowsParser.ParseRow(element);
-                rowsParser.Rows.Add(row);
-                AppendRowToBuilder(row, xmlContentBuilder);
-                break;
+        case "INSTANCE":
+            InstanceData instance = parseInstance.ParseInstanceInStat1(element);
+            instances.Add(instance);
+            AppendInstanceToBuilder(instance, xmlContentBuilder);
 
            
-
-           
-               
-        }
+           if (!string.IsNullOrEmpty(instance.Team) && instance.Team != "N/A" && 
+    !string.IsNullOrEmpty(instance.PlayerName))
+{
+    if (!teamPlayers.ContainsKey(instance.Team))
+    {
+        teamPlayers[instance.Team] = new HashSet<string>();
     }
+    teamPlayers[instance.Team].Add($"{instance.PlayerNumber}. {instance.PlayerName}");
+}
+            break;
 
-   
+        case "ROW":
+            RowData row = rowsParser.ParseRow(element);
+            rowsParser.Rows.Add(row);
+            AppendRowToBuilder(row, xmlContentBuilder);
+            break;
+    }
+}
+
+  
 
     private void AppendInstanceToBuilder(InstanceData instance, StringBuilder xmlContentBuilder)
     {
@@ -63,4 +69,16 @@ public class InStatParsingStrategy : IXmlParsingStrategy
             xmlContentBuilder.AppendLine(outputLine);
         }
     }
+public string GetTeamPlayersList()
+{
+    StringBuilder sb = new StringBuilder();
+    foreach (var team in teamPlayers)
+    {
+        sb.Append($"Liste des joueurs équipe {team.Key} : {{");
+        sb.Append(string.Join(", ", team.Value));
+        sb.AppendLine("}");
+    }
+    return sb.ToString();
+}
+    
 }

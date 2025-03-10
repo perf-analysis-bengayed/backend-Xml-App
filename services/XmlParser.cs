@@ -40,10 +40,44 @@ public class XmlParser : XmlFileService
         return xmlContentBuilder.ToString();
     }
 
-    public static IXmlParsingStrategy DetermineParsingStrategy(string filePath)
-{
-    XDocument xmlDocument = XDocument.Load(filePath);
+ public static IXmlParsingStrategy DetermineParsingStrategy(string filePath)
+    {
+        XDocument xmlDocument = XDocument.Load(filePath);
 
+        // Check for OPTAFEED (Rugby) format first
+        var optafeedElement = xmlDocument.Descendants("OPTAFEED").FirstOrDefault();
+        if (optafeedElement != null)
+        {
+            bool hasRugbyElements = xmlDocument.Descendants("ActionRow").Any() ||
+                                  xmlDocument.Descendants("MatchData").Any();
+            if (hasRugbyElements)
+            {
+                return new RugbyParsingStrategy();
+            }
+        }
+
+        var gameElement = xmlDocument.Descendants("GameFile").FirstOrDefault() ?? 
+                         xmlDocument.Descendants("Game").FirstOrDefault();
+        
+        if (gameElement != null)
+        {
+            bool isRugby = xmlDocument.Descendants("CompetitionName")
+                            .Any(x => x.Value.Contains("TOP 14", StringComparison.OrdinalIgnoreCase)) ||
+                          xmlDocument.Descendants("NumberOfRunOnPlayers").Any() ||
+                          xmlDocument.Descendants("RefereeInformation").Any();
+            
+            if (isRugby)
+            {
+                return new RugbyParsingStrategy();
+            }
+        }
+
+        return DetermineFootballParsingStrategy(xmlDocument);
+    }
+
+private static IXmlParsingStrategy DetermineFootballParsingStrategy(XDocument xmlDocument)
+{
+ 
     var versionElement = xmlDocument.Descendants("VERSION").FirstOrDefault();
     if (versionElement != null && versionElement.Value.Contains("WYSCOUT", StringComparison.OrdinalIgnoreCase))
     {
@@ -52,8 +86,9 @@ public class XmlParser : XmlFileService
 
     var allInstancesElement = xmlDocument.Descendants("ALL_INSTANCES").FirstOrDefault();
     bool hasStructuralElements = allInstancesElement != null || 
-                                 xmlDocument.Descendants("ROWS").Any() || 
-                                 xmlDocument.Descendants("SORT_INFO").Any();
+                                xmlDocument.Descendants("ROWS").Any() || 
+                                xmlDocument.Descendants("SORT_INFO").Any() ||
+                                xmlDocument.Descendants("OPTAFEED").Any();
 
     if (hasStructuralElements)
     {
@@ -67,7 +102,6 @@ public class XmlParser : XmlFileService
             {
                 return new SportDataParsingStrategy();
             }
-            
         }
         return new InStatParsingStrategy();
     }

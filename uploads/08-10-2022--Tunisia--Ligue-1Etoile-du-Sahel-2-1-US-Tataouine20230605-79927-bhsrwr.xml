@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<file>
+  <ALL_INSTANCES>
+    <instance>
+      <ID>1</ID>
+      <start>20.53</start>
+      <end>21.53</end>
+      <code>Start</code>
+    </instance>
+    <instance>
+      <ID>2</ID>
+      <start>33</start>
+      <end>50</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>3</ID>
+      <start>56</start>
+      <end>70</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>4</ID>
+      <start>61</start>
+      <end>78</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>5</ID>
+      <start>155</start>
+      <end>172</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>6</ID>
+      <start>219</start>
+      <end>238</end>
+      <code>US Tataouine Throw-in attacks</code>
+    </instance>
+    <instance>
+      <ID>7</ID>
+      <start>276</start>
+      <end>293</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>8</ID>
+      <start>301</start>
+      <end>318</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>9</ID>
+      <start>332</start>
+      <end>342</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>10</ID>
+      <start>583</start>
+      <end>600</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>11</ID>
+      <start>673</start>
+      <end>687</end>
+      <code>Etoile du Sahel Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>12</ID>
+      <start>793</start>
+      <end>804</end>
+      <code>US Tataouine Corner attacks</code>
+    </instance>
+    <instance>
+      <ID>13</ID>
+      <start>793</start>
+      <end>810</end>
+      <code>US Tataouine Shots</code>
+    </instance>
+    <instance>
+      <ID>14</ID>
+      <start>862</start>
+      <end>879</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>15</ID>
+      <start>922</start>
+      <end>939</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>16</ID>
+      <start>944</start>
+      <end>996</end>
+      <code>Etoile du Sahel Goals</code>
+    </instance>
+    <instance>
+      <ID>17</ID>
+      <start>944</start>
+      <end>996</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>18</ID>
+      <start>960</start>
+      <end>969</end>
+      <code>Etoile du Sahel Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>19</ID>
+      <start>1112</start>
+      <end>1128</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>20</ID>
+      <start>1218</start>
+      <end>1235</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>21</ID>
+      <start>1307</start>
+      <end>1324</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>22</ID>
+      <start>1351</start>
+      <end>1368</end>
+      <code>Etoile du Sahel Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>23</ID>
+      <start>1359</start>
+      <end>1376</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>24</ID>
+      <start>1414</start>
+      <end>1431</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>25</ID>
+      <start>1445</start>
+      <end>1453</end>
+      <code>US Tataouine Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>26</ID>
+      <start>1464</start>
+      <end>1481</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>27</ID>
+      <start>1488</start>
+      <end>1538</end>
+      <code>Etoile du Sahel Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>28</ID>
+      <start>1528</start>
+      <end>1545</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>29</ID>
+      <start>1570</start>
+      <end>1587</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>30</ID>
+      <start>1691</start>
+      <end>1747</end>
+      <code>Etoile du Sahel Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>31</ID>
+      <start>1738</start>
+      <end>1755</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>32</ID>
+      <start>1747</start>
+      <end>1756</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>33</ID>
+      <start>1761</start>
+      <end>1778</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>34</ID>
+      <start>1782</start>
+      <end>1799</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>35</ID>
+      <start>1782</start>
+      <end>1790</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>36</ID>
+      <start>1868</start>
+      <end>1911</end>
+      <code>Etoile du Sahel Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>37</ID>
+      <start>1929</start>
+      <end>1941</end>
+      <code>Etoile du Sahel Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>38</ID>
+      <start>2083</start>
+      <end>2091</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>39</ID>
+      <start>2084</start>
+      <end>2101</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>40</ID>
+      <start>2088</start>
+      <end>2105</end>
+      <code>Etoile du Sahel Yellow cards</code>
+    </instance>
+    <instance>
+      <ID>41</ID>
+      <start>2167</start>
+      <end>2177</end>
+      <code>US Tataouine Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>42</ID>
+      <start>2245</start>
+      <end>2262</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>43</ID>
+      <start>2361</start>
+      <end>2378</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>44</ID>
+      <start>2410</start>
+      <end>2419</end>
+      <code>Etoile du Sahel Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>45</ID>
+      <start>2445</start>
+      <end>2462</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>46</ID>
+      <start>2467</start>
+      <end>2486</end>
+      <code>Etoile du Sahel Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>47</ID>
+      <start>2558</start>
+      <end>2575</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>48</ID>
+      <start>2636</start>
+      <end>2653</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>49</ID>
+      <start>2684</start>
+      <end>2710</end>
+      <code>Etoile du Sahel Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>50</ID>
+      <start>2700</start>
+      <end>2717</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>51</ID>
+      <start>2743</start>
+      <end>2760</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>52</ID>
+      <start>2829</start>
+      <end>2840</end>
+      <code>Etoile du Sahel Corner attacks</code>
+    </instance>
+    <instance>
+      <ID>53</ID>
+      <start>2885.36</start>
+      <end>2886.36</end>
+      <code>Start</code>
+    </instance>
+    <instance>
+      <ID>54</ID>
+      <start>2994.77</start>
+      <end>3006.77</end>
+      <code>Etoile du Sahel Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>55</ID>
+      <start>3004.77</start>
+      <end>3023.77</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>56</ID>
+      <start>3024.77</start>
+      <end>3041.77</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>57</ID>
+      <start>3128.77</start>
+      <end>3138.77</end>
+      <code>Etoile du Sahel Corner attacks</code>
+    </instance>
+    <instance>
+      <ID>58</ID>
+      <start>3142.77</start>
+      <end>3159.77</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>59</ID>
+      <start>3165.77</start>
+      <end>3182.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>60</ID>
+      <start>3166.77</start>
+      <end>3175.77</end>
+      <code>US Tataouine Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>61</ID>
+      <start>3201.77</start>
+      <end>3218.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>62</ID>
+      <start>3229.77</start>
+      <end>3304.77</end>
+      <code>US Tataouine Shots</code>
+    </instance>
+    <instance>
+      <ID>63</ID>
+      <start>3232.77</start>
+      <end>3284.77</end>
+      <code>US Tataouine Goals</code>
+    </instance>
+    <instance>
+      <ID>64</ID>
+      <start>3237.77</start>
+      <end>3255.77</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>65</ID>
+      <start>3309.77</start>
+      <end>3326.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>66</ID>
+      <start>3378.77</start>
+      <end>3395.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>67</ID>
+      <start>3404.77</start>
+      <end>3421.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>68</ID>
+      <start>3469.77</start>
+      <end>3488.77</end>
+      <code>US Tataouine Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>69</ID>
+      <start>3479.77</start>
+      <end>3495.77</end>
+      <code>US Tataouine Shots</code>
+    </instance>
+    <instance>
+      <ID>70</ID>
+      <start>3573.77</start>
+      <end>3603.77</end>
+      <code>Etoile du Sahel Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>71</ID>
+      <start>3600.77</start>
+      <end>3614.77</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>72</ID>
+      <start>3605.77</start>
+      <end>3622.77</end>
+      <code>US Tataouine Shots</code>
+    </instance>
+    <instance>
+      <ID>73</ID>
+      <start>3846.77</start>
+      <end>3863.77</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>74</ID>
+      <start>3987.77</start>
+      <end>4004.77</end>
+      <code>Etoile du Sahel Corner attacks</code>
+    </instance>
+    <instance>
+      <ID>75</ID>
+      <start>3991.77</start>
+      <end>4008.77</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>76</ID>
+      <start>4017.77</start>
+      <end>4069.77</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>77</ID>
+      <start>4017.77</start>
+      <end>4069.77</end>
+      <code>Etoile du Sahel Goals</code>
+    </instance>
+    <instance>
+      <ID>78</ID>
+      <start>4033.77</start>
+      <end>4042.77</end>
+      <code>Etoile du Sahel Corner attacks</code>
+    </instance>
+    <instance>
+      <ID>79</ID>
+      <start>4255.77</start>
+      <end>4279.77</end>
+      <code>US Tataouine Throw-in attacks</code>
+    </instance>
+    <instance>
+      <ID>80</ID>
+      <start>4296.77</start>
+      <end>4353.77</end>
+      <code>Etoile du Sahel Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>81</ID>
+      <start>4343.77</start>
+      <end>4360.77</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>82</ID>
+      <start>4349.77</start>
+      <end>4366.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>83</ID>
+      <start>4421.77</start>
+      <end>4438.77</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>84</ID>
+      <start>4424.77</start>
+      <end>4432.77</end>
+      <code>Etoile du Sahel Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>85</ID>
+      <start>4426.77</start>
+      <end>4444.77</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>86</ID>
+      <start>4521.77</start>
+      <end>4538.77</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>87</ID>
+      <start>4575.77</start>
+      <end>4585.77</end>
+      <code>US Tataouine Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>88</ID>
+      <start>4575.77</start>
+      <end>4592.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>89</ID>
+      <start>4677.77</start>
+      <end>4700.77</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>90</ID>
+      <start>4690.77</start>
+      <end>4707.77</end>
+      <code>Etoile du Sahel Yellow cards</code>
+    </instance>
+    <instance>
+      <ID>91</ID>
+      <start>4728.77</start>
+      <end>4738.77</end>
+      <code>US Tataouine Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>92</ID>
+      <start>4764.77</start>
+      <end>4781.77</end>
+      <code>US Tataouine Shots</code>
+    </instance>
+    <instance>
+      <ID>93</ID>
+      <start>4766.77</start>
+      <end>4775.77</end>
+      <code>US Tataouine Corner attacks</code>
+    </instance>
+    <instance>
+      <ID>94</ID>
+      <start>4842.77</start>
+      <end>4859.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>95</ID>
+      <start>4862.77</start>
+      <end>4871.77</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>96</ID>
+      <start>4868.77</start>
+      <end>4888.77</end>
+      <code>Etoile du Sahel Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>97</ID>
+      <start>4881.77</start>
+      <end>4898.77</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>98</ID>
+      <start>4916.77</start>
+      <end>4933.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>99</ID>
+      <start>4917.77</start>
+      <end>4924.77</end>
+      <code>Etoile du Sahel Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>100</ID>
+      <start>4966.77</start>
+      <end>4983.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>101</ID>
+      <start>4983.77</start>
+      <end>5024.77</end>
+      <code>Etoile du Sahel Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>102</ID>
+      <start>5014.77</start>
+      <end>5031.77</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>103</ID>
+      <start>5026.77</start>
+      <end>5046.77</end>
+      <code>Etoile du Sahel Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>104</ID>
+      <start>5037.77</start>
+      <end>5054.77</end>
+      <code>Etoile du Sahel Shots</code>
+    </instance>
+    <instance>
+      <ID>105</ID>
+      <start>5071.77</start>
+      <end>5088.77</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>106</ID>
+      <start>5096.77</start>
+      <end>5104.77</end>
+      <code>US Tataouine Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>107</ID>
+      <start>5097.77</start>
+      <end>5111.77</end>
+      <code>Etoile du Sahel Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>108</ID>
+      <start>5192.77</start>
+      <end>5209.77</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>109</ID>
+      <start>5237.77</start>
+      <end>5249.77</end>
+      <code>US Tataouine Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>110</ID>
+      <start>5242.77</start>
+      <end>5259.77</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>111</ID>
+      <start>5292.77</start>
+      <end>5309.77</end>
+      <code>US Tataouine Free kicks attacks</code>
+    </instance>
+    <instance>
+      <ID>112</ID>
+      <start>5308.77</start>
+      <end>5323.77</end>
+      <code>Etoile du Sahel Counter-attacks</code>
+    </instance>
+    <instance>
+      <ID>113</ID>
+      <start>5330.77</start>
+      <end>5355.77</end>
+      <code>Etoile du Sahel Fouls</code>
+    </instance>
+    <instance>
+      <ID>114</ID>
+      <start>5457.77</start>
+      <end>5474.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>115</ID>
+      <start>5530.77</start>
+      <end>5547.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>116</ID>
+      <start>5621.77</start>
+      <end>5638.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+    <instance>
+      <ID>117</ID>
+      <start>5695.77</start>
+      <end>5706.77</end>
+      <code>US Tataouine Positional attacks with chances</code>
+    </instance>
+    <instance>
+      <ID>118</ID>
+      <start>5698.77</start>
+      <end>5715.77</end>
+      <code>US Tataouine Fouls</code>
+    </instance>
+  </ALL_INSTANCES>
+  <ROWS>
+    <row>
+      <code>Start</code>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </row>
+    <row>
+      <code>Etoile du Sahel Positional attacks with chances</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>Etoile du Sahel Counter-attacks</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>Etoile du Sahel Shots</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>Etoile du Sahel Corner attacks</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>Etoile du Sahel Free kicks attacks</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>Etoile du Sahel Goals</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>Etoile du Sahel Yellow cards</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>Etoile du Sahel Fouls</code>
+      <R>51400</R>
+      <G>51400</G>
+      <B>51400</B>
+    </row>
+    <row>
+      <code>US Tataouine Throw-in attacks</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>US Tataouine Positional attacks with chances</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>US Tataouine Counter-attacks</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>US Tataouine Shots</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>US Tataouine Corner attacks</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>US Tataouine Free kicks attacks</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>US Tataouine Goals</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+    <row>
+      <code>US Tataouine Fouls</code>
+      <R>14649</R>
+      <G>14649</G>
+      <B>14649</B>
+    </row>
+  </ROWS>
+</file>
