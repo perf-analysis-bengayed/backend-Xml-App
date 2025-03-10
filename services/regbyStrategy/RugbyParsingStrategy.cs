@@ -1,199 +1,235 @@
 using System.Text;
 using System.Xml.Linq;
-using System.Globalization;
+
 
 public class RugbyParsingStrategy : IXmlParsingStrategy
 {
     private readonly List<ActionRow> actionRows = new List<ActionRow>();
     private GameInfo gameInfo;
-    private readonly ParseActionRow parseActionRow = new ParseActionRow();
-
+    private readonly List<StatEvent> statEvents = new List<StatEvent>();
+        private readonly ParseActionRow parseActionRow = new ParseActionRow();
+    private readonly List<Player> players = new List<Player>();
     public List<ActionRow> ActionRows => actionRows;
     public GameInfo GameInfo => gameInfo;
-
+    public List<Player> Players => players;
+    public List<StatEvent> StatEvents => statEvents;
     public void ParseElement(XElement element, StringBuilder outputBuilder)
     {
-        if (element.Name.LocalName.ToUpper() == "ACTIONROW")
+        switch (element.Name.LocalName.ToUpper())
         {
-            ActionRow row = parseActionRow.ParseActionRowElement(element);
-            actionRows.Add(row);
-            AppendActionRowToBuilder(row, outputBuilder);
-        }
-        else if (element.Name.LocalName.ToUpper() == "GAME")
-        {
-            gameInfo = ParseGameElement(element);
-            AppendGameToBuilder(gameInfo, outputBuilder);
+            case "ACTIONROW":
+                ActionRow row = parseActionRow.ParseActionRowElement(element);
+                actionRows.Add(row);
+                AppendActionRowToBuilder(row, outputBuilder);
+                break;
+
+            case "GAME":
+              GameInfo game = parseActionRow.ParseGameElement(element);
+                gameInfo = game; 
+                AppendGameToBuilder(game, outputBuilder);
+                break;
+
+            case "PLAYER":
+                Player player = parseActionRow.ParsePlayerElement(element);
+                players.Add(player); 
+                parseActionRow.AppendPlayerToBuilder(player, outputBuilder); 
+                break;
+            case "STATEVENT":  
+                StatEvent statEvent = parseActionRow.ParseStatEventElement(element);
+                if (statEvent != null)
+                {
+                    statEvents.Add(statEvent);
+                    AppendStatEventToBuilder(statEvent, outputBuilder);
+                }
+                break;
         }
     }
-
-    private ActionRow ParseActionRowElement(XElement element)
+private void AppendStatEventToBuilder(StatEvent statEvent, StringBuilder outputBuilder)
     {
-        return parseActionRow.ParseActionRowElement(element); // Delegate to existing ParseActionRow
-    }
-
-    private GameInfo ParseGameElement(XElement element)
-    {
-        var game = new GameInfo
+        var statEventData = new
         {
-            TemplateID = int.TryParse(element.Element("TemplateID")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int templateId) ? templateId : 0,
-            CompetitionName = element.Element("CompetitionName")?.Value ?? "Unknown",
-            City = element.Element("City")?.Value ?? "NA",
-            Venue = element.Element("Venue")?.Value ?? "Unknown",
-            VenueID = int.TryParse(element.Element("VenueID")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int venueId) ? venueId : 0,
-            MatchDate = int.TryParse(element.Element("MatchDate")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int matchDate) ? matchDate : 0,
-            MatchTime = double.TryParse(element.Element("MatchTime")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out double matchTime) ? matchTime : 0.0,
-            MatchTimeI = element.Element("MatchTimeI")?.Value ?? "Unknown",
-            TeamOneScore = int.TryParse(element.Element("TeamOneScore")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int teamOneScore) ? teamOneScore : 0,
-            TeamTwoScore = int.TryParse(element.Element("TeamTwoScore")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int teamTwoScore) ? teamTwoScore : 0,
-            TeamOnLeftPeriod1 = int.TryParse(element.Element("TeamOnLeftPeriod1")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int teamLeftP1) ? teamLeftP1 : 0,
-            TeamOnLeftPeriod2 = int.TryParse(element.Element("TeamOnLeftPeriod2")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int teamLeftP2) ? teamLeftP2 : 0,
-            GameID = int.TryParse(element.Element("GameID")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int gameId) ? gameId : 0,
-            Round = int.TryParse(element.Element("Round")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int round) ? round : 0,
-            NumberOfRunOnPlayers = int.TryParse(element.Element("NumberOfRunOnPlayers")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int players) ? players : 0
+            TE_IDX = statEvent.TE_IDX,
+            QL_IDX = statEvent.QL_IDX,
+            FieldX = statEvent.FieldX,
+            FieldY = statEvent.FieldY,
+            TeamID = statEvent.TeamID,
+            PlayerID = statEvent.PlayerID,
+            VidRef = statEvent.VidRef,
+            Stop = statEvent.Stop,
+            StatLevel0 = statEvent.StatLevel0,
+            StatLevel1 = statEvent.StatLevel1,
+            StatVal = statEvent.StatVal,
+            RefereeID = statEvent.RefereeID,
+            Period = statEvent.Period,
+            TackleCount = statEvent.TackleCount,
+            SetCount = statEvent.SetCount
         };
 
-        // Parse RefereeInformation
-        var refereeInfoElement = element.Element("RefereeInformation");
-        if (refereeInfoElement != null)
-        {
-            game.RefereeInformation = new RefereeInfo
-            {
-                Referee1 = refereeInfoElement.Element("Referee1")?.Value ?? "Unknown",
-                Referee1ID = int.TryParse(refereeInfoElement.Elements("RefereeID").FirstOrDefault()?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int ref1Id) ? ref1Id : 0,
-                AssistantReferee1 = refereeInfoElement.Element("AssistantReferee1")?.Value ?? "Unknown",
-                AssistantReferee1ID = int.TryParse(refereeInfoElement.Elements("RefereeID").Skip(1).FirstOrDefault()?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int asst1Id) ? asst1Id : 0,
-                VideoReferee1 = refereeInfoElement.Element("VideoReferee1")?.Value ?? "Unknown",
-                VideoReferee1ID = int.TryParse(refereeInfoElement.Elements("RefereeID").Skip(2).FirstOrDefault()?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int vidId) ? vidId : 0,
-                AssistantReferee2 = refereeInfoElement.Element("AssistantReferee2")?.Value ?? "Unknown",
-                AssistantReferee2ID = int.TryParse(refereeInfoElement.Elements("RefereeID").Skip(3).FirstOrDefault()?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int asst2Id) ? asst2Id : 0
-            };
-        }
+        string outputLine = $"TE_IDX={statEventData.TE_IDX} " +
+            $"QL_IDX={statEventData.QL_IDX} " +
+            $"FieldX={statEventData.FieldX} " +
+            $"FieldY={statEventData.FieldY} " +
+            $"TeamID={statEventData.TeamID} " +
+            $"PlayerID={statEventData.PlayerID} " +
+            $"VidRef={statEventData.VidRef} " +
+            (statEventData.Stop.HasValue ? $"Stop={statEventData.Stop} " : "") +
+            $"StatLevel0=\"{statEventData.StatLevel0}\" " +
+            (statEventData.StatLevel1 != null ? $"StatLevel1=\"{statEventData.StatLevel1}\" " : "") +
+            $"StatVal={statEventData.StatVal} " +
+            $"RefereeID={statEventData.RefereeID} " +
+            $"Period={statEventData.Period} " +
+            $"TackleCount={statEventData.TackleCount} " +
+            $"SetCount={statEventData.SetCount}";
 
-        // Parse VideoView
-        var videoViewElement = element.Element("VideoView");
-        if (videoViewElement != null)
-        {
-            game.VideoView = new VideoView
-            {
-                ViewID = int.TryParse(videoViewElement.Element("ViewID")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int viewId) ? viewId : 0,
-                VideoFileName = videoViewElement.Element("VideoFileName")?.Value ?? "Unknown",
-                VideoFPS = int.TryParse(videoViewElement.Element("VideoFPS")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int fps) ? fps : 0
-            };
-        }
-
-        // Parse Teams and Players
-        var teamElements = element.Elements("Team");
-        foreach (var teamElement in teamElements)
-        {
-            var team = new Team
-            {
-                TeamID = int.TryParse(teamElement.Element("TeamID")?.Value, NumberStyles.Any, CultureInfo.InvariantCulture, out int teamId) ? teamId : 0,
-                TeamName = teamElement.Element("TeamName")?.Value ?? "Unknown"
-            };
-
-            var playersElement = teamElement.Element("Players");
-            if (playersElement != null)
-            {
-                foreach (var playerElement in playersElement.Elements("Player"))
-                {
-                    team.Players.Add(new Player
-                    {
-                        PlayerID = playerElement.Element("PlayerID")?.Value ?? "Unknown",
-                        ShirtNum = playerElement.Element("ShirtNum")?.Value ?? "0",
-                        PlayerName = playerElement.Element("PlayerName")?.Value ?? "Unknown",
-                        PlayerRole = playerElement.Element("PlayerRole")?.Value ?? "0",
-                        PositionNum = playerElement.Element("PositionNum")?.Value ?? "0"
-                    });
-                }
-            }
-            game.Teams.Add(team);
-        }
-
-        return game;
+        outputBuilder.AppendLine(outputLine);
     }
-
     private void AppendActionRowToBuilder(ActionRow row, StringBuilder outputBuilder)
     {
-        string outputLine = $"ID=\"{row.ID}\" " +
-            $"FXID=\"{row.FXID}\" " +
-            $"PLID=\"{row.PLID}\" " +
-            $"team_id=\"{row.TeamId}\" " +
-            $"ps_timestamp=\"{row.PsTimestamp}\" " +
-            $"ps_endstamp=\"{row.PsEndstamp}\" " +
-            $"MatchTime=\"{row.MatchTime}\" " +
-            $"psID=\"{row.PsID}\" " +
-            $"period=\"{row.Period}\" " +
-            $"x_coord=\"{row.XCoord}\" " +
-            $"y_coord=\"{row.YCoord}\" " +
-            $"x_coord_end=\"{row.XCoordEnd}\" " +
-            $"y_coord_end=\"{row.YCoordEnd}\" " +
-            $"action=\"{row.Action}\" " +
-            $"ActionType=\"{row.ActionType}\" " +
-            $"Actionresult=\"{row.ActionResult}\" " +
-            $"qualifier3=\"{row.Qualifier3}\" " +
-            $"qualifier4=\"{row.Qualifier4}\" " +
-            $"qualifier5=\"{row.Qualifier5}\" " +
-            $"Metres=\"{row.Metres}\" " +
-            $"PlayNum=\"{row.PlayNum}\" " +
-            $"SetNum=\"{row.SetNum}\" " +
-            $"sequence_id=\"{row.SequenceId}\" " +
-            $"player_advantage=\"{row.PlayerAdvantage}\" " +
-            $"score_advantage=\"{row.ScoreAdvantage}\" " +
-            $"flag=\"{row.Flag}\" " +
-            $"advantage=\"{row.Advantage}\" " +
-            $"assoc_player=\"{row.AssocPlayer}\"";
         
+        var actionRowData = new
+        {
+            Id = row.ID,
+            FxId = row.FXID,
+            PlId = row.PLID,
+            TeamId = row.TeamId,
+            PsTimestamp = row.PsTimestamp,
+            PsEndstamp = row.PsEndstamp,
+            MatchTime = row.MatchTime,
+            PsId = row.PsID,
+            Period = row.Period,
+            XCoord = row.XCoord,
+            YCoord = row.YCoord,
+            XCoordEnd = row.XCoordEnd,
+            YCoordEnd = row.YCoordEnd,
+            Action = row.Action,
+            ActionType = row.ActionType,
+            ActionResult = row.ActionResult,
+            Qualifier3 = row.Qualifier3,
+            Qualifier4 = row.Qualifier4,
+            Qualifier5 = row.Qualifier5,
+            Metres = row.Metres,
+            PlayNum = row.PlayNum,
+            SetNum = row.SetNum,
+            SequenceId = row.SequenceId,
+            PlayerAdvantage = row.PlayerAdvantage,
+            ScoreAdvantage = row.ScoreAdvantage,
+            Flag = row.Flag,
+            Advantage = row.Advantage,
+            AssocPlayer = row.AssocPlayer
+        };
+
+        string outputLine = $"ID=\"{actionRowData.Id}\" " +
+            $"FXID=\"{actionRowData.FxId}\" " +
+            $"PLID=\"{actionRowData.PlId}\" " +
+            $"team_id=\"{actionRowData.TeamId}\" " +
+            $"ps_timestamp=\"{actionRowData.PsTimestamp}\" " +
+            $"ps_endstamp=\"{actionRowData.PsEndstamp}\" " +
+            $"MatchTime=\"{actionRowData.MatchTime}\" " +
+            $"psID=\"{actionRowData.PsId}\" " +
+            $"period=\"{actionRowData.Period}\" " +
+            $"x_coord=\"{actionRowData.XCoord}\" " +
+            $"y_coord=\"{actionRowData.YCoord}\" " +
+            $"x_coord_end=\"{actionRowData.XCoordEnd}\" " +
+            $"y_coord_end=\"{actionRowData.YCoordEnd}\" " +
+            $"action=\"{actionRowData.Action}\" " +
+            $"ActionType=\"{actionRowData.ActionType}\" " +
+            $"Actionresult=\"{actionRowData.ActionResult}\" " +
+            $"qualifier3=\"{actionRowData.Qualifier3}\" " +
+            $"qualifier4=\"{actionRowData.Qualifier4}\" " +
+            $"qualifier5=\"{actionRowData.Qualifier5}\" " +
+            $"Metres=\"{actionRowData.Metres}\" " +
+            $"PlayNum=\"{actionRowData.PlayNum}\" " +
+            $"SetNum=\"{actionRowData.SetNum}\" " +
+            $"sequence_id=\"{actionRowData.SequenceId}\" " +
+            $"player_advantage=\"{actionRowData.PlayerAdvantage}\" " +
+            $"score_advantage=\"{actionRowData.ScoreAdvantage}\" " +
+            $"flag=\"{actionRowData.Flag}\" " +
+            $"advantage=\"{actionRowData.Advantage}\" " +
+            $"assoc_player=\"{actionRowData.AssocPlayer}\"";
+
         outputBuilder.AppendLine(outputLine);
     }
 
     private void AppendGameToBuilder(GameInfo game, StringBuilder outputBuilder)
     {
-        outputBuilder.AppendLine($"TemplateID={game.TemplateID}");
-        outputBuilder.AppendLine($"CompetitionName={game.CompetitionName.ToLower()}");
-        outputBuilder.AppendLine($"city={game.City}");
-        outputBuilder.AppendLine($"Venue={game.Venue}");
-        outputBuilder.AppendLine($"VenueID={game.VenueID}");
-        outputBuilder.AppendLine($"MatchDate={game.MatchDate}");
-        outputBuilder.AppendLine($"MatchTime={game.MatchTime}");
-        outputBuilder.AppendLine($"MatchTimeI={game.MatchTimeI}");
-        outputBuilder.AppendLine($"TeamOneScore={game.TeamOneScore}");
-        outputBuilder.AppendLine($"TeamTwoScore={game.TeamTwoScore}");
-        outputBuilder.AppendLine($"TeamOnLeftPeriod1={game.TeamOnLeftPeriod1}");
-        outputBuilder.AppendLine($"TeamOnLeftPeriod2={game.TeamOnLeftPeriod2}");
-        outputBuilder.AppendLine($"GameID={game.GameID}");
-        outputBuilder.AppendLine($"Round={game.Round}");
-        outputBuilder.AppendLine($"NumberOfRunOnPlayers={game.NumberOfRunOnPlayers}");
-
-        if (game.RefereeInformation != null)
+        
+        var gameData = new
         {
-            outputBuilder.AppendLine($"Referee1={game.RefereeInformation.Referee1}");
-            outputBuilder.AppendLine($"Referee1ID={game.RefereeInformation.Referee1ID}");
-            outputBuilder.AppendLine($"AssistantReferee1={game.RefereeInformation.AssistantReferee1}");
-            outputBuilder.AppendLine($"AssistantReferee1ID={game.RefereeInformation.AssistantReferee1ID}");
-            outputBuilder.AppendLine($"VideoReferee1={game.RefereeInformation.VideoReferee1}");
-            outputBuilder.AppendLine($"VideoReferee1ID={game.RefereeInformation.VideoReferee1ID}");
-            outputBuilder.AppendLine($"AssistantReferee2={game.RefereeInformation.AssistantReferee2}");
-            outputBuilder.AppendLine($"AssistantReferee2ID={game.RefereeInformation.AssistantReferee2ID}");
+            TemplateId = game.TemplateID,
+            CompetitionName = game.CompetitionName?.ToLower(),
+            City = game.City,
+            Venue = game.Venue,
+            VenueId = game.VenueID,
+            MatchDate = game.MatchDate,
+            MatchTime = game.MatchTime,
+            MatchTimeI = game.MatchTimeI,
+            TeamOneScore = game.TeamOneScore,
+            TeamTwoScore = game.TeamTwoScore,
+            TeamOnLeftPeriod1 = game.TeamOnLeftPeriod1,
+            TeamOnLeftPeriod2 = game.TeamOnLeftPeriod2,
+            GameId = game.GameID,
+            Round = game.Round,
+            NumberOfRunOnPlayers = game.NumberOfRunOnPlayers,
+            RefereeInfo = game.RefereeInformation,
+            VideoView = game.VideoView,
+            Teams = game.Teams
+        };
+
+        outputBuilder.AppendLine($"TemplateID={gameData.TemplateId}");
+        outputBuilder.AppendLine($"CompetitionName={gameData.CompetitionName}");
+        outputBuilder.AppendLine($"city={gameData.City}");
+        outputBuilder.AppendLine($"Venue={gameData.Venue}");
+        outputBuilder.AppendLine($"VenueID={gameData.VenueId}");
+        outputBuilder.AppendLine($"MatchDate={gameData.MatchDate}");
+        outputBuilder.AppendLine($"MatchTime={gameData.MatchTime}");
+        outputBuilder.AppendLine($"MatchTimeI={gameData.MatchTimeI}");
+        outputBuilder.AppendLine($"TeamOneScore={gameData.TeamOneScore}");
+        outputBuilder.AppendLine($"TeamTwoScore={gameData.TeamTwoScore}");
+        outputBuilder.AppendLine($"TeamOnLeftPeriod1={gameData.TeamOnLeftPeriod1}");
+        outputBuilder.AppendLine($"TeamOnLeftPeriod2={gameData.TeamOnLeftPeriod2}");
+        outputBuilder.AppendLine($"GameID={gameData.GameId}");
+        outputBuilder.AppendLine($"Round={gameData.Round}");
+        outputBuilder.AppendLine($"NumberOfRunOnPlayers={gameData.NumberOfRunOnPlayers}");
+
+        if (gameData.RefereeInfo != null)
+        {
+            outputBuilder.AppendLine($"Referee1={gameData.RefereeInfo.Referee1}");
+            outputBuilder.AppendLine($"Referee1ID={gameData.RefereeInfo.Referee1ID}");
+            outputBuilder.AppendLine($"AssistantReferee1={gameData.RefereeInfo.AssistantReferee1}");
+            outputBuilder.AppendLine($"AssistantReferee1ID={gameData.RefereeInfo.AssistantReferee1ID}");
+            outputBuilder.AppendLine($"VideoReferee1={gameData.RefereeInfo.VideoReferee1}");
+            outputBuilder.AppendLine($"VideoReferee1ID={gameData.RefereeInfo.VideoReferee1ID}");
+            outputBuilder.AppendLine($"AssistantReferee2={gameData.RefereeInfo.AssistantReferee2}");
+            outputBuilder.AppendLine($"AssistantReferee2ID={gameData.RefereeInfo.AssistantReferee2ID}");
         }
 
-        if (game.VideoView != null)
+        if (gameData.VideoView != null)
         {
-            outputBuilder.AppendLine($"ViewID={game.VideoView.ViewID}");
-            outputBuilder.AppendLine($"VideoFileName={game.VideoView.VideoFileName}");
-            outputBuilder.AppendLine($"VideoFPS={game.VideoView.VideoFPS}");
+            outputBuilder.AppendLine($"ViewID={gameData.VideoView.ViewID}");
+            outputBuilder.AppendLine($"VideoFileName={gameData.VideoView.VideoFileName}");
+            outputBuilder.AppendLine($"VideoFPS={gameData.VideoView.VideoFPS}");
         }
 
-        foreach (var team in game.Teams)
+        foreach (var team in gameData.Teams)
         {
             outputBuilder.AppendLine($"TeamID={team.TeamID}");
             outputBuilder.AppendLine($"TeamName={team.TeamName}");
             foreach (var player in team.Players)
             {
-                outputBuilder.AppendLine($"PlayerID={player.PlayerID}");
-                outputBuilder.AppendLine($"ShirtNum={player.ShirtNum}");
-                outputBuilder.AppendLine($"PlayerName={player.PlayerName}");
-                outputBuilder.AppendLine($"PlayerRole={player.PlayerRole}");
-                outputBuilder.AppendLine($"PositionNum={player.PositionNum}");
+                var playerData = new
+                {
+                    PlayerId = player.PlayerID,
+                    ShirtNum = player.ShirtNum,
+                    PlayerName = player.PlayerName,
+                    PlayerRole = player.PlayerRole,
+                    PositionNum = player.PositionNum
+                };
+
+                outputBuilder.AppendLine($"PlayerID={playerData.PlayerId}");
+                outputBuilder.AppendLine($"ShirtNum={playerData.ShirtNum}");
+                outputBuilder.AppendLine($"PlayerName={playerData.PlayerName}");
+                outputBuilder.AppendLine($"PlayerRole={playerData.PlayerRole}");
+                outputBuilder.AppendLine($"PositionNum={playerData.PositionNum}");
             }
         }
     }

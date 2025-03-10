@@ -20,7 +20,7 @@ public class XmlParser : XmlFileService
             
             foreach (var element in xmlDocument.Descendants())
             {
-                // Remove or adjust the condition to process elements with attributes
+                
                 _parsingStrategy.ParseElement(element, xmlContentBuilder);
             }
 
@@ -41,7 +41,7 @@ public static IXmlParsingStrategy DetermineParsingStrategy(string filePath)
     {
         XDocument xmlDocument = XDocument.Load(filePath);
 
-        // Check for either OPTAFEED or GameFile (both rugby formats)
+       
         var optafeedElement = xmlDocument.Descendants("OPTAFEED").FirstOrDefault();
         var gameFileElement = xmlDocument.Descendants("GameFile").FirstOrDefault();
 
@@ -56,9 +56,7 @@ public static IXmlParsingStrategy DetermineParsingStrategy(string filePath)
         }
         else if (gameFileElement != null)
         {
-            bool isRugby = xmlDocument.Descendants("CompetitionName")
-                            .Any(x => x.Value.Contains("TOP 14", StringComparison.OrdinalIgnoreCase)) ||
-                          xmlDocument.Descendants("NumberOfRunOnPlayers").Any() ||
+            bool isRugby = xmlDocument.Descendants("NumberOfRunOnPlayers").Any() ||
                           xmlDocument.Descendants("RefereeInformation").Any();
             if (isRugby)
             {

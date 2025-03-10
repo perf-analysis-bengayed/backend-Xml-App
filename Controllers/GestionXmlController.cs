@@ -30,13 +30,11 @@ public async Task<IActionResult> UploadFiles([FromForm] List<IFormFile> files, [
 
         var parsedContents = await _xmlFileService.UploadXmlFilesAsync(files, matchInfo);
 
-        // Get the match file content
         string matchFilePath = Path.Combine(Directory.GetCurrentDirectory(), "uploads", "ficheMatch.txt");
         string matchFileContent = System.IO.File.Exists(matchFilePath) 
             ? await System.IO.File.ReadAllTextAsync(matchFilePath)
             : "Match file not found";
 
-        // Generate the match file name for reference
         string matchFileName = parsedContents.Any()
             ? $"{matchInfo.HomeTeam ?? "Unknown"} vs {matchInfo.AwayTeam ?? "Unknown"} {matchInfo.MatchDate:dd.MM.yyyy}.fiche"
             : "UnknownMatch.fiche";

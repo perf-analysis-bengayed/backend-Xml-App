@@ -19,7 +19,7 @@ public class SportDataParsingStrategy : IXmlParsingStrategy
                 InstanceData instance = parseInstanceSportData.ParseInstanceSportData1(element);
                 instances.Add(instance);
                 AppendInstanceToBuilder(instance, xmlContentBuilder);
-                // Ajouter le joueur à la liste de son équipe
+                
                 if (!string.IsNullOrEmpty(instance.Team) && instance.Team != "N/A" && 
                     !string.IsNullOrEmpty(instance.PlayerName))
                 {
