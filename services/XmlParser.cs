@@ -20,12 +20,9 @@ public class XmlParser : XmlFileService
             
             foreach (var element in xmlDocument.Descendants())
             {
-                if (!string.IsNullOrWhiteSpace(element.Value.Trim()))
-                {
-                    _parsingStrategy.ParseElement(element, xmlContentBuilder);
-                }
+                // Remove or adjust the condition to process elements with attributes
+                _parsingStrategy.ParseElement(element, xmlContentBuilder);
             }
-
 
             if (xmlContentBuilder.Length == 0)
             {
@@ -40,12 +37,14 @@ public class XmlParser : XmlFileService
         return xmlContentBuilder.ToString();
     }
 
- public static IXmlParsingStrategy DetermineParsingStrategy(string filePath)
+public static IXmlParsingStrategy DetermineParsingStrategy(string filePath)
     {
         XDocument xmlDocument = XDocument.Load(filePath);
 
-        // Check for OPTAFEED (Rugby) format first
+        // Check for either OPTAFEED or GameFile (both rugby formats)
         var optafeedElement = xmlDocument.Descendants("OPTAFEED").FirstOrDefault();
+        var gameFileElement = xmlDocument.Descendants("GameFile").FirstOrDefault();
+
         if (optafeedElement != null)
         {
             bool hasRugbyElements = xmlDocument.Descendants("ActionRow").Any() ||
@@ -55,17 +54,12 @@ public class XmlParser : XmlFileService
                 return new RugbyParsingStrategy();
             }
         }
-
-        var gameElement = xmlDocument.Descendants("GameFile").FirstOrDefault() ?? 
-                         xmlDocument.Descendants("Game").FirstOrDefault();
-        
-        if (gameElement != null)
+        else if (gameFileElement != null)
         {
             bool isRugby = xmlDocument.Descendants("CompetitionName")
                             .Any(x => x.Value.Contains("TOP 14", StringComparison.OrdinalIgnoreCase)) ||
                           xmlDocument.Descendants("NumberOfRunOnPlayers").Any() ||
                           xmlDocument.Descendants("RefereeInformation").Any();
-            
             if (isRugby)
             {
                 return new RugbyParsingStrategy();
@@ -75,38 +69,35 @@ public class XmlParser : XmlFileService
         return DetermineFootballParsingStrategy(xmlDocument);
     }
 
-private static IXmlParsingStrategy DetermineFootballParsingStrategy(XDocument xmlDocument)
-{
- 
-    var versionElement = xmlDocument.Descendants("VERSION").FirstOrDefault();
-    if (versionElement != null && versionElement.Value.Contains("WYSCOUT", StringComparison.OrdinalIgnoreCase))
+    private static IXmlParsingStrategy DetermineFootballParsingStrategy(XDocument xmlDocument)
     {
-        return new WyscoutParsingStrategy();
-    }
-
-    var allInstancesElement = xmlDocument.Descendants("ALL_INSTANCES").FirstOrDefault();
-    bool hasStructuralElements = allInstancesElement != null || 
-                                xmlDocument.Descendants("ROWS").Any() || 
-                                xmlDocument.Descendants("SORT_INFO").Any() ||
-                                xmlDocument.Descendants("OPTAFEED").Any();
-
-    if (hasStructuralElements)
-    {
-        if (allInstancesElement != null)
+        var versionElement = xmlDocument.Descendants("VERSION").FirstOrDefault();
+        if (versionElement != null && versionElement.Value.Contains("WYSCOUT", StringComparison.OrdinalIgnoreCase))
         {
-            var instances = allInstancesElement.Elements("instance");
-            bool hasLabelPos = instances.Any(i => i.Elements("label").Any(l => 
-                l.Element("group")?.Value == "pos_x" || l.Element("group")?.Value == "pos_y"));
-
-            if (hasLabelPos)
-            {
-                return new SportDataParsingStrategy();
-            }
+            return new WyscoutParsingStrategy();
         }
-        return new InStatParsingStrategy();
+
+        var allInstancesElement = xmlDocument.Descendants("ALL_INSTANCES").FirstOrDefault();
+        bool hasStructuralElements = allInstancesElement != null || 
+                                    xmlDocument.Descendants("ROWS").Any() || 
+                                    xmlDocument.Descendants("SORT_INFO").Any();
+
+        if (hasStructuralElements)
+        {
+            if (allInstancesElement != null)
+            {
+                var instances = allInstancesElement.Elements("instance");
+                bool hasLabelPos = instances.Any(i => i.Elements("label").Any(l => 
+                    l.Element("group")?.Value == "pos_x" || l.Element("group")?.Value == "pos_y"));
+
+                if (hasLabelPos)
+                {
+                    return new SportDataParsingStrategy();
+                }
+            }
+            return new InStatParsingStrategy();
+        }
+
+        throw new InvalidOperationException("Type non valide");
     }
-
-    throw new InvalidOperationException("Type non valide");
-}
-
 }

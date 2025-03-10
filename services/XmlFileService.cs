@@ -26,7 +26,6 @@ public class XmlFileService : IXmlFileService
         List<string> filePaths = new List<string>();
         List<string> parsedContents = new List<string>();
         IXmlParsingStrategy xmlStrategy = null;
-
         MatchNameInfo extractedMatchNameInfo = null;
 
         foreach (var file in files)
@@ -44,8 +43,18 @@ public class XmlFileService : IXmlFileService
             }
 
             xmlStrategy = XmlParser.DetermineParsingStrategy(filePath);
-            IFileNameParsingStrategy nameStrategy = DetermineFileNameParsingStrategy(xmlStrategy);
-            extractedMatchNameInfo = nameStrategy.ParseFileName(file.FileName);
+
+            // Check if it's RugbyParsingStrategy (OPTAFEED format)
+            if (xmlStrategy is RugbyParsingStrategy)
+            {
+                // Skip filename parsing and keep extractedMatchNameInfo as null
+                extractedMatchNameInfo = null;
+            }
+            else
+            {
+                IFileNameParsingStrategy nameStrategy = DetermineFileNameParsingStrategy(xmlStrategy);
+                extractedMatchNameInfo = nameStrategy.ParseFileName(file.FileName);
+            }
 
             XmlParser parser = new XmlParser(xmlStrategy, _environment);
             string parsedContent = parser.ParseXmlFile(filePath);
@@ -57,15 +66,25 @@ public class XmlFileService : IXmlFileService
         var matchFilePath = Path.Combine(_uploadPath, "ficheMatch.txt");
         filePaths.Add(matchFilePath);
 
-        var finalMatchInfo = new MatchInfo
+        MatchInfo finalMatchInfo = null;
+        if (xmlStrategy is RugbyParsingStrategy)
         {
-            MatchDate = extractedMatchNameInfo?.MatchDate ?? matchInfo.MatchDate,
-            HomeTeam = extractedMatchNameInfo?.HomeTeam ?? matchInfo.HomeTeam,
-            AwayTeam = extractedMatchNameInfo?.AwayTeam ?? matchInfo.AwayTeam,
-            ParsedContents = parsedContents
-        };
+            // For OPTAFEED files, set finalMatchInfo to null
+            finalMatchInfo = null;
+        }
+        else
+        {
+            finalMatchInfo = new MatchInfo
+            {
+                MatchDate = extractedMatchNameInfo?.MatchDate ?? matchInfo.MatchDate,
+                HomeTeam = extractedMatchNameInfo?.HomeTeam ?? matchInfo.HomeTeam,
+                AwayTeam = extractedMatchNameInfo?.AwayTeam ?? matchInfo.AwayTeam,
+                ParsedContents = parsedContents
+            };
+        }
 
-        CreateMatchFile(matchFilePath, finalMatchInfo, xmlStrategy);
+        // Pass parsedContents explicitly to CreateMatchFile
+        CreateMatchFile(matchFilePath, finalMatchInfo, xmlStrategy, parsedContents);
 
         _ = Task.Run(async () =>
         {
@@ -97,33 +116,50 @@ public class XmlFileService : IXmlFileService
             WyscoutParsingStrategy => new WyscoutParsingName(),
             SportDataParsingStrategy => new SportDataParsingName(),
             InStatParsingStrategy => new InStatParsingName(),
+            RugbyParsingStrategy => null,
             _ => throw new ArgumentException("Stratégie de parsing XML non reconnue.")
         };
     }
 
-    private void CreateMatchFile(string filePath, MatchInfo matchInfo, IXmlParsingStrategy xmlStrategy)
+  private void CreateMatchFile(string filePath, MatchInfo matchInfo, IXmlParsingStrategy xmlStrategy, List<string> parsedContents)
     {
         using (var writer = new StreamWriter(filePath, false, Encoding.UTF8))
         {
-            writer.WriteLine("Match Information:");
-            writer.WriteLine($"Match Date: {matchInfo.MatchDate.ToString("dd.MM.yyyy")}");
-            writer.WriteLine($"Home Team: {matchInfo.HomeTeam}");
-            writer.WriteLine($"Away Team: {matchInfo.AwayTeam}");
-
-         switch (xmlStrategy)
+            if (matchInfo != null)
             {
-                case SportDataParsingStrategy sportDataStrategy:
-                    writer.WriteLine(sportDataStrategy.GetTeamPlayersList());
-                    break;
-                case InStatParsingStrategy inStatStrategy:
-                    writer.WriteLine(inStatStrategy.GetTeamPlayersList());
-                    break;
-                case RugbyParsingStrategy rugbyStrategy:
-                    writer.WriteLine($"Total Action Rows: {rugbyStrategy.ActionRows.Count}");
-                    break;
+                writer.WriteLine("Match Information:");
+                writer.WriteLine($"Match Date: {matchInfo.MatchDate.ToString("dd.MM.yyyy")}");
+                writer.WriteLine($"Home Team: {matchInfo.HomeTeam}");
+                writer.WriteLine($"Away Team: {matchInfo.AwayTeam}");
             }
+            else
+            {
+                writer.WriteLine("Match Information: Not available (Rugby format)");
+            }
+
+            if (xmlStrategy is RugbyParsingStrategy rugbyStrategy)
+            {
+                if (rugbyStrategy.ActionRows.Count > 0)
+                {
+                    writer.WriteLine($"Total Action Rows: {rugbyStrategy.ActionRows.Count}");
+                }
+                else if (rugbyStrategy.GameInfo != null)
+                {
+                    writer.WriteLine("Game File Information Parsed:");
+                }
+            }
+            else if (xmlStrategy is SportDataParsingStrategy sportDataStrategy)
+            {
+                writer.WriteLine(sportDataStrategy.GetTeamPlayersList());
+            }
+            else if (xmlStrategy is InStatParsingStrategy inStatStrategy)
+            {
+                writer.WriteLine(inStatStrategy.GetTeamPlayersList());
+            }
+
             writer.WriteLine("Parsed Contents:");
-            foreach (var content in matchInfo.ParsedContents)
+            var contentsToWrite = matchInfo?.ParsedContents ?? parsedContents;
+            foreach (var content in contentsToWrite)
             {
                 writer.WriteLine(content);
             }
