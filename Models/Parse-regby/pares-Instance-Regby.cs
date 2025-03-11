@@ -59,8 +59,8 @@ public class ParseActionRow
             GameID = GetIntElement(element, "GameID", 0),
             Round = GetIntElement(element, "Round", 0),
             NumberOfRunOnPlayers = GetIntElement(element, "NumberOfRunOnPlayers", 0),
-            RefereeInformation = ParseRefereeInformation(element.Element("RefereeInformation")),
-            VideoView = ParseVideoView(element.Element("VideoView")),
+            RefereeInformation = ParseRefereeInformation(element.Element("RefereeInformation") ?? new XElement("RefereeInformation")),
+            VideoView = ParseVideoView(element.Element("VideoView") ?? new XElement("VideoView")),
             Teams = ParseTeams(element.Elements("Team"))
         };
 
@@ -87,25 +87,37 @@ public class ParseActionRow
         element.Element(name)?.Value ?? defaultValue;
 
     
-    private RefereeInfo ParseRefereeInformation(XElement element)
+ private RefereeInfo ParseRefereeInformation(XElement element)
+{
+    if (element == null)
     {
-        if (element == null) return null;
-
         return new RefereeInfo
         {
-            Referee1 = GetStringElement(element, "Referee1", "Unknown"),
-            Referee1ID = GetIntElement(element, "RefereeID", 0), // Note: Premier RefereeID
-            AssistantReferee1 = GetStringElement(element, "AssistantReferee1", "Unknown"),
-            AssistantReferee1ID = element.Elements("RefereeID").Skip(1).FirstOrDefault() != null
-                ? GetIntElement(element.Elements("RefereeID").Skip(1).FirstOrDefault(), "RefereeID", 0) : 0,
-            VideoReferee1 = GetStringElement(element, "VideoReferee1", "Unknown"),
-            VideoReferee1ID = element.Elements("RefereeID").Skip(2).FirstOrDefault() != null
-                ? GetIntElement(element.Elements("RefereeID").Skip(2).FirstOrDefault(), "RefereeID", 0) : 0,
-            AssistantReferee2 = GetStringElement(element, "AssistantReferee2", "Unknown"),
-            AssistantReferee2ID = element.Elements("RefereeID").Skip(3).FirstOrDefault() != null
-                ? GetIntElement(element.Elements("RefereeID").Skip(3).FirstOrDefault(), "RefereeID", 0) : 0
+            Referee1 = "Unknown",
+            Referee1ID = 0,
+            AssistantReferee1 = "Unknown",
+            AssistantReferee1ID = 0,
+            VideoReferee1 = "Unknown",
+            VideoReferee1ID = 0,
+            AssistantReferee2 = "Unknown",
+            AssistantReferee2ID = 0
         };
     }
+
+    var refereeIds = element.Elements("RefereeID").ToList();
+
+    return new RefereeInfo
+    {
+        Referee1 = GetStringElement(element, "Referee1", "Unknown"),
+        Referee1ID = GetIntElement(element, "RefereeID", 0),
+        AssistantReferee1 = GetStringElement(element, "AssistantReferee1", "Unknown"),
+        AssistantReferee1ID = refereeIds.Count > 1 ? GetIntElement(refereeIds[1], "RefereeID", 0) : 0,
+        VideoReferee1 = GetStringElement(element, "VideoReferee1", "Unknown"),
+        VideoReferee1ID = refereeIds.Count > 2 ? GetIntElement(refereeIds[2], "RefereeID", 0) : 0,
+        AssistantReferee2 = GetStringElement(element, "AssistantReferee2", "Unknown"),
+        AssistantReferee2ID = refereeIds.Count > 3 ? GetIntElement(refereeIds[3], "RefereeID", 0) : 0
+    };
+}
 
     private VideoView ParseVideoView(XElement element)
     {

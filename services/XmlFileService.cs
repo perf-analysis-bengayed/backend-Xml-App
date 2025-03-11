@@ -25,8 +25,8 @@ public class XmlFileService : IXmlFileService
 
         List<string> filePaths = new List<string>();
         List<string> parsedContents = new List<string>();
-        IXmlParsingStrategy xmlStrategy = null;
-        MatchNameInfo extractedMatchNameInfo = null;
+        IXmlParsingStrategy? xmlStrategy = null;
+        MatchNameInfo? extractedMatchNameInfo = null;
 
         foreach (var file in files)
         {
@@ -44,15 +44,14 @@ public class XmlFileService : IXmlFileService
 
             xmlStrategy = XmlParser.DetermineParsingStrategy(filePath);
 
-            // Check if it's RugbyParsingStrategy (OPTAFEED format)
+            
             if (xmlStrategy is RugbyParsingStrategy)
             {
-                // Skip filename parsing and keep extractedMatchNameInfo as null
                 extractedMatchNameInfo = null;
             }
             else
             {
-                IFileNameParsingStrategy nameStrategy = DetermineFileNameParsingStrategy(xmlStrategy);
+                IFileNameParsingStrategy? nameStrategy = DetermineFileNameParsingStrategy(xmlStrategy);
                 extractedMatchNameInfo = nameStrategy.ParseFileName(file.FileName);
             }
 
@@ -66,10 +65,10 @@ public class XmlFileService : IXmlFileService
         var matchFilePath = Path.Combine(_uploadPath, "ficheMatch.txt");
         filePaths.Add(matchFilePath);
 
-        MatchInfo finalMatchInfo = null;
+        MatchInfo? finalMatchInfo = null;
         if (xmlStrategy is RugbyParsingStrategy)
         {
-            // For OPTAFEED files, set finalMatchInfo to null
+           
             finalMatchInfo = null;
         }
         else
@@ -83,7 +82,7 @@ public class XmlFileService : IXmlFileService
             };
         }
 
-        // Pass parsedContents explicitly to CreateMatchFile
+        
         CreateMatchFile(matchFilePath, finalMatchInfo, xmlStrategy, parsedContents);
 
         _ = Task.Run(async () =>
@@ -109,7 +108,7 @@ public class XmlFileService : IXmlFileService
         return parsedContents;
     }
 
-    public IFileNameParsingStrategy DetermineFileNameParsingStrategy(IXmlParsingStrategy xmlStrategy)
+    public IFileNameParsingStrategy? DetermineFileNameParsingStrategy(IXmlParsingStrategy xmlStrategy)
     {
         return xmlStrategy switch
         {

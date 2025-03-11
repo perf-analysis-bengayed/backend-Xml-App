@@ -1,4 +1,3 @@
-using System.Text;
 using System.Xml.Linq;
 
 public class ParseInstanceInStat 
@@ -31,11 +30,11 @@ public class ParseInstanceInStat
         instance.PosX = element.Element("pos_x")?.Value.Trim() ?? "N/A";
         instance.PosY = element.Element("pos_y")?.Value.Trim() ?? "N/A";
 
-        if (!string.IsNullOrEmpty(instance.Code) && instance.Code.Contains("."))
-        {
-            instance.PlayerNumber = instance.Code.Split('.')[0].Trim();
-            instance.PlayerName = instance.Code.Substring(instance.Code.IndexOf('.') + 1).Trim();
-        }
+     if (!string.IsNullOrEmpty(instance.Code) && instance.Code.Contains("."))
+{
+    instance.PlayerNumber = instance.Code.Split('.')[0].Trim();
+    instance.PlayerName = instance.Code.Substring(instance.Code.IndexOf('.') + 1).Trim();
+}
 
         return instance;
     }

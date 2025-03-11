@@ -4,16 +4,12 @@ using System.Xml.Linq;
 public class RugbyParsingStrategy : IXmlParsingStrategy
 {
     private readonly List<ActionRow> actionRows = new List<ActionRow>();
-    private GameInfo gameInfo;
-    private readonly List<StatEvent> statEvents = new List<StatEvent>();
+     private readonly List<StatEvent> statEvents = new List<StatEvent>();
     private readonly ParseActionRow parseActionRow = new ParseActionRow();
     private readonly List<Player> players = new List<Player>();
-
     public List<ActionRow> ActionRows => actionRows;
-    public GameInfo GameInfo => gameInfo;
-    public List<Player> Players => players;
-    public List<StatEvent> StatEvents => statEvents;
-
+    private readonly List<GameInfo> gameInfo = new List<GameInfo>();
+    public List<GameInfo> GameInfo => gameInfo;
     public void ParseElement(XElement element, StringBuilder outputBuilder)
     {
         switch (element.Name.LocalName.ToUpper())
@@ -26,14 +22,14 @@ public class RugbyParsingStrategy : IXmlParsingStrategy
 
             case "GAME":
                 GameInfo game = parseActionRow.ParseGameElement(element);
-                gameInfo = game;
-                AppendGameToBuilder(game, outputBuilder); // No player output here
+                gameInfo.Add(game);
+                AppendGameToBuilder(game, outputBuilder); 
                 break;
 
             case "PLAYER":
                 Player player = parseActionRow.ParsePlayerElement(element);
                 players.Add(player);
-                parseActionRow.AppendPlayerToBuilder(player, outputBuilder); // Only display players here
+                parseActionRow.AppendPlayerToBuilder(player, outputBuilder); 
                 break;
 
             case "STATEVENT":
@@ -175,7 +171,7 @@ public class RugbyParsingStrategy : IXmlParsingStrategy
         {
             outputBuilder.AppendLine($"TeamID={team.TeamID}");
             outputBuilder.AppendLine($"TeamName={team.TeamName}");
-            // Players are not appended here; handled in "PLAYER" case
+            
         }
     }
 

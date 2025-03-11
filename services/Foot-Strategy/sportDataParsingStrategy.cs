@@ -7,10 +7,7 @@ public class SportDataParsingStrategy : IXmlParsingStrategy
     private readonly RowsParser rowsParser = new RowsParser();
     private readonly ParseInstanceSportData parseInstanceSportData = new ParseInstanceSportData();
     private readonly Dictionary<string, HashSet<string>> teamPlayers = new Dictionary<string, HashSet<string>>();
-
-    public List<InstanceData> Instances => instances;
-    public List<RowData> Rows => rowsParser.Rows;
-
+    
     public void ParseElement(XElement element, StringBuilder xmlContentBuilder)
     {
         switch (element.Name.LocalName.ToUpper())
@@ -82,14 +79,22 @@ public class SportDataParsingStrategy : IXmlParsingStrategy
     }
 
     public string GetTeamPlayersList()
+
     {
         StringBuilder sb = new StringBuilder();
+          if (teamPlayers.Count == 0)
+        {
+            sb.AppendLine("Aucune équipe ou joueur détecté dans les données InStat.");
+        }
+        else
+        {
         foreach (var team in teamPlayers)
         {
             sb.Append($"Liste des joueurs équipe {team.Key} : {{");
             sb.Append(string.Join(", ", team.Value));
             sb.AppendLine("}");
         }
-        return sb.ToString();
+     
     }
-}
+       return sb.ToString();
+}}
