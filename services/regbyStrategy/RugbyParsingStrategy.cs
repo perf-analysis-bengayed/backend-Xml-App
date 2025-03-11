@@ -1,18 +1,19 @@
 using System.Text;
 using System.Xml.Linq;
 
-
 public class RugbyParsingStrategy : IXmlParsingStrategy
 {
     private readonly List<ActionRow> actionRows = new List<ActionRow>();
     private GameInfo gameInfo;
     private readonly List<StatEvent> statEvents = new List<StatEvent>();
-        private readonly ParseActionRow parseActionRow = new ParseActionRow();
+    private readonly ParseActionRow parseActionRow = new ParseActionRow();
     private readonly List<Player> players = new List<Player>();
+
     public List<ActionRow> ActionRows => actionRows;
     public GameInfo GameInfo => gameInfo;
     public List<Player> Players => players;
     public List<StatEvent> StatEvents => statEvents;
+
     public void ParseElement(XElement element, StringBuilder outputBuilder)
     {
         switch (element.Name.LocalName.ToUpper())
@@ -24,17 +25,18 @@ public class RugbyParsingStrategy : IXmlParsingStrategy
                 break;
 
             case "GAME":
-              GameInfo game = parseActionRow.ParseGameElement(element);
-                gameInfo = game; 
-                AppendGameToBuilder(game, outputBuilder);
+                GameInfo game = parseActionRow.ParseGameElement(element);
+                gameInfo = game;
+                AppendGameToBuilder(game, outputBuilder); // No player output here
                 break;
 
             case "PLAYER":
                 Player player = parseActionRow.ParsePlayerElement(element);
-                players.Add(player); 
-                parseActionRow.AppendPlayerToBuilder(player, outputBuilder); 
+                players.Add(player);
+                parseActionRow.AppendPlayerToBuilder(player, outputBuilder); // Only display players here
                 break;
-            case "STATEVENT":  
+
+            case "STATEVENT":
                 StatEvent statEvent = parseActionRow.ParseStatEventElement(element);
                 if (statEvent != null)
                 {
@@ -44,48 +46,9 @@ public class RugbyParsingStrategy : IXmlParsingStrategy
                 break;
         }
     }
-private void AppendStatEventToBuilder(StatEvent statEvent, StringBuilder outputBuilder)
-    {
-        var statEventData = new
-        {
-            TE_IDX = statEvent.TE_IDX,
-            QL_IDX = statEvent.QL_IDX,
-            FieldX = statEvent.FieldX,
-            FieldY = statEvent.FieldY,
-            TeamID = statEvent.TeamID,
-            PlayerID = statEvent.PlayerID,
-            VidRef = statEvent.VidRef,
-            Stop = statEvent.Stop,
-            StatLevel0 = statEvent.StatLevel0,
-            StatLevel1 = statEvent.StatLevel1,
-            StatVal = statEvent.StatVal,
-            RefereeID = statEvent.RefereeID,
-            Period = statEvent.Period,
-            TackleCount = statEvent.TackleCount,
-            SetCount = statEvent.SetCount
-        };
 
-        string outputLine = $"TE_IDX={statEventData.TE_IDX} " +
-            $"QL_IDX={statEventData.QL_IDX} " +
-            $"FieldX={statEventData.FieldX} " +
-            $"FieldY={statEventData.FieldY} " +
-            $"TeamID={statEventData.TeamID} " +
-            $"PlayerID={statEventData.PlayerID} " +
-            $"VidRef={statEventData.VidRef} " +
-            (statEventData.Stop.HasValue ? $"Stop={statEventData.Stop} " : "") +
-            $"StatLevel0=\"{statEventData.StatLevel0}\" " +
-            (statEventData.StatLevel1 != null ? $"StatLevel1=\"{statEventData.StatLevel1}\" " : "") +
-            $"StatVal={statEventData.StatVal} " +
-            $"RefereeID={statEventData.RefereeID} " +
-            $"Period={statEventData.Period} " +
-            $"TackleCount={statEventData.TackleCount} " +
-            $"SetCount={statEventData.SetCount}";
-
-        outputBuilder.AppendLine(outputLine);
-    }
     private void AppendActionRowToBuilder(ActionRow row, StringBuilder outputBuilder)
     {
-        
         var actionRowData = new
         {
             Id = row.ID,
@@ -146,13 +109,11 @@ private void AppendStatEventToBuilder(StatEvent statEvent, StringBuilder outputB
             $"flag=\"{actionRowData.Flag}\" " +
             $"advantage=\"{actionRowData.Advantage}\" " +
             $"assoc_player=\"{actionRowData.AssocPlayer}\"";
-
         outputBuilder.AppendLine(outputLine);
     }
 
     private void AppendGameToBuilder(GameInfo game, StringBuilder outputBuilder)
     {
-        
         var gameData = new
         {
             TemplateId = game.TemplateID,
@@ -214,23 +175,46 @@ private void AppendStatEventToBuilder(StatEvent statEvent, StringBuilder outputB
         {
             outputBuilder.AppendLine($"TeamID={team.TeamID}");
             outputBuilder.AppendLine($"TeamName={team.TeamName}");
-            foreach (var player in team.Players)
-            {
-                var playerData = new
-                {
-                    PlayerId = player.PlayerID,
-                    ShirtNum = player.ShirtNum,
-                    PlayerName = player.PlayerName,
-                    PlayerRole = player.PlayerRole,
-                    PositionNum = player.PositionNum
-                };
-
-                outputBuilder.AppendLine($"PlayerID={playerData.PlayerId}");
-                outputBuilder.AppendLine($"ShirtNum={playerData.ShirtNum}");
-                outputBuilder.AppendLine($"PlayerName={playerData.PlayerName}");
-                outputBuilder.AppendLine($"PlayerRole={playerData.PlayerRole}");
-                outputBuilder.AppendLine($"PositionNum={playerData.PositionNum}");
-            }
+            // Players are not appended here; handled in "PLAYER" case
         }
+    }
+
+    private void AppendStatEventToBuilder(StatEvent statEvent, StringBuilder outputBuilder)
+    {
+        var statEventData = new
+        {
+            TE_IDX = statEvent.TE_IDX,
+            QL_IDX = statEvent.QL_IDX,
+            FieldX = statEvent.FieldX,
+            FieldY = statEvent.FieldY,
+            TeamID = statEvent.TeamID,
+            PlayerID = statEvent.PlayerID,
+            VidRef = statEvent.VidRef,
+            Stop = statEvent.Stop,
+            StatLevel0 = statEvent.StatLevel0,
+            StatLevel1 = statEvent.StatLevel1,
+            StatVal = statEvent.StatVal,
+            RefereeID = statEvent.RefereeID,
+            Period = statEvent.Period,
+            TackleCount = statEvent.TackleCount,
+            SetCount = statEvent.SetCount
+        };
+
+        string outputLine = $"TE_IDX={statEventData.TE_IDX} " +
+            $"QL_IDX={statEventData.QL_IDX} " +
+            $"FieldX={statEventData.FieldX} " +
+            $"FieldY={statEventData.FieldY} " +
+            $"TeamID={statEventData.TeamID} " +
+            $"PlayerID={statEventData.PlayerID} " +
+            $"VidRef={statEventData.VidRef} " +
+            (statEventData.Stop.HasValue ? $"Stop={statEventData.Stop} " : "") +
+            $"StatLevel0=\"{statEventData.StatLevel0}\" " +
+            (statEventData.StatLevel1 != null ? $"StatLevel1=\"{statEventData.StatLevel1}\" " : "") +
+            $"StatVal={statEventData.StatVal} " +
+            $"RefereeID={statEventData.RefereeID} " +
+            $"Period={statEventData.Period} " +
+            $"TackleCount={statEventData.TackleCount} " +
+            $"SetCount={statEventData.SetCount}";
+        outputBuilder.AppendLine(outputLine);
     }
 }
