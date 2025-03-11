@@ -153,14 +153,23 @@ public class ParseActionRow
     }
 public Player ParsePlayerElement(XElement element)
     {
-        return new Player
-        {
-            PlayerID = GetStringElement(element, "PlayerID", "Unknown"),
-            ShirtNum = GetStringElement(element, "ShirtNum", "0"),
-            PlayerName = GetStringElement(element, "PlayerName", "Unknown"),
-            PlayerRole = GetStringElement(element, "PlayerRole", "0"),
-            PositionNum = GetStringElement(element, "PositionNum", "0")
-        };
+       var player = new Player
+    {
+        PlayerID = GetStringElement(element, "PlayerID", "Unknown"),
+        ShirtNum = GetStringElement(element, "ShirtNum", "0"),
+        PlayerName = GetStringElement(element, "PlayerName", "Unknown"),
+        PlayerRole = GetStringElement(element, "PlayerRole", "0"),
+        PositionNum = GetStringElement(element, "PositionNum", "0")
+    };
+
+    // Check if the player has meaningful data; if not, return null
+    if (player.PlayerID == "Unknown" && player.PlayerName == "Unknown" && 
+        player.ShirtNum == "0" && player.PlayerRole == "0" && player.PositionNum == "0")
+    {
+        return null; // Skip this player
+    }
+
+    return player;
     }
 
     public void AppendPlayerToBuilder(Player player, StringBuilder outputBuilder)

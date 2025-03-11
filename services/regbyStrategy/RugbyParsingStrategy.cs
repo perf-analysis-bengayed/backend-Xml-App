@@ -28,9 +28,11 @@ public class RugbyParsingStrategy : IXmlParsingStrategy
 
             case "PLAYER":
                 Player player = parseActionRow.ParsePlayerElement(element);
+               if (player != null) // Only process non-null players
+            {
                 players.Add(player);
                 parseActionRow.AppendPlayerToBuilder(player, outputBuilder); 
-                break;
+            } break;
 
             case "STATEVENT":
                 StatEvent statEvent = parseActionRow.ParseStatEventElement(element);

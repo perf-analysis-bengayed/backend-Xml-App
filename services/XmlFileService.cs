@@ -17,96 +17,124 @@ public class XmlFileService : IXmlFileService
     }
 
     public async Task<List<string>> UploadXmlFilesAsync(List<IFormFile> files, MatchInfo matchInfo)
+{
+    if (files == null || files.Count == 0)
     {
-        if (files == null || files.Count == 0)
-        {
-            throw new ArgumentException("Aucun fichier n'a été téléchargé.");
-        }
-
-        List<string> filePaths = new List<string>();
-        List<string> parsedContents = new List<string>();
-        IXmlParsingStrategy? xmlStrategy = null;
-        MatchNameInfo? extractedMatchNameInfo = null;
-
-        foreach (var file in files)
-        {
-            if (Path.GetExtension(file.FileName).ToLower() != ".xml")
-            {
-                throw new ArgumentException($"Le fichier {file.FileName} doit être de type .xml.");
-            }
-
-            var filePath = Path.Combine(_uploadPath, file.FileName);
-
-            using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await file.CopyToAsync(stream);
-            }
-
-            xmlStrategy = XmlParser.DetermineParsingStrategy(filePath);
-
-            
-            if (xmlStrategy is RugbyParsingStrategy)
-            {
-                extractedMatchNameInfo = null;
-            }
-            else
-            {
-                IFileNameParsingStrategy? nameStrategy = DetermineFileNameParsingStrategy(xmlStrategy);
-                extractedMatchNameInfo = nameStrategy.ParseFileName(file.FileName);
-            }
-
-            XmlParser parser = new XmlParser(xmlStrategy, _environment);
-            string parsedContent = parser.ParseXmlFile(filePath);
-            parsedContents.Add(parsedContent);
-
-            filePaths.Add(filePath);
-        }
-
-        var matchFilePath = Path.Combine(_uploadPath, "ficheMatch.txt");
-        filePaths.Add(matchFilePath);
-
-        MatchInfo? finalMatchInfo = null;
-        if (xmlStrategy is RugbyParsingStrategy)
-        {
-           
-            finalMatchInfo = null;
-        }
-        else
-        {
-            finalMatchInfo = new MatchInfo
-            {
-                MatchDate = extractedMatchNameInfo?.MatchDate ?? matchInfo.MatchDate,
-                HomeTeam = extractedMatchNameInfo?.HomeTeam ?? matchInfo.HomeTeam,
-                AwayTeam = extractedMatchNameInfo?.AwayTeam ?? matchInfo.AwayTeam,
-                ParsedContents = parsedContents
-            };
-        }
-
-        
-        CreateMatchFile(matchFilePath, finalMatchInfo, xmlStrategy, parsedContents);
-
-        _ = Task.Run(async () =>
-        {
-            await Task.Delay(TimeSpan.FromMinutes(5));
-            foreach (var path in filePaths)
-            {
-                try
-                {
-                    if (File.Exists(path))
-                    {
-                        File.Delete(path);
-                        Console.WriteLine($"Fichier supprimé : {path}");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Erreur lors de la suppression de {path} : {ex.Message}");
-                }
-            }
-        });
-
-        return parsedContents;
+        throw new ArgumentException("Aucun fichier n'a été téléchargé.");
     }
+
+    if (files.Count > 5)
+    {
+        throw new ArgumentException("Le nombre maximum de fichiers autorisés est de 5.");
+    }
+
+    List<string> filePaths = new List<string>();
+    List<string> parsedContents = new List<string>();
+    IXmlParsingStrategy? xmlStrategy = null;
+    MatchNameInfo? extractedMatchNameInfo = null;
+
+    // Étape 1 : Déterminer la stratégie une seule fois avant la boucle
+    if (files.Any())
+    {
+        var firstFilePath = Path.Combine(_uploadPath, files[0].FileName);
+        // Télécharger le premier fichier pour déterminer la stratégie
+        using (var stream = new FileStream(firstFilePath, FileMode.Create))
+        {
+            await files[0].CopyToAsync(stream);
+        }
+        xmlStrategy = XmlParser.DetermineParsingStrategy(firstFilePath);
+        filePaths.Add(firstFilePath);
+    }
+
+    if (xmlStrategy == null)
+    {
+        throw new ArgumentException("Impossible de déterminer la stratégie de parsing.");
+    }
+
+    // Créer une instance unique de XmlParser avec cette stratégie
+    XmlParser parser = new XmlParser(xmlStrategy, _environment);
+
+    // Étape 2 : Traiter tous les fichiers avec la même stratégie
+    for (int i = 1; i < files.Count; i++) // Commencer à 1 car le premier fichier est déjà traité
+    {
+        var file = files[i];
+        if (Path.GetExtension(file.FileName).ToLower() != ".xml")
+        {
+            throw new ArgumentException($"Le fichier {file.FileName} doit être de type .xml.");
+        }
+
+        var filePath = Path.Combine(_uploadPath, file.FileName);
+        using (var stream = new FileStream(filePath, FileMode.Create))
+        {
+            await file.CopyToAsync(stream);
+        }
+
+        // Parser le fichier avec la même instance de stratégie
+        string parsedContent = parser.ParseXmlFile(filePath);
+        parsedContents.Add(parsedContent);
+        filePaths.Add(filePath);
+    }
+
+    // Parser le premier fichier après avoir initialisé la stratégie
+    string firstParsedContent = parser.ParseXmlFile(filePaths[0]);
+    parsedContents.Add(firstParsedContent);
+
+    // Déterminer les informations du match (si applicable)
+    if (xmlStrategy is RugbyParsingStrategy)
+    {
+        extractedMatchNameInfo = null;
+    }
+    else
+    {
+        IFileNameParsingStrategy? nameStrategy = DetermineFileNameParsingStrategy(xmlStrategy);
+        extractedMatchNameInfo = nameStrategy.ParseFileName(files[0].FileName);
+    }
+
+    var matchFilePath = Path.Combine(_uploadPath, "ficheMatch.txt");
+    filePaths.Add(matchFilePath);
+
+    MatchInfo? finalMatchInfo = null;
+    if (xmlStrategy is RugbyParsingStrategy)
+    {
+        finalMatchInfo = null;
+    }
+    else
+    {
+        finalMatchInfo = new MatchInfo
+        {
+            MatchDate = extractedMatchNameInfo?.MatchDate ?? matchInfo.MatchDate,
+            HomeTeam = extractedMatchNameInfo?.HomeTeam ?? matchInfo.HomeTeam,
+            AwayTeam = extractedMatchNameInfo?.AwayTeam ?? matchInfo.AwayTeam,
+            ParsedContents = parsedContents
+        };
+    }
+
+    // Étape 3 : Créer le fichier de match avec la liste complète des joueurs
+    CreateMatchFile(matchFilePath, finalMatchInfo, xmlStrategy, parsedContents);
+
+    // Suppression différée des fichiers
+    _ = Task.Run(async () =>
+    {
+        await Task.Delay(TimeSpan.FromMinutes(5));
+        foreach (var path in filePaths)
+        {
+            try
+            {
+                if (File.Exists(path))
+                {
+                    File.Delete(path);
+                    Console.WriteLine($"Fichier supprimé : {path}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erreur lors de la suppression de {path} : {ex.Message}");
+            }
+        }
+    });
+
+    return parsedContents;
+}
 
     public IFileNameParsingStrategy? DetermineFileNameParsingStrategy(IXmlParsingStrategy xmlStrategy)
     {

@@ -40,7 +40,7 @@ public class SportDataParsingStrategy : IXmlParsingStrategy
     {
         if (instance.Team != "N/A" && instance.Action != "N/A")
         {
-            // Condition spécifique pour ce format XML
+           
             bool isSpecificFormat = !string.IsNullOrEmpty(instance.PlayerName) && 
                                    !string.IsNullOrEmpty(instance.PlayerNumber) && 
                                    instance.Code.Contains(" - ") && 
@@ -49,7 +49,7 @@ public class SportDataParsingStrategy : IXmlParsingStrategy
             string outputLine;
             if (isSpecificFormat)
             {
-                // Affichage personnalisé pour ce format
+               
                 outputLine = $"joueur {instance.PlayerNumber}. {instance.PlayerName} team {instance.Team} " +
                              $"action {instance.Action} half {instance.Half} " +
                              $"pos_x={instance.PosX} pos_y={instance.PosY} " +
